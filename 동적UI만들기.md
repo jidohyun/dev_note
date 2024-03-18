@@ -39,7 +39,7 @@ css 파일에는
 
 실행해보면,
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/87aef250-57bf-4911-a6e6-2173b7dc33e7/211ece20-ed36-4824-851f-e3bd7455ea1e/Untitled.png)
+![Untitled](https://github.com/map12345678/TIL/assets/158432938/b02599ca-4014-4469-ac2e-7367815b2b0b)
 
 그냥 텍스트만 뜨고 아무런 일도 일어나지 않습니다.
 
