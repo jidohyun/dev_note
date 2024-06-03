@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/1. React의 기초.md",
+                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/1. React의 기초.md",
+                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/1. React의 기초.md",
+                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/1. React의 기초.md"
+                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "6b90a3a20581095c",
   "lastOpenFiles": [
+    "study/react/React.md",
+    "study/react/1. React의 기초.md",
     "옵시디언 사용법.md",
     "박정환 선배님 Ｑ＆Ａ.md",
     "문서화.md",
@@ -172,8 +174,6 @@
     "study/네트워크/VPN.md",
     "study/네트워크/TLS=SSL.md",
     "study/네트워크/MAN(대도시 지역 네트워크).md",
-    "study/네트워크/LAN(근거리 통신망).md",
-    "study/네트워크/DNS 프로토콜 TCP.md",
     "study/자료구조",
     "study/네트워크",
     "study/react",
