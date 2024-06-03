@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/2. React 컴포넌트.md",
+                "file": "study/react/1. React의 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/2. React 컴포넌트.md",
+                "file": "study/react/1. React의 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/2. React 컴포넌트.md",
+                "file": "study/react/1. React의 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/2. React 컴포넌트.md"
+                "file": "study/react/1. React의 기초.md"
               }
             }
           }
@@ -148,12 +148,13 @@
   },
   "active": "6b90a3a20581095c",
   "lastOpenFiles": [
-    "study/react/1. React의 기초.md",
-    "study/react/React.md",
-    "study/react/babel.md",
     "옵시디언 사용법.md",
     "박정환 선배님 Ｑ＆Ａ.md",
     "문서화.md",
+    "study/자료구조/자료구조.md",
+    "study/css/css.md",
+    "study/css/css 미디어 쿼리.md",
+    "study/css/css 단위.md",
     "study/네트워크/클라우드 기반.md",
     "study/네트워크/자율 시스템(AS).md",
     "study/네트워크/임대 회선.md",
@@ -169,14 +170,15 @@
     "study/네트워크/네트워크 스위치.md",
     "study/네트워크/WAN(광역 네트워크).md",
     "study/네트워크/VPN.md",
-    "study/네트워크/DNS 프로토콜 TCP.md",
+    "study/네트워크/TLS=SSL.md",
     "study/네트워크/MAN(대도시 지역 네트워크).md",
     "study/네트워크/LAN(근거리 통신망).md",
-    "study/react/3. JSX.md",
-    "study/react/2. React 컴포넌트.md",
+    "study/네트워크/DNS 프로토콜 TCP.md",
+    "study/자료구조",
     "study/네트워크",
     "study/react",
     "study/js",
+    "study/css",
     "study",
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
