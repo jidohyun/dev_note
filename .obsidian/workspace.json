@@ -11,12 +11,8 @@
             "id": "6b90a3a20581095c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Promise.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Promise.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +140,46 @@
   },
   "active": "6b90a3a20581095c",
   "lastOpenFiles": [
-    "flex.md",
-    "css.md",
-    "박정환 선배님 Ｑ＆Ａ.md"
+    "옵시디언 사용법.md",
+    "박정환 선배님 Ｑ＆Ａ.md",
+    "문서화.md",
+    "study/네트워크/클라우드 기반.md",
+    "study/네트워크/자율 시스템(AS).md",
+    "study/네트워크/임대 회선.md",
+    "study/네트워크/인터넷.md",
+    "study/네트워크/스위치, 라우터.md",
+    "study/네트워크/서비스형 네트워크(NaaS).md",
+    "study/네트워크/서브넷.md",
+    "study/네트워크/분산 서비스 거부(DDoS).md",
+    "study/네트워크/보안 엑세스 서비스 에지(SASE).md",
+    "study/네트워크/라우팅.md",
+    "study/네트워크/라우터.md",
+    "study/네트워크/네트워크.md",
+    "study/네트워크/네트워크 스위치.md",
+    "study/네트워크/WAN(광역 네트워크).md",
+    "study/네트워크/VPN.md",
+    "study/네트워크/DNS 프로토콜 TCP.md",
+    "study/네트워크/MAN(대도시 지역 네트워크).md",
+    "study/네트워크/LAN(근거리 통신망).md",
+    "study/react/babel.md",
+    "study/react/React.md",
+    "study/react/3. JSX.md",
+    "study/react/2. React 컴포넌트.md",
+    "study/react/1. React의 기초.md",
+    "study/네트워크",
+    "study/react",
+    "study/js",
+    "study",
+    "img/Pasted image 20240514215047.png",
+    "img/Pasted image 20240514214144.png",
+    "img/Pasted image 20240514214138.png",
+    "img/Pasted image 20240510190151.png",
+    "img/Pasted image 20240510184733.png",
+    "img/Pasted image 20240510182402.png",
+    "img/Pasted image 20240426155750.png",
+    "img/Pasted image 20240416201649.png",
+    "img/Pasted image 20240416201112.png",
+    "img/Pasted image 20240412193449.png",
+    "img"
   ]
 }
