@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/자료구조.md",
+                "file": "배열(array).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/자료구조.md",
+                "file": "배열(array).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/자료구조.md",
+                "file": "배열(array).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/자료구조.md"
+                "file": "배열(array).md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "6b90a3a20581095c",
   "lastOpenFiles": [
+    "study/자료구조/자료구조.md",
+    "배열(array).md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
     "study/react/React.md",
     "study/react/1. React의 기초.md",
     "옵시디언 사용법.md",
     "박정환 선배님 Ｑ＆Ａ.md",
     "문서화.md",
-    "study/자료구조/자료구조.md",
     "study/css/css.md",
     "study/css/css 미디어 쿼리.md",
     "study/css/css 단위.md",
@@ -173,7 +174,6 @@
     "study/네트워크/네트워크 스위치.md",
     "study/네트워크/WAN(광역 네트워크).md",
     "study/네트워크/VPN.md",
-    "study/네트워크/TLS=SSL.md",
     "study/자료구조",
     "study/네트워크",
     "study/react",
