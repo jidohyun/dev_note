@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "939e7189cdd702e7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md"
+                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md"
               }
             }
           }
@@ -157,8 +168,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4e8d09a142219f97",
+  "active": "939e7189cdd702e7",
   "lastOpenFiles": [
+    "study/react/react 깊게 이해하기.md",
+    "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
+    "Excalidraw",
     "study/css/css.md",
     "study/TIL.md",
     "study/react/React.md",
@@ -184,9 +198,7 @@
     "study/js/상수.md",
     "study/js/연산자.md",
     "Tags",
-    "study/react/react 깊게 이해하기.md",
     "study/js/var.md",
-    "study/react/2. React 컴포넌트.md",
     "Pasted image 20240607161907.png",
     "img/Pasted image 20240607160909.png",
     "img/Pasted image 20240607160905.png",
