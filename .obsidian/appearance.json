@@ -3,5 +3,6 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "excalidraw-custom-font"
-  ]
+  ],
+  "interfaceFontFamily": ""
 }
