@@ -13,3 +13,5 @@ React에서 우리는 JSX로 앱의 구조를 표현하고, 컴포넌트는 해�
 React 공식문서는 JSX는 `createElement()` 메소드를 거쳐서, `ReactElement`로 변환된다고 한다.
 `ReactElement`는 화면에 그리고 싶은 것을 나타내고 있는 <b>객체</b> 이며 이 객체를 통해서 최종적으로 DOM을 그리게 될 것이다.
 
+![](https://i.imgur.com/Vd6k2Zv.png)
+

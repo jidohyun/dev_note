@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/배열 내장함수.md"
+                "file": "study/react/react 깊게 이해하기.md"
               }
             }
           }
@@ -148,16 +148,24 @@
   },
   "active": "6b90a3a20581095c",
   "lastOpenFiles": [
-    "img/Pasted image 20240607160909.png",
-    "study/react/react 깊게 이해하기.md",
-    "study/react/React.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "study/js/var.md",
+    "study/js/Virtual DOM.md",
+    "study/react/2. React 컴포넌트.md",
+    "study/react/4. props.md",
+    "study/react/6. useState.md",
+    "study/react/5. 조건부 렌더링.md",
+    "study/react/10. 배열 렌더링하기.md",
+    "study/react/React.md",
+    "study/react/babel.md",
+    "study/react/react 깊게 이해하기.md",
+    "Pasted image 20240607161907.png",
+    "study/js/배열 내장함수.md",
+    "img/Pasted image 20240607160909.png",
     "img/Pasted image 20240607160905.png",
     "img/Pasted image 20240520185721.png",
     "img/Pasted image 20240520185736.png",
     "study/TIL.md",
-    "study/react/babel.md",
-    "study/react/10. 배열 렌더링하기.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/자료구조/배열(array).md",
@@ -171,12 +179,6 @@
     "study/css/css 단위.md",
     "study/네트워크/클라우드 기반.md",
     "study/네트워크/자율 시스템(AS).md",
-    "study/네트워크/임대 회선.md",
-    "study/네트워크/인터넷.md",
-    "study/네트워크/스위치, 라우터.md",
-    "study/네트워크/서비스형 네트워크(NaaS).md",
-    "study/네트워크/서브넷.md",
-    "study/네트워크/분산 서비스 거부(DDoS).md",
     "study/자료구조",
     "study/네트워크",
     "study/react",
@@ -188,7 +190,6 @@
     "img/Pasted image 20240514214138.png",
     "img/Pasted image 20240510190151.png",
     "img/Pasted image 20240510184733.png",
-    "img/Pasted image 20240510182402.png",
     "img"
   ]
 }
