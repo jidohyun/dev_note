@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+                "file": "study/js/Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+                "file": "study/js/Virtual DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+                "file": "study/js/Virtual DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md"
+                "file": "study/js/Virtual DOM.md"
               }
             }
           }
@@ -152,13 +152,25 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "6b90a3a20581095c",
   "lastOpenFiles": [
-    "Tags",
+    "note.md",
+    "html.md",
+    "html 정리.md",
+    "README.md",
+    "Promise.md",
+    "study/study.md",
+    "study/js/js.md",
+    "study/js/콜백함수.md",
+    "study/js/상수.md",
+    "study/js/연산자.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "Tags",
     "study/react/react 깊게 이해하기.md",
     "study/js/var.md",
     "study/js/Virtual DOM.md",
@@ -179,15 +191,6 @@
     "study/react/7. input 상태 관리하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/자료구조/배열(array).md",
-    "study/자료구조/자료구조.md",
-    "study/react/1. React의 기초.md",
-    "옵시디언 사용법.md",
-    "박정환 선배님 Ｑ＆Ａ.md",
-    "문서화.md",
-    "study/css/css.md",
-    "study/css/css 미디어 쿼리.md",
-    "study/css/css 단위.md",
-    "study/네트워크/클라우드 기반.md",
     "study/자료구조",
     "study/네트워크",
     "study/react",
