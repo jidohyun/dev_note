@@ -11,4 +11,5 @@ React에서 우리는 JSX로 앱의 구조를 표현하고, 컴포넌트는 해�
 반환된 JSX들은 최종적으로 컴포넌트 루트인 `App.js`에 모이고, `App.js`가 반환한 `<App />`은 `index.js`에서 렌더링 된다.
 
 React 공식문서는 JSX는 `createElement()` 메소드를 거쳐서, `ReactElement`로 변환된다고 한다.
-`ReactElement`는 화면에 그리고 싶은 것을 
+`ReactElement`는 화면에 그리고 싶은 것을 나타내고 있는 <b>객체</b> 이며 이 객체를 통해서 최종적으로 DOM을 그리게 될 것이다.
+
