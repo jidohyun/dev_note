@@ -48,8 +48,16 @@ function App() {
 
 ![](https://i.imgur.com/0m6bZe3.png)
 
-컴포넌트의 업데이트는 특정DOM에서 필요한 UI가 동작했을때 컴포넌트가 업데이트 된다.
+컴포넌트의 업데이트는 DOM(UI)에서 필요한 부분만 바꾸게 되는데, 어떻게 이 과정이 진행되는지 알아보자.
 
 ---
 ### Render Phase & Commit Phase
 
+React는 크게 render과 phase와 commit phase라는 두 가지 주기를 갖는다.
+
+- Render Phase: **컴포넌트를 렌더링 하고, 필요한 변화를 계산하는 작업.**
+- Commit Phase: 해당 변화를 DOM에 적용시키는 과정
+
+Render Phase의 작업 이후 Commit Phase 작업이 수행되기에, Render Phase에 ReactElement를 모아 계산한 값을 넘길 것이다.
+그 결과물은 Commit Phase때 실제 DOM에 적용될 것이고,
+Render Phase의 필요한
