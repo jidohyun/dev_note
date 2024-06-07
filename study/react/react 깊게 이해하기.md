@@ -46,3 +46,10 @@ function App() {
 }
 ```
 
+![](https://i.imgur.com/0m6bZe3.png)
+
+컴포넌트의 업데이트는 특정DOM에서 필요한 UI가 동작했을때 컴포넌트가 업데이트 된다.
+
+---
+### Render Phase & Commit Phase
+

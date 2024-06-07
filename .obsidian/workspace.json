@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/TIL.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/TIL.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/TIL.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/TIL.md"
+                "file": "study/react/react 깊게 이해하기.md"
               }
             }
           }
@@ -184,6 +184,7 @@
   },
   "active": "e67bb5dcb1c51666",
   "lastOpenFiles": [
+    "study/TIL.md",
     "study/네트워크/네트워크.md",
     "study/react/React.md",
     "study/react/babel.md",
@@ -202,7 +203,6 @@
     "문서화.md",
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "Excalidraw",
-    "study/TIL.md",
     "study/html/html.md",
     "study/js/js.md",
     "README.md",
