@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react 깊게 이해하기.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react 깊게 이해하기.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react 깊게 이해하기.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react 깊게 이해하기.md"
+                "file": "study/react/react 깊게 이해하기.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6b90a3a20581095c",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
     "study/react/React.md",
-    "react 깊게 이해하기.md",
+    "study/react/react 깊게 이해하기.md",
     "study/자료구조/배열(array).md",
     "study/자료구조/자료구조.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
