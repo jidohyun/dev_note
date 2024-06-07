@@ -23,9 +23,11 @@
             "id": "939e7189cdd702e7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md"
+                "file": "study/study.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
+                "file": "study/study.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
+                "file": "study/study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md"
+                "file": "study/study.md"
               }
             }
           }
@@ -168,10 +170,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "939e7189cdd702e7",
+  "active": "c0651226f79cb53f",
   "lastOpenFiles": [
-    "study/react/react 깊게 이해하기.md",
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
+    "study/react/react 깊게 이해하기.md",
     "Excalidraw",
     "study/css/css.md",
     "study/TIL.md",

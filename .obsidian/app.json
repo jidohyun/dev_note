@@ -1,1 +1,6 @@
-{}
+{
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "/",
+  "trashOption": "system",
+  "alwaysUpdateLinks": true
+}
