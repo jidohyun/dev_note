@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/4. props.md",
+                "file": "study/TIL.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/4. props.md",
+                "file": "study/TIL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/4. props.md",
+                "file": "study/TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/4. props.md"
+                "file": "study/TIL.md"
               }
             }
           }
@@ -184,11 +184,15 @@
   },
   "active": "e67bb5dcb1c51666",
   "lastOpenFiles": [
+    "study/네트워크/네트워크.md",
+    "study/react/React.md",
+    "study/react/babel.md",
+    "study/react/1. React의 기초.md",
+    "study/react/4. props.md",
     "study/react/6. useState.md",
     "study/react/5. 조건부 렌더링.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
-    "study/react/1. React의 기초.md",
     "study/react/react 깊게 이해하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/2. React 컴포넌트.md",
@@ -199,7 +203,6 @@
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "Excalidraw",
     "study/TIL.md",
-    "study/react/React.md",
     "study/html/html.md",
     "study/js/js.md",
     "README.md",
@@ -209,9 +212,6 @@
     "study/html",
     "무제 파일.md",
     "Vault.md",
-    "study/react/react 1.md",
-    "study/react/react 2.md",
-    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
     "Tags",
     "Pasted image 20240607161907.png",
     "img/Pasted image 20240607160909.png",
