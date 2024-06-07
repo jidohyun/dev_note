@@ -60,4 +60,7 @@ React는 크게 render과 phase와 commit phase라는 두 가지 주기를 갖�
 
 Render Phase의 작업 이후 Commit Phase 작업이 수행되기에, Render Phase에 ReactElement를 모아 계산한 값을 넘길 것이다.
 그 결과물은 Commit Phase때 실제 DOM에 적용될 것이고,
-Render Phase의 필요한
+Render Phase의 **필요한 변화**라는 말은 아마 위 예제에서 `{count}` 부분에 해당하는 위치를 찾아내는 과정일 것이다.
+
+그러면 그 앞의 **렌더링**이라는 표현은 뭘까?
+알아보기 전에 꼭 알아야 하는 것은 DOM을 바꾸는 것은 렌더링이 아니다.
