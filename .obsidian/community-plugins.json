@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "obsidian-imgur-plugin"
+  "obsidian-imgur-plugin",
+  "editing-toolbar",
+  "make-md",
+  "obsidian-emoji-toolbar"
 ]
