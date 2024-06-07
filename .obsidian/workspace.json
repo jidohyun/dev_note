@@ -23,12 +23,26 @@
             "id": "939e7189cdd702e7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "문서화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e67bb5dcb1c51666",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md"
+              }
             }
           }
         ]
@@ -162,8 +180,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "939e7189cdd702e7",
+  "active": "e67bb5dcb1c51666",
   "lastOpenFiles": [
+    "문서화.md",
+    "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
     "study/study.md",
     "study/react/react 깊게 이해하기.md",
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
@@ -180,7 +200,6 @@
     "study/html",
     "무제 파일.md",
     "Vault.md",
-    "문서화.md",
     "study/react/react 1.md",
     "study/react/react 2.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
@@ -192,7 +211,6 @@
     "study/js/상수.md",
     "study/js/연산자.md",
     "Tags",
-    "study/js/var.md",
     "Pasted image 20240607161907.png",
     "img/Pasted image 20240607160909.png",
     "img/Pasted image 20240607160905.png",
