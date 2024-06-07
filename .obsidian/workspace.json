@@ -11,9 +11,11 @@
             "id": "6b90a3a20581095c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/Pasted image 20240607160909.png"
+                "file": "study/js/배열 내장함수.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "img/Pasted image 20240607160909.png",
+                "file": "study/js/배열 내장함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "img/Pasted image 20240607160909.png",
+                "file": "study/js/배열 내장함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/Pasted image 20240607160909.png"
+                "file": "study/js/배열 내장함수.md"
               }
             }
           }
@@ -144,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "6b90a3a20581095c",
   "lastOpenFiles": [
+    "img/Pasted image 20240607160909.png",
     "study/react/react 깊게 이해하기.md",
     "study/react/React.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
@@ -157,7 +160,6 @@
     "study/react/10. 배열 렌더링하기.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
-    "img/Pasted image 20240607160909.png",
     "study/자료구조/배열(array).md",
     "study/자료구조/자료구조.md",
     "study/react/1. React의 기초.md",
