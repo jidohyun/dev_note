@@ -1,0 +1,4 @@
+/* Excalidraw Custom Font */
+.excalidraw .ExcalidrawApp .Text {
+  font-family: '나눔손글씨성실체', monospace !important;
+}
