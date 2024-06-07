@@ -42,10 +42,8 @@
   "expandedSpaces": [
     "/",
     "//study",
-    "//study/study/js",
-    "//study/study/네트워크",
-    "//study/study/react",
-    "//study/study/css"
+    "//Tags",
+    "//study/study/react"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

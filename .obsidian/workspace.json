@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react 2.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react 2.md",
-                "collapseAll": false,
+                "file": "study/react/react 깊게 이해하기.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react 2.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react 2.md"
+                "file": "study/react/react 깊게 이해하기.md"
               }
             }
           }
@@ -157,23 +157,29 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6b90a3a20581095c",
+  "active": "4e8d09a142219f97",
   "lastOpenFiles": [
-    "study/react/react 1.md",
     "study/css/css.md",
+    "study/TIL.md",
+    "study/react/React.md",
+    "study/html/html.md",
+    "study/js/js.md",
+    "README.md",
+    "study/js/Promise.md",
+    "study/html/html 정리.md",
+    "study/자료구조/자료구조.md",
+    "study/html",
+    "무제 파일.md",
+    "Vault.md",
+    "문서화.md",
+    "study/react/react 1.md",
     "study/react/react 2.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/React.md",
     "study/react/1. React의 기초.md",
     "study/네트워크/네트워크.md",
     "study/js/Virtual DOM.md",
     "note.md",
-    "html.md",
-    "html 정리.md",
-    "README.md",
-    "Promise.md",
     "study/study.md",
-    "study/js/js.md",
     "study/js/콜백함수.md",
     "study/js/상수.md",
     "study/js/연산자.md",
@@ -181,11 +187,6 @@
     "study/react/react 깊게 이해하기.md",
     "study/js/var.md",
     "study/react/2. React 컴포넌트.md",
-    "study/react/4. props.md",
-    "study/react/6. useState.md",
-    "study/react/5. 조건부 렌더링.md",
-    "study/react/10. 배열 렌더링하기.md",
-    "study/react/babel.md",
     "Pasted image 20240607161907.png",
     "img/Pasted image 20240607160909.png",
     "img/Pasted image 20240607160905.png",
