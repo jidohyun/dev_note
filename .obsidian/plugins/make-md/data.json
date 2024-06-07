@@ -1,7 +1,7 @@
 {
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
-  "navigatorEnabled": true,
+  "navigatorEnabled": false,
   "filePreviewOnHover": false,
   "flowMenuEnabled": true,
   "markSans": false,
@@ -40,7 +40,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//study",
+    "//study/study/js"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -83,7 +85,7 @@
   "autoAddContextsToSubtags": true,
   "autoMigration08": false,
   "releaseNotesPrompt": 0.9,
-  "enableDefaultSpaces": true,
+  "enableDefaultSpaces": false,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false,
