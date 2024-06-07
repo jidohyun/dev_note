@@ -15,3 +15,7 @@ React 공식문서는 JSX는 `createElement()` 메소드를 거쳐서, `ReactEle
 
 ![](https://i.imgur.com/Vd6k2Zv.png)
 
+*jsx의 변환 과정*
+
+React가 ReactElement를 어떻게 DOM으로 그려내는지 알아내려는 것은 아니다.
+`ReactElement`라는 **객체**가 우리가 그릴 UI정보를 담고 있고, 추후에 이 ㄱ

@@ -41,7 +41,8 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//study/study/react"
+    "//study/study/react",
+    "//study"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
