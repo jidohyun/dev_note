@@ -23,12 +23,8 @@
             "id": "939e7189cdd702e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/study.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -107,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "study/react/react 깊게 이해하기.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -170,10 +162,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c0651226f79cb53f",
+  "active": "939e7189cdd702e7",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
+    "study/study.md",
     "study/react/react 깊게 이해하기.md",
+    "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "Excalidraw",
     "study/css/css.md",
     "study/TIL.md",
@@ -195,7 +188,6 @@
     "study/네트워크/네트워크.md",
     "study/js/Virtual DOM.md",
     "note.md",
-    "study/study.md",
     "study/js/콜백함수.md",
     "study/js/상수.md",
     "study/js/연산자.md",
