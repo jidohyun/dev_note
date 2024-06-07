@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "study/react/4. props.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "study/react/4. props.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "study/react/4. props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md"
+                "file": "study/react/4. props.md"
               }
             }
           }
@@ -184,7 +184,14 @@
   },
   "active": "e67bb5dcb1c51666",
   "lastOpenFiles": [
+    "study/react/6. useState.md",
+    "study/react/5. 조건부 렌더링.md",
+    "study/react/7. input 상태 관리하기.md",
+    "study/react/8. 여러 개의 input 상태 관리하기.md",
+    "study/react/1. React의 기초.md",
     "study/react/react 깊게 이해하기.md",
+    "study/react/9. useRef 로 특정 DOM 선택하기.md",
+    "study/react/2. React 컴포넌트.md",
     "study/css/css.md",
     "study/study.md",
     "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
@@ -205,13 +212,6 @@
     "study/react/react 1.md",
     "study/react/react 2.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/1. React의 기초.md",
-    "study/네트워크/네트워크.md",
-    "study/js/Virtual DOM.md",
-    "note.md",
-    "study/js/콜백함수.md",
-    "study/js/상수.md",
-    "study/js/연산자.md",
     "Tags",
     "Pasted image 20240607161907.png",
     "img/Pasted image 20240607160909.png",
