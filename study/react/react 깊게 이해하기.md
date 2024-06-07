@@ -18,4 +18,30 @@ React 공식문서는 JSX는 `createElement()` 메소드를 거쳐서, `ReactEle
 *jsx의 변환 과정*
 
 React가 ReactElement를 어떻게 DOM으로 그려내는지 알아내려는 것은 아니다.
-`ReactElement`라는 **객체**가 우리가 그릴 UI정보를 담고 있고, 추후에 이 ㄱ
+`ReactElement`라는 **객체**가 우리가 그릴 UI정보를 담고 있고, 추후에 이 객체들을 활용하게 될 것이라는 것만 우선 인지하면 된다.
+
+---
+
+### 컴포넌트 업데이트 
+
+UI를 갱신할 때, React에서는 DOM api를 사용해 DOM을 바로 수정하는 것이 아닌, state와 하위 컴포넌트에게 넘겨줄 props값을 바꿔주면 UI가 알아서 갱신된다.
+
+여기서 중요한 점은 앱 전체를 새로 갱신하는 것이 아닌, <font color="#92d050">변경된 부분만 업데이트한다</font>는 점이다.
+```jsx
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div className="App">
+      <div className='wrapper'>
+        <h2>Simple Counter</h2>
+        count: {count}
+        <div>
+          <button onClick={() => setCount((prev) => prev + 1)}>+1</button>
+          <button onClick={() => setCount((prev) => prev - 1)}>-1</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+```
