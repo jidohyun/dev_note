@@ -77,3 +77,12 @@ Render Phase의 **필요한 변화**라는 말은 아마 위 예제에서 `{coun
 모든 컴포넌트의 반환 값인 JSX를 모았다면, 이는 React.createElement() 메소드를 통해, ReactElement 객체가 될 것이다.
 
 ReactElement 객체는 위에서 보았듯, 태그명에 해당하는 `type`, 어트리뷰트에 해당하는 `props`, 태그 사이에 있는 값인 `children` 등, 이 컴포넌트가 어떻게 표시되어야 하는지에 대한 모든 정보가 포함되어있다.
+
+![](https://i.imgur.com/TVizOpY.png)
+
+그런데, 매 렌더링마다 모든 컴포넌트를 돌며 ReactElement들을 수집하는 것은 상식적으로 맞지 않는다.  
+당연하게도 React가 렌더링할 컴포넌트는 정해져 있다.
+
+---
+
+### 렌더링 조
