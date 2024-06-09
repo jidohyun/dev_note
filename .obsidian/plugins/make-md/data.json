@@ -43,7 +43,8 @@
     "/",
     "//study/study/react",
     "//study",
-    "//study/study/웹"
+    "//study/study/웹",
+    "//study/study/네트워크"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
