@@ -182,13 +182,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c0651226f79cb53f",
+  "active": "e67bb5dcb1c51666",
   "lastOpenFiles": [
+    "study/웹/.md",
+    "study/study.md",
+    "study/웹/웹.md",
+    "study/react/react 1.md",
+    "study/react/react 2.md",
     "study/웹",
     "study/무제 파일 1.md",
-    "study/study.md",
-    "study/웹/무제 파일.md",
-    "study/react/react 1.md",
     "study/react/react 깊게 이해하기.md",
     "study/TIL.md",
     "study/네트워크/네트워크.md",
@@ -210,7 +212,6 @@
     "study/html/html.md",
     "study/js/js.md",
     "README.md",
-    "study/js/Promise.md",
     "study/html",
     "Tags",
     "Pasted image 20240607161907.png",
@@ -228,7 +229,6 @@
     "img/Pasted image 20240514214144.png",
     "img/Pasted image 20240514214138.png",
     "img/Pasted image 20240510190151.png",
-    "img/Pasted image 20240510184733.png",
-    "img"
+    "img/Pasted image 20240510184733.png"
   ]
 }
