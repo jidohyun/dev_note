@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "문서화.md",
+                "file": "study/웹/웹 브라우저의 역사.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,36 +182,36 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e67bb5dcb1c51666",
+  "active": "939e7189cdd702e7",
   "lastOpenFiles": [
-    "study/웹/웹.md",
+    "study/react/react 깊게 이해하기.md",
+    "study/react/3. JSX.md",
+    "study/react/5. 조건부 렌더링.md",
+    "study/react/React.md",
+    "study/react/1. React의 기초.md",
+    "문서화.md",
     "study/웹/웹 브라우저의 역사.md",
+    "study/웹/웹.md",
     "study/study.md",
     "study/웹/.md",
     "study/react/react 1.md",
     "study/react/react 2.md",
     "study/웹",
     "study/무제 파일 1.md",
-    "study/react/react 깊게 이해하기.md",
     "study/TIL.md",
     "study/네트워크/네트워크.md",
-    "study/react/React.md",
     "study/react/babel.md",
-    "study/react/1. React의 기초.md",
     "study/react/4. props.md",
     "study/react/6. useState.md",
-    "study/react/5. 조건부 렌더링.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/2. React 컴포넌트.md",
     "study/css/css.md",
     "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
-    "문서화.md",
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "Excalidraw",
     "study/html/html.md",
-    "study/js/js.md",
     "study/html",
     "Tags",
     "Pasted image 20240607161907.png",
