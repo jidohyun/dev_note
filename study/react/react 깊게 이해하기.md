@@ -53,7 +53,7 @@ function App() {
 ---
 ### Render Phase & Commit Phase
 
-React는 크게 render과 phase와 commit phase라는 두 가지 주기를 갖는다.
+React는 크게 Render phase와 commit phase라는 두 가지 주기를 갖는다.
 
 - Render Phase: **컴포넌트를 렌더링 하고, 필요한 변화를 계산하는 작업.**
 - Commit Phase: 해당 변화를 DOM에 적용시키는 과정
