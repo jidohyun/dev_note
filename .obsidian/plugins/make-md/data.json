@@ -40,10 +40,10 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//study",
     "//study/study/웹",
-    "//study/study/react"
+    "/",
+    "//study/study/독서"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

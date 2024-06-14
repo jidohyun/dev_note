@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+                "file": "study/독서/개발자의 글쓰기.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+                "file": "study/독서/개발자의 글쓰기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+                "file": "study/독서/개발자의 글쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md"
+                "file": "study/독서/개발자의 글쓰기.md"
               }
             }
           }
@@ -184,8 +184,13 @@
   },
   "active": "939e7189cdd702e7",
   "lastOpenFiles": [
-    "study/네트워크/WAN(광역 네트워크).md",
+    "Vault.md",
+    "study/독서/개발자의 글쓰기.md",
+    "study/react/무제 파일.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "study/독서/독서.md",
+    "study/독서",
+    "study/네트워크/WAN(광역 네트워크).md",
     "study/react/10. 배열 렌더링하기.md",
     "study/네트워크/서비스형 네트워크(NaaS).md",
     "Excalidraw/Drawing 2024-06-11 16.32.55.excalidraw.md",
@@ -206,11 +211,7 @@
     "문서화.md",
     "study/웹/웹.md",
     "study/study.md",
-    "study/웹/.md",
-    "study/react/react 1.md",
-    "study/react/react 2.md",
     "study/웹",
-    "study/무제 파일 1.md",
     "Excalidraw",
     "study/html",
     "Tags",
@@ -224,7 +225,6 @@
     "study/react",
     "study/js",
     "study/css",
-    "study",
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
     "img/Pasted image 20240514214138.png",
