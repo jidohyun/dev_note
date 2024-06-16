@@ -44,7 +44,8 @@
     "//study/study/웹",
     "/",
     "//study/study/독서",
-    "//study/study/react"
+    "//study/study/react",
+    "//study/study/자료구조"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
