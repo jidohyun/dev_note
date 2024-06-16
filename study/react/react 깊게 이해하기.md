@@ -101,6 +101,30 @@ ReactElement 객체는 위에서 보았듯, 태그명에 해당하는 `type`, �
 또, 렌더링에서 말하는 "render"는 컴포넌트마다 return하는 JSX를 element로 변환해 받아야 하는 과정이고,
 그렇기에 렌더링은 해당 **함수 컴포넌트를 호출하는 과정**이다.
 
->   어떻게 보면 당연하다. 컴포넌트가 return하는 JSX를 받아서 확인하는 과정인데, 컴포넌트가 return하는 값을 받으려면 컴포넌트를, 해당 함수로 호출해야 하지 않을까? App()을 호출하면 App이 return하는 JSX를 가져올 것이다. 
+>
+>   어떻게 보면 당연하다. 컴포넌트가 return하는 JSX를 받아서 확인하는 과정인데, 컴포넌트가 return하는 값을 받으려면 컴포넌트를, 해당 함수로 호출해야 하지 않을까? App()을 호출하면 App이 return하는 JSX를 가져올 것이다. JSX문법으로는 태그처럼 쓰긴 한다.
+>
 
+그럼 렌더링을 확인하려면? 해당 함수 컴포넌트 중간에 `console.log()`를 찍어보면 된다.
 
+함수가 호출되었으니 함수의 맨 윗줄부터 내려가며 실행될 것이고, 컴포넌트가 렌더링이 된다면 필히 `console.log()`가 찍힐 것이다. 
+
+```jsx
+function App() {
+  const [count, setCount] = useState(0);
+  console.log("App Rendered!!")
+
+  return (
+    <div className="App">
+      // 카운터
+    </div>
+  );
+}
+```
+
+![](https://i.imgur.com/btDMDG2.png)
+
+### React Developer tools
+
+렌더링 동작을 더 쉽게 확인하는 방법이 있다.
+Chrome 확장 프로그램 중 React Developer tools를 설치하고, 앱을 실행한 뒤 개발자 도구를 열면 몇 가지 탭이 새로 생긴다.
