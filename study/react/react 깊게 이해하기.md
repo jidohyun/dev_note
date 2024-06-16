@@ -139,4 +139,13 @@ state가 App에 있었다면 계속해서 렌더링 하니까 state를 하위 �
 
 > 
 >   1. 버튼이 눌려 setCount()를 통해 컴포넌트의 state가 변경됨
->   2. Counter 컴포넌트와 자식 컴포넌트들이 전부 
+>   2. Counter 컴포넌트와 자식 컴포넌트들이 전부 재랜더링 되어야 하나, 자식이 없으므로 혼자 렌더링 됨.
+>   3. App의 렌더링 과정에서 Counter 함수를 호출하지만, App과는 관련이 없으므로 App은 렌더링 되지 않음.
+>   4. React는 Counter가 반환하는 새로운 ReactElement를 가지고 나중에 Commit Phase로 넘어갈 것임
+>
+
+---
+
+### 정리
+
+React는 **컴포넌트가 반환하는 JSX를 모아 변경될 부분을 계산하는 Render Phase와 해당 변화를 실제 DOM에 적용시키는 Commit Phase 두 가지 라이프사이클을 갖는다. 
