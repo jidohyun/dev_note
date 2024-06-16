@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/12. 배열에 항목 추가하기.md",
+                "file": "실습1. useState를 활용한 TodoList.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "82d76b78bb280979",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md"
               }
             }
           },
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/12. 배열에 항목 추가하기.md",
+                "file": "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/12. 배열에 항목 추가하기.md",
+                "file": "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/12. 배열에 항목 추가하기.md"
+                "file": "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md"
               }
             }
           }
@@ -182,8 +192,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "939e7189cdd702e7",
+  "active": "82d76b78bb280979",
   "lastOpenFiles": [
+    "실습1. useState를 활용한 TodoList.md",
+    "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
+    "study/react/React.md",
+    "study/react/12. 배열에 항목 추가하기.md",
     "study/react/6. useState.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
@@ -191,8 +205,6 @@
     "study/react/4. props.md",
     "study/react/5. 조건부 렌더링.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/React.md",
-    "study/react/12. 배열에 항목 추가하기.md",
     "study/웹/웹 브라우저의 역사.md",
     "study/자료구조/시간복잡도.md",
     "study/자료구조/자료구조.md",
@@ -210,8 +222,6 @@
     "study/자료구조/해시 테이블.md",
     "해시 테이블(Hash tables / Hash map).md",
     "해시 테이블(Hash tables ",
-    "해시 테이블(Hash tables / Hash map.md",
-    "study/네트워크/네트워크.md",
     "study/독서",
     "study/웹",
     "Excalidraw",
