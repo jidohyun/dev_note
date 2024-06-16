@@ -41,13 +41,13 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//study",
-    "//study/study/웹",
     "/",
     "//study/study/독서",
     "//study/study/react",
     "//study/study/자료구조",
     "//study/study/자료구조,알고리즘",
-    "//study/study/js"
+    "//study/study/js",
+    "//study/study/웹"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
