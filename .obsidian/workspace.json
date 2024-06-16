@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md",
+                "file": "study/react/12. 배열에 항목 추가하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md",
+                "file": "study/react/12. 배열에 항목 추가하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md",
+                "file": "study/react/12. 배열에 항목 추가하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md"
+                "file": "study/react/12. 배열에 항목 추가하기.md"
               }
             }
           }
@@ -184,14 +184,22 @@
   },
   "active": "939e7189cdd702e7",
   "lastOpenFiles": [
+    "study/react/6. useState.md",
+    "study/react/7. input 상태 관리하기.md",
+    "study/react/9. useRef 로 특정 DOM 선택하기.md",
+    "study/react/8. 여러 개의 input 상태 관리하기.md",
+    "study/react/4. props.md",
+    "study/react/5. 조건부 렌더링.md",
+    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "study/react/React.md",
+    "study/react/12. 배열에 항목 추가하기.md",
+    "study/웹/웹 브라우저의 역사.md",
     "study/자료구조/시간복잡도.md",
     "study/자료구조/자료구조.md",
     "study/자료구조/자료구조의 기초.md",
     "study/js/js.md",
     "study/react/1. React의 기초.md",
     "study/react/2. React 컴포넌트.md",
-    "study/웹/웹 브라우저의 역사.md",
-    "study/react/12. 배열에 항목 추가하기.md",
     "study/자료구조/배열(array).md",
     "Pasted image 20240616172200.png",
     "study/자료구조/큐(queue).md",
@@ -204,14 +212,6 @@
     "해시 테이블(Hash tables ",
     "해시 테이블(Hash tables / Hash map.md",
     "study/네트워크/네트워크.md",
-    "study/react/react 깊게 이해하기.md",
-    "study/react/React.md",
-    "study/react/babel.md",
-    "study/react/무제 파일.md",
-    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/독서/개발자의 글쓰기.md",
-    "Vault.md",
-    "study/독서/독서.md",
     "study/독서",
     "study/웹",
     "Excalidraw",
