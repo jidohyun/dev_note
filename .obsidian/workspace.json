@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/자료구조의 기초.md",
+                "file": "study/웹/웹 브라우저의 역사.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/자료구조의 기초.md",
+                "file": "study/웹/웹 브라우저의 역사.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/자료구조의 기초.md",
+                "file": "study/웹/웹 브라우저의 역사.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/자료구조의 기초.md"
+                "file": "study/웹/웹 브라우저의 역사.md"
               }
             }
           }
@@ -184,10 +184,16 @@
   },
   "active": "939e7189cdd702e7",
   "lastOpenFiles": [
-    "Pasted image 20240616172200.png",
-    "study/자료구조/배열(array).md",
-    "study/자료구조/자료구조의 기초.md",
+    "study/자료구조/시간복잡도.md",
     "study/자료구조/자료구조.md",
+    "study/자료구조/자료구조의 기초.md",
+    "study/js/js.md",
+    "study/react/1. React의 기초.md",
+    "study/react/2. React 컴포넌트.md",
+    "study/웹/웹 브라우저의 역사.md",
+    "study/react/12. 배열에 항목 추가하기.md",
+    "study/자료구조/배열(array).md",
+    "Pasted image 20240616172200.png",
     "study/자료구조/큐(queue).md",
     "study/자료구조/그래프 (graph).md",
     "study/자료구조/연결 리스트 (linked list).md",
@@ -199,8 +205,6 @@
     "해시 테이블(Hash tables / Hash map.md",
     "study/네트워크/네트워크.md",
     "study/react/react 깊게 이해하기.md",
-    "study/react/1. React의 기초.md",
-    "study/react/12. 배열에 항목 추가하기.md",
     "study/react/React.md",
     "study/react/babel.md",
     "study/react/무제 파일.md",
@@ -209,9 +213,6 @@
     "Vault.md",
     "study/독서/독서.md",
     "study/독서",
-    "study/네트워크/WAN(광역 네트워크).md",
-    "study/react/10. 배열 렌더링하기.md",
-    "study/네트워크/서비스형 네트워크(NaaS).md",
     "study/웹",
     "Excalidraw",
     "study/html",
@@ -228,7 +229,6 @@
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
     "img/Pasted image 20240514214138.png",
-    "img/Pasted image 20240510190151.png",
-    "img/Pasted image 20240510184733.png"
+    "img/Pasted image 20240510190151.png"
   ]
 }
