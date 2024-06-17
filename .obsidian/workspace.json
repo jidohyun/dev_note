@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/배열(array).md",
+                "file": "study/자료구조/시간복잡도.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/배열(array).md",
+                "file": "study/자료구조/시간복잡도.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/배열(array).md",
+                "file": "study/자료구조/시간복잡도.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/배열(array).md"
+                "file": "study/자료구조/시간복잡도.md"
               }
             }
           }
@@ -232,6 +232,7 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/자료구조/배열(array).md",
     "study/독서/개발자의 글쓰기.md",
     "study/react/12. 배열에 항목 추가하기.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
@@ -257,7 +258,6 @@
     "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
     "Excalidraw/Drawing 2024-06-11 16.32.55.excalidraw.md",
     "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
