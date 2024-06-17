@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/8. 여러 개의 input 상태 관리하기.md",
+                "file": "study/독서/개발자의 글쓰기.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/8. 여러 개의 input 상태 관리하기.md",
+                "file": "study/독서/개발자의 글쓰기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/8. 여러 개의 input 상태 관리하기.md",
+                "file": "study/독서/개발자의 글쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/8. 여러 개의 input 상태 관리하기.md"
+                "file": "study/독서/개발자의 글쓰기.md"
               }
             }
           }
@@ -232,6 +232,11 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/react/12. 배열에 항목 추가하기.md",
+    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "study/react/10. 배열 렌더링하기.md",
+    "study/react/9. useRef 로 특정 DOM 선택하기.md",
+    "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/6. useState.md",
     "study/js/배열 내장함수.md",
@@ -253,11 +258,6 @@
     "Excalidraw/Drawing 2024-06-07 17.38.23.excalidraw.md",
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "Excalidraw/Drawing 2024-06-16 19.07.10.excalidraw.md",
-    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/10. 배열 렌더링하기.md",
-    "study/react/React.md",
-    "study/react/12. 배열에 항목 추가하기.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
