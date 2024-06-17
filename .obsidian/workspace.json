@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/독서/개발자의 글쓰기.md",
+                "file": "study/자료구조/배열(array).md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/독서/개발자의 글쓰기.md",
+                "file": "study/자료구조/배열(array).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/독서/개발자의 글쓰기.md",
+                "file": "study/자료구조/배열(array).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/독서/개발자의 글쓰기.md"
+                "file": "study/자료구조/배열(array).md"
               }
             }
           }
