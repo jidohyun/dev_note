@@ -167,6 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "study/독서/개발자의 글쓰기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,6 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "study/독서/개발자의 글쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +206,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "study/독서/개발자의 글쓰기.md"
+              }
             }
           }
         ]
@@ -226,7 +230,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "81e00a2209ce8f8f",
+  "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
     "study/독서/개발자의 글쓰기.md",
     "study/react/12. 배열에 항목 추가하기.md",
