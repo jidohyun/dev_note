@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/8. 여러 개의 input 상태 관리하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/8. 여러 개의 input 상태 관리하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/8. 여러 개의 input 상태 관리하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/배열 내장함수.md"
+                "file": "study/react/8. 여러 개의 input 상태 관리하기.md"
               }
             }
           }
@@ -232,6 +232,9 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/react/7. input 상태 관리하기.md",
+    "study/react/6. useState.md",
+    "study/js/배열 내장함수.md",
     "study/js/Virtual DOM.md",
     "study/js/UI.md",
     "study/js/Promise.md",
@@ -242,7 +245,6 @@
     "study/js/상수.md",
     "study/js/조건문.md",
     "study/js/콜백함수.md",
-    "study/js/배열 내장함수.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
     "Excalidraw/Drawing 2024-06-16 20.42.50.excalidraw.md",
     "Excalidraw/Drawing 2024-06-16 20.42.23.excalidraw.md",
@@ -255,8 +257,6 @@
     "study/react/10. 배열 렌더링하기.md",
     "study/react/React.md",
     "study/react/12. 배열에 항목 추가하기.md",
-    "study/react/6. useState.md",
-    "study/react/7. input 상태 관리하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
