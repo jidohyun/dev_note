@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/자료구조/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/자료구조/무제 파일.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/자료구조/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/스택(stack).md"
+                "file": "study/자료구조/무제 파일.md"
               }
             }
           }
@@ -232,10 +232,11 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/자료구조/스택(stack).md",
+    "study/자료구조/무제 파일.md",
     "study/js/변수.md",
     "study/네트워크/MAN(대도시 지역 네트워크).md",
     "study/자료구조/그래프 (graph).md",
-    "study/자료구조/스택(stack).md",
     "study/자료구조/자료구조.md",
     "study/자료구조/연결 리스트 (linked list).md",
     "study/자료구조/시간복잡도.md",
@@ -257,7 +258,6 @@
     "study/js/인터렉션.md",
     "study/js/연산자.md",
     "study/js/상수.md",
-    "study/js/조건문.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
