@@ -167,6 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "study/자료구조/스택(stack).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,6 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "study/자료구조/스택(stack).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +206,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "study/자료구조/스택(stack).md"
+              }
             }
           }
         ]
@@ -226,7 +230,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e15896df571e0546",
+  "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
     "study/자료구조/스택(stack).md",
     "study/자료구조/배열(array).md",
