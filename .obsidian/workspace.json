@@ -146,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,16 +231,18 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
-    "study/자료구조/스택(stack).md",
-    "study/자료구조/배열(array).md",
+    "study/자료구조/자료구조.md",
+    "study/자료구조/연결 리스트 (linked list).md",
     "study/자료구조/시간복잡도.md",
-    "study/독서/개발자의 글쓰기.md",
-    "study/react/12. 배열에 항목 추가하기.md",
-    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/10. 배열 렌더링하기.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "study/react/8. 여러 개의 input 상태 관리하기.md",
+    "study/자료구조/스택(stack).md",
     "study/react/7. input 상태 관리하기.md",
+    "study/react/8. 여러 개의 input 상태 관리하기.md",
+    "study/react/9. useRef 로 특정 DOM 선택하기.md",
+    "study/react/10. 배열 렌더링하기.md",
+    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "study/react/12. 배열에 항목 추가하기.md",
+    "study/독서/개발자의 글쓰기.md",
+    "study/자료구조/배열(array).md",
     "study/react/6. useState.md",
     "study/js/배열 내장함수.md",
     "study/js/Virtual DOM.md",
@@ -256,8 +257,6 @@
     "study/js/콜백함수.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
     "Excalidraw/Drawing 2024-06-16 20.42.50.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-16 20.42.23.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
