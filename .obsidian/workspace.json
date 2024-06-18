@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/async, await.md",
+                "file": "study/js/Promise.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/async, await.md",
+                "file": "study/js/Promise.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/async, await.md",
+                "file": "study/js/Promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/async, await.md"
+                "file": "study/js/Promise.md"
               }
             }
           }
@@ -232,9 +232,9 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/js/async, await.md",
     "study/js/DOM.md",
     "study/js/Promise.md",
-    "study/js/async, await.md",
     "study/js/var.md",
     "study/js/.md",
     "study/js/AJAX.md",
