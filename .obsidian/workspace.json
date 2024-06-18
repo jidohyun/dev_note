@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/AJAX.md",
+                "file": "study/js/Promise.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/AJAX.md",
+                "file": "study/js/Promise.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/AJAX.md",
+                "file": "study/js/Promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/AJAX.md"
+                "file": "study/js/Promise.md"
               }
             }
           }
@@ -230,11 +230,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e016acce17a0765c",
+  "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/js/AJAX.md",
     "study/react/react 1.md",
     "study/react/13. .md",
-    "study/js/AJAX.md",
     "study/react/12. 배열에 항목 추가하기.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
     "study/자료구조/스택(stack).md",
