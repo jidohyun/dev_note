@@ -167,7 +167,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,9 +204,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "study/자료구조/스택(stack).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -230,10 +226,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7d8e53bebd5eba29",
+  "active": "e15896df571e0546",
   "lastOpenFiles": [
-    "study/자료구조/배열(array).md",
     "study/자료구조/스택(stack).md",
+    "study/자료구조/배열(array).md",
     "study/자료구조/시간복잡도.md",
     "study/독서/개발자의 글쓰기.md",
     "study/react/12. 배열에 항목 추가하기.md",
