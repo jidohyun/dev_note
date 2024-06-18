@@ -7,3 +7,32 @@
 
 한번 숫자 n을 파라미터로 받아와서 다섯번에 걸쳐 1초마다 1씩 더해서 출력하는 작업을 setTimeout 으로 구현해보자.
 
+```js
+function increaseAndPrint(n, callback) {
+  setTimeout(() => {
+    const increased = n + 1;
+    console.log(increased);
+    if (callback) {
+      callback(increased);
+    }
+  }, 1000);
+}
+
+increaseAndPrint(0, n => {
+  increaseAndPrint(n, n => {
+    increaseAndPrint(n, n => {
+      increaseAndPrint(n, n => {
+        increaseAndPrint(n, n => {
+          console.log('끝!');
+        });
+      });
+    });
+  });
+});
+```
+
+이런 식의 코드를 콜백지옥이라고 한다.
+
+![](https://i.imgur.com/oaSookY.png)
+
+비동기적으로 처리해야 하는 일이 많아질수록, 코드의 깊이가 계속 깊어지는 걸 방지할 수 이
