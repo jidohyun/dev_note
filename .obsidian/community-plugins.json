@@ -2,7 +2,6 @@
   "obsidian-git",
   "obsidian-imgur-plugin",
   "editing-toolbar",
-  "make-md",
   "obsidian-emoji-toolbar",
   "obsidian-image-toolkit",
   "obsidian-excalidraw-plugin",
@@ -10,5 +9,6 @@
   "obsidian-outliner",
   "url-into-selection",
   "obsidian-tasks-plugin",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "make-md"
 ]
