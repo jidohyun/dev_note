@@ -13,4 +13,7 @@ AJAX는 (Asynchronous Javascript And XML)의 약자로 서버와 비동기적으
 
 ---
 
-### zh
+### code
+
+예전방식은 구지니까 가장 최신방식으로 쓰겠음. (jquery제외)
+
