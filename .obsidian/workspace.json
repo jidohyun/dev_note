@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/react/13. .md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/react/13. .md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/react/13. .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/스택(stack).md"
+                "file": "study/react/13. .md"
               }
             }
           }
@@ -232,8 +232,11 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
-    "무제.md",
+    "study/react/12. 배열에 항목 추가하기.md",
+    "study/react/13. .md",
+    "study/react/실습1. useState를 활용한 TodoList.md",
     "study/자료구조/스택(stack).md",
+    "무제.md",
     "study/자료구조/.md",
     "study/js/변수.md",
     "study/네트워크/MAN(대도시 지역 네트워크).md",
@@ -246,7 +249,6 @@
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/12. 배열에 항목 추가하기.md",
     "study/독서/개발자의 글쓰기.md",
     "study/자료구조/배열(array).md",
     "study/react/6. useState.md",
@@ -256,8 +258,6 @@
     "study/js/Promise.md",
     "study/js/DOM.md",
     "study/js/var.md",
-    "study/js/인터렉션.md",
-    "study/js/연산자.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
