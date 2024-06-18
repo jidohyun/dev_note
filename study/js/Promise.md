@@ -61,4 +61,26 @@ myPromise.then(n => {
 });
 ```
 
-resolve 를 호출 할 때 특정 값을 파라미터로 넣어주면, 이 값을 작업이 끝나고 나서 사용할 수 있다. 작업이 끝나고 나서 또 다른 작업을 할 때에는 Promise 두
+resolve 를 호출 할 때 특정 값을 파라미터로 넣어주면, 이 값을 작업이 끝나고 나서 사용할 수 있다. 작업이 끝나고 나서 또 다른 작업을 할 때에는 Promise 뒤에 `.then(...)` 을 붙여서 사용하면 된다.
+
+이번엔, 1초 뒤에 실패하게 만들어보면,
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    reject(new Error());
+  }, 1000);
+});
+
+myPromise
+  .then(n => {
+    console.log(n);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+```
+
+실패하는 상황에서는 `reject`를 사용하고, `catch`를 통하여 실패 했을 시 수행 할 작업을 설정 할 수 있다.
+
+이제, Promise 를 만드는 함수를 작성해보면, 
