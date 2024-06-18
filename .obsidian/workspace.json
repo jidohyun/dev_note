@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/Promise.md",
+                "file": "study/js/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/Promise.md",
+                "file": "study/js/무제 파일.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/Promise.md",
+                "file": "study/js/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/Promise.md"
+                "file": "study/js/무제 파일.md"
               }
             }
           }
@@ -233,6 +233,12 @@
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
     "study/js/AJAX.md",
+    "study/js/무제 파일.md",
+    "study/js/`.md",
+    "study/js/js.md",
+    "study/js/Promise.md",
+    "study/js/UI.md",
+    "study/js/콜백함수.md",
     "study/react/react 1.md",
     "study/react/13. .md",
     "study/react/12. 배열에 항목 추가하기.md",
@@ -252,12 +258,6 @@
     "study/react/10. 배열 렌더링하기.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
     "study/독서/개발자의 글쓰기.md",
-    "study/자료구조/배열(array).md",
-    "study/react/6. useState.md",
-    "study/js/배열 내장함수.md",
-    "study/js/Virtual DOM.md",
-    "study/js/UI.md",
-    "study/js/Promise.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
