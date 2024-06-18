@@ -35,4 +35,30 @@ increaseAndPrint(0, n => {
 
 ![](https://i.imgur.com/oaSookY.png)
 
-비동기적으로 처리해야 하는 일이 많아질수록, 코드의 깊이가 계속 깊어지는 걸 방지할 수 이
+비동기적으로 처리해야 하는 일이 많아질수록, 코드의 깊이가 계속 깊어지는 걸 방지 할 수 있다.
+
+### Promise 만들기
+
+Promise는 다음과 같이 만든다.
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+  // 구현..
+})
+```
+
+Promise는 성공 할 수도 있고, 실패 할 수도 있다. 성공 할 때에는 resolve를 호출해주면 되고, 실패할 때에는 reject를 호출해 주면 된다. 일단 1초 뒤에 성공시키는 것만 구현해보면,
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(1);
+  }, 1000);
+});
+
+myPromise.then(n => {
+  console.log(n);
+});
+```
+
+resolve 를 호출 할 때 특정 값을 파라미터로 넣어주면, 이 값을 작업이 끝나고 나서 사용할 수 있다. 작업이 끝나고 나서 또 다른 작업을 할 때에는 Promise 두
