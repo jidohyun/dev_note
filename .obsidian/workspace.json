@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/13. .md",
+                "file": "study/js/AJAX.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/13. .md",
+                "file": "study/js/AJAX.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/13. .md",
+                "file": "study/js/AJAX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/13. .md"
+                "file": "study/js/AJAX.md"
               }
             }
           }
@@ -230,10 +230,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7d8e53bebd5eba29",
+  "active": "e016acce17a0765c",
   "lastOpenFiles": [
-    "study/react/12. 배열에 항목 추가하기.md",
+    "study/react/react 1.md",
     "study/react/13. .md",
+    "study/js/AJAX.md",
+    "study/react/12. 배열에 항목 추가하기.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
     "study/자료구조/스택(stack).md",
     "무제.md",
@@ -256,8 +258,6 @@
     "study/js/Virtual DOM.md",
     "study/js/UI.md",
     "study/js/Promise.md",
-    "study/js/DOM.md",
-    "study/js/var.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
