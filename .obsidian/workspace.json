@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/무제 파일.md",
+                "file": "study/js/async, await.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/무제 파일.md",
+                "file": "study/js/async, await.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/무제 파일.md",
+                "file": "study/js/async, await.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/무제 파일.md"
+                "file": "study/js/async, await.md"
               }
             }
           }
@@ -232,11 +232,14 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/js/DOM.md",
+    "study/js/Promise.md",
+    "study/js/async, await.md",
+    "study/js/var.md",
+    "study/js/.md",
     "study/js/AJAX.md",
-    "study/js/무제 파일.md",
     "study/js/`.md",
     "study/js/js.md",
-    "study/js/Promise.md",
     "study/js/UI.md",
     "study/js/콜백함수.md",
     "study/react/react 1.md",
@@ -255,9 +258,6 @@
     "study/react/7. input 상태 관리하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "study/react/10. 배열 렌더링하기.md",
-    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/독서/개발자의 글쓰기.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
