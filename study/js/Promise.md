@@ -84,3 +84,101 @@ myPromise
 실패하는 상황에서는 `reject`를 사용하고, `catch`를 통하여 실패 했을 시 수행 할 작업을 설정 할 수 있다.
 
 이제, Promise 를 만드는 함수를 작성해보면, 
+
+```js
+function increaseAndPrint(n) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const value = n + 1;
+      if (value === 5) {
+        const error = new Error();
+        error.name = 'ValueIsFiveError';
+        reject(error);
+        return;
+      }
+      console.log(value);
+      resolve(value);
+    }, 1000);
+  });
+}
+
+increaseAndPrint(0).then((n) => {
+  console.log('result: ', n);
+})
+```
+
+![](https://i.imgur.com/5LktObI.png)
+
+여기까지만 보면, 결국 함수를 전달하는건데, 뭐가 다르지 싶을 수 있다. 하지만, Promise 의 속성 중에는, 만약 then 내부에 넣은 함수에서 또 Promise 를 리턴하게 된다면, 연달아서 사용 할 수 있다.
+
+```js
+function increaseAndPrint(n) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const value = n + 1;
+      if (value === 5) {
+        const error = new Error();
+        error.name = 'ValueIsFiveError';
+        reject(error);
+        return;
+      }
+      console.log(value);
+      resolve(value);
+    }, 1000);
+  });
+}
+
+increaseAndPrint(0)
+  .then(n => {
+    return increaseAndPrint(n);
+  })
+  .then(n => {
+    return increaseAndPrint(n);
+  })
+  .then(n => {
+    return increaseAndPrint(n);
+  })
+  .then(n => {
+    return increaseAndPrint(n);
+  })
+  .then(n => {
+    return increaseAndPrint(n);
+  })
+  .catch(e => {
+    console.error(e);
+  });
+```
+
+![](https://i.imgur.com/FKfMN6S.png)
+
+위 코드는 이렇게 정리할 수 있다.
+
+```js
+function increaseAndPrint(n) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const value = n + 1;
+      if (value === 5) {
+        const error = new Error();
+        error.name = 'ValueIsFiveError';
+        reject(error);
+        return;
+      }
+      console.log(value);
+      resolve(value);
+    }, 1000);
+  });
+}
+
+increaseAndPrint(0)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .then(increaseAndPrint)
+  .catch(e => {
+    console.error(e);
+  });
+```
+
+Promise 를 사용하면, 비동기 작업의 개수가 많아져도 코드의 깊이가 깊어지지 않게 된다.
