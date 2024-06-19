@@ -173,5 +173,37 @@ process();
 
 `Promise.all`을 사용 할 때는, 등록한 프로미스 중 하나라도 하나라도 실패하면, 모든 게 실패 한 것으로 간주함.
 
-이번에는 `Promise.race` 라는 것에 대해서 알아봅시다. 이 함수는 `Promise.all` 과 달리, 여러개의 프로미스를 등록해서 실행했을 때 가장 빨리 끝난 것 하나만의 결과값을 가져온다.
+이번에는 `Promise.race` 라는 것에 대해서 알아봅시다. 이 함수는 `Promise.all` 과 달리, 여러 개의 프로미스를 등록해서 실행했을 때 가장 빨리 끝난 것 하나만의 결과값을 가져온다.
 
+```js
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const getDog = async () => {
+  await sleep(1000);
+  return '멍멍이';
+};
+
+const getRabbit = async () => {
+  await sleep(500);
+  return '토끼';
+};
+const getTurtle = async () => {
+  await sleep(3000);
+  return '거북이';
+};
+
+async function process() {
+  const first = await Promise.race([
+    getDog(),
+    getRabbit(),
+    getTurtle()
+  ]);
+  console.log(first);
+}
+
+process();
+```
+
+`Promise.race` 의 경우엔 가장 다른 Promise 가 먼저 성공하기 전에 가장 먼저 끝난 Promise 가 실패하면 이를 실패로 간주한다. 따라서, 현재 위의 코드에서 `getRabbit` 에서 에러를 발생 시킨다면 에러를 잡아낼 수 있지만, `getTurtle` 이나 `getDog` 에서 발생한 에러는 무시한다.
