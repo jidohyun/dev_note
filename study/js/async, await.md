@@ -68,4 +68,39 @@ async function process() {
 process();
 ```
 
-`async` 함수에서 에러를 발생 시킬때에는 
+![](https://i.imgur.com/EeJWViD.png)
+
+이번에는 비동기 함수를 만들어보자.
+
+```js
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const getDog = async () => {
+  await sleep(1000);
+  return '멍멍이';
+};
+
+const getRabbit = async () => {
+  await sleep(500);
+  return '토끼';
+};
+const getTurtle = async () => {
+  await sleep(3000);
+  return '거북이';
+};
+
+async function process() {
+  const dog = await getDog();
+  console.log(dog);
+  const rabbit = await getRabbit();
+  console.log(rabbit);
+  const turtle = await getTurtle();
+  console.log(turtle);
+}
+
+process();
+```
+
+현재 위 코드에서는 `getDog` 는 1초, `getRabbit` 은 0.5초, `getTurtle`은 3초가 걸리고 있다. 이 함수들을 `process` 함수에서 연달아서 사용하게 되면서, `process` 함수가 실행되는 시간은 총 
