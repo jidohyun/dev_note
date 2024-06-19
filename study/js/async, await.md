@@ -137,3 +137,41 @@ process();
 ![](https://i.imgur.com/SOFFHq8.png)
 
 만약 여기서 배열 비구조화 할당 문법을 사용한다면 각 결과값을 따로 따로 추출해서 조회 할 수 있다.
+
+```js
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const getDog = async () => {
+  await sleep(1000);
+  return '멍멍이';
+};
+
+const getRabbit = async () => {
+  await sleep(500);
+  return '토끼';
+};
+const getTurtle = async () => {
+  await sleep(3000);
+  return '거북이';
+};
+
+async function process() {
+  const [dog, rabbit, turtle] = await Promise.all([
+    getDog(),
+    getRabbit(),
+    getTurtle()
+  ]);
+  console.log(dog);
+  console.log(rabbit);
+  console.log(turtle);
+}
+
+process();
+```
+
+`Promise.all`을 사용 할 때는, 등록한 프로미스 중 하나라도 하나라도 실패하면, 모든 게 실패 한 것으로 간주함.
+
+이번에는 `Promise.race` 라는 것에 대해서 알아봅시다. 이 함수는 `Promise.all` 과 달리, 여러개의 프로미스를 등록해서 실행했을 때 가장 빨리 끝난 것 하나만의 결과값을 가져온다.
+
