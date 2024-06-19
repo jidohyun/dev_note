@@ -21,4 +21,7 @@ async function process() {
 process();
 ```
 
-async/await 문법을 사용 할 때에는 
+async/await 문법을 사용 할 때에는, 함수를 선언 할 때 함수의 앞부분에 `async` 를 붙여야 함. 그리고
+promise의 앞부분에 `await`를 넣어주면 해당 프로미스가 끝날 때 까지 기다렸다가 다음 작업을 수행 할 수 있다
+
+위 코드에선 
