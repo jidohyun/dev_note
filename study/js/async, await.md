@@ -103,4 +103,37 @@ async function process() {
 process();
 ```
 
-현재 위 코드에서는 `getDog` 는 1초, `getRabbit` 은 0.5초, `getTurtle`은 3초가 걸리고 있다. 이 함수들을 `process` 함수에서 연달아서 사용하게 되면서, `process` 함수가 실행되는 시간은 총 
+현재 위 코드에서는 `getDog` 는 1초, `getRabbit` 은 0.5초, `getTurtle`은 3초가 걸리고 있다. 이 함수들을 `process` 함수에서 연달아서 사용하게 되면서, `process` 함수가 실행되는 시간은 총 4.5초가 된다.
+
+지금은 `getDog` -> `getRabbit` -> `getTurtle` 순서대로 실행이 되고 있는데, 하나가 끝나야 다음 작업이 시작하고 있는데, 동시에 작업을 시작하고 싶다면, 다음과 같이 `Promise.all`을 사용해야 한다.
+
+```js
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const getDog = async () => {
+  await sleep(1000);
+  return '멍멍이';
+};
+
+const getRabbit = async () => {
+  await sleep(500);
+  return '토끼';
+};
+const getTurtle = async () => {
+  await sleep(3000);
+  return '거북이';
+};
+
+async function process() {
+  const results = await Promise.all([getDog(), getRabbit(), getTurtle()]);
+  console.log(results);
+}
+
+process();
+```
+
+![](https://i.imgur.com/SOFFHq8.png)
+
+만약 여기서 배열 비구조화 할당 문법을 사용한다면 각 결과값을 따로 따로 추출해서 조회 할 수 있다.
