@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/4. props.md",
+                "file": "study/js/Prototype.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/4. props.md",
+                "file": "study/js/Prototype.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/4. props.md",
+                "file": "study/js/Prototype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/4. props.md"
+                "file": "study/js/Prototype.md"
               }
             }
           }
@@ -232,6 +232,10 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
+    "study/독서/독서.md",
+    "study/js/Prototype.md",
+    "study/react/무제 파일.md",
+    "study/react/4. props.md",
     "study/js/Promise.md",
     "study/js/async, await.md",
     "study/js/DOM.md",
@@ -254,10 +258,6 @@
     "study/자료구조/그래프 (graph).md",
     "study/자료구조/자료구조.md",
     "study/자료구조/연결 리스트 (linked list).md",
-    "study/자료구조/시간복잡도.md",
-    "study/react/7. input 상태 관리하기.md",
-    "study/react/8. 여러 개의 input 상태 관리하기.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
