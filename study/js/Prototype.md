@@ -30,4 +30,4 @@ const Hello = function(name) {
 
 속성과 메소드들은 각 객체 인스턴스가 아니라 객체 생성자의 `prototype` 속성에 정의되어 있다.
 
-`Hello` 에 정의한 `name` 멤버 외에 프로토타입 객체인 `o`
+`Hello` 에 정의한 `name` 멤버 외에 프로토타입 객체인 `object`의 다른 멤버들도 존재함을 알 수 있다.
