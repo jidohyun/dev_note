@@ -86,3 +86,31 @@ console.log(Object.getPrototypeOf(date)) //Date prototype
 
 객체 자신의 것 뿐 아니라 `[prototype]` 이 가리키는 링크를 따라 부모 역할을 하는 모든 프로토타입 객체의 속성이나 메소드에 접근할 수 있다.
 
+```javascript
+const obj = {hello: 'world'};
+const str = 'hello'
+Object.prototype.hi = function() {console.log('hi')};
+obj.hi(); // hi
+str.hi(); // hi
+```
+
+```javascript
+Object.getPrototypeOf(str);
+```
+
+```null
+String {'', constructor: ƒ, anchor: ƒ, at: ƒ, big: ƒ, …}
+anchor
+: 
+ƒ anchor() at: 
+ƒ at() big: 
+....
+[[Prototype]]: Object
+  - hi: f(),
+  - constructor: f Object()
+  - ...
+```
+
+특정 객체에서 특정 속성이나 메소드에 접근할 때 자바스크립트 엔진에서 먼저 객체 본인이 가진 것인지 파악하고 없는 경우 프로토타입 체이닝이 일어나며
+부모 역할이 되는 상위 객체를 향해 속성이나 메소드를 탐색해 나가고 존재하는지 찾다가 마지막에는
+`Object.Prototype`에서도 찾지 못하게 된다면 `un`
