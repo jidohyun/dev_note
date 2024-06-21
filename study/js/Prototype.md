@@ -126,3 +126,23 @@ num.push() // 56;
 ### 모든 속성, 메소드가 상속되지 않는 이유
 
 상속받는 맴버들은 `prototype` 속성에 정의되어있고 이들만 상속된다.
+
+![](https://i.imgur.com/5Iyelhh.png)
+
+`Object.prototype.` 로 시작하는 속성들을 말하며 생성자로 생성되는 인스턴스 뿐 아니라 
+`Object.prototype` 을 상속받는 객체라면 접근할 수 있다.
+
+![](https://i.imgur.com/GjC1Ru0.png)
+
+배열을 선언하고 `push`, `pop`등의 메서드를 사용할 수 있다.
+이들은 `Array.prototype` 의 메서드이기 때문이다.
+
+```javascript
+const a = [];
+a.isArray(); // Uncaught TypeError: a.isArray is not a function
+```
+
+프로토타입에 정의되지 않는 멤버들은 상속되지 않기 때문에 직접 사용할 수 없으며 `Array` 전역 객체를
+이용해 직접 접근할 수 밖에 없다.
+
+### 그래서 결론지어보는 
