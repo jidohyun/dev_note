@@ -44,3 +44,6 @@ hello.toString();
 
 ![](https://i.imgur.com/HkBDeov.png)
 
+### prototype에 접근하기
+
+프로토타입에 접근하기 위해 `__proto__` (deprecated)를 인스턴스에 사용하거나 
