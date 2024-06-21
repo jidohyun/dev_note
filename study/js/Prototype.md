@@ -47,3 +47,16 @@ hello.toString();
 ### prototype에 접근하기
 
 프로토타입에 접근하기 위해 `__proto__` (deprecated)를 인스턴스에 사용하거나 
+`Object.getPrototypeOf(instance)` 를 사용할 수 있다.
+
+```javascript
+function Hello(name) {
+  this.name = name;
+}
+const hello = new Hello('hello');
+Object.getPrototypeOf(hello) === Hello.prototype; // true
+```
+
+### 네이티브 객체 프로토타입
+
+자바스크립트 `Array`, `String` 등의 내
