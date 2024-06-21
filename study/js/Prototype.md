@@ -113,4 +113,16 @@ anchor
 
 특정 객체에서 특정 속성이나 메소드에 접근할 때 자바스크립트 엔진에서 먼저 객체 본인이 가진 것인지 파악하고 없는 경우 프로토타입 체이닝이 일어나며
 부모 역할이 되는 상위 객체를 향해 속성이나 메소드를 탐색해 나가고 존재하는지 찾다가 마지막에는
-`Object.Prototype`에서도 찾지 못하게 된다면 `un`
+`Object.Prototype`에서도 찾지 못하게 된다면 `undefined` 를 리턴한다.
+
+```javascript
+const num = 55;
+num.push // undefined;
+num.push() // Uncaught TypeError: num.push is not a function
+Object.prototype.push = function() {return this + 1};
+num.push() // 56;
+```
+
+### 모든 속성, 메소드가 상속되지 않는 이유
+
+상속받는 맴버들은 `prototype` 속성에 정의되어있고 이들만 상속된다.
