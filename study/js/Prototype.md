@@ -59,4 +59,27 @@ Object.getPrototypeOf(hello) === Hello.prototype; // true
 
 ### 네이티브 객체 프로토타입
 
-자바스크립트 `Array`, `String` 등의 내
+자바스크립트 `Array`, `String` 등의 내장 객체 역시 자신의 프로토타입을 가지고 있다.
+
+배열을 선언해 늘 사용하던 `map`, `filter`등을 사용해 조작하고 문자열을 선언해 `split` 등의 연산을 할 수 있게 해주는 이유다.
+
+![](https://i.imgur.com/AGX6B6N.png)
+
+```javascript
+const arr = [1,2,3,4,5];
+console.log(Object.getPrototypeOf(arr))  //Array prototype
+const str = "Hello world!";
+console.log(Object.getPrototypeOf(str)) //String prototype
+const date = new Date();
+console.log(Object.getPrototypeOf(date)) //Date prototype
+```
+
+### 프로토타입 체인
+
+![](https://i.imgur.com/AlqOREY.png)
+
+모든 객체들은 메소드와 속성을 상속받기 위한 명세로 프로토타입 객체를 가진다고 했다.
+
+이는 프로토타입 객체도 또 다시 상위 프로토타입 객체로써 상속받을 수 있고 그 상위도 마찬가지인데 이를 `프로토타입 체인` 이라고 한다.
+
+다른 객체에서 
