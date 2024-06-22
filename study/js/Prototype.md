@@ -145,4 +145,8 @@ a.isArray(); // Uncaught TypeError: a.isArray is not a function
 프로토타입에 정의되지 않는 멤버들은 상속되지 않기 때문에 직접 사용할 수 없으며 `Array` 전역 객체를
 이용해 직접 접근할 수 밖에 없다.
 
-### 그래서 결론지어보는 
+### 그래서 결론지어보는 사용되는 이유
+
+#### 메모리 효율성
+
+`Javascript` 에서 모든 객체는
