@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/Virtual DOM.md",
+                "file": "study/js/Prototype.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/Virtual DOM.md",
+                "file": "study/js/Prototype.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/Virtual DOM.md",
+                "file": "study/js/Prototype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/Virtual DOM.md"
+                "file": "study/js/Prototype.md"
               }
             }
           }
@@ -232,14 +232,15 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
-    "study/js/DOM.md",
+    "study/js/var.md",
     "study/js/Prototype.md",
+    "study/js/Virtual DOM.md",
+    "study/js/DOM.md",
     "study/독서/독서.md",
     "study/react/무제 파일.md",
     "study/react/4. props.md",
     "study/js/Promise.md",
     "study/js/async, await.md",
-    "study/js/var.md",
     "study/js/.md",
     "study/js/AJAX.md",
     "study/js/`.md",
@@ -257,7 +258,6 @@
     "study/네트워크/MAN(대도시 지역 네트워크).md",
     "study/자료구조/그래프 (graph).md",
     "study/자료구조/자료구조.md",
-    "study/자료구조/연결 리스트 (linked list).md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
