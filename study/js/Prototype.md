@@ -149,4 +149,6 @@ a.isArray(); // Uncaught TypeError: a.isArray is not a function
 
 #### 메모리 효율성
 
-`Javascript` 에서 모든 객체는
+`Javascript` 에서 모든 객체는 **프로토타입을 공유**한다. 
+객체 자체가 스스로 메소드와 속성을 모두 가지는 대신 여러 객체가 동일한 프로토타입을 공유하도록하고 이를 사용하면 메모리를 효율적으로 사용할 수 있다.
+
