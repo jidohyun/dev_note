@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/Prototype.md",
+                "file": "study/js/Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/Prototype.md",
+                "file": "study/js/Virtual DOM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/Prototype.md",
+                "file": "study/js/Virtual DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/Prototype.md"
+                "file": "study/js/Virtual DOM.md"
               }
             }
           }
@@ -232,13 +232,13 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
-    "study/독서/독서.md",
+    "study/js/DOM.md",
     "study/js/Prototype.md",
+    "study/독서/독서.md",
     "study/react/무제 파일.md",
     "study/react/4. props.md",
     "study/js/Promise.md",
     "study/js/async, await.md",
-    "study/js/DOM.md",
     "study/js/var.md",
     "study/js/.md",
     "study/js/AJAX.md",
