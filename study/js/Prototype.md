@@ -163,5 +163,6 @@ a.isArray(); // Uncaught TypeError: a.isArray is not a function
 
 ### 요약
 
-- `prototype`은 객체 생성자 함수에 의해 생성되는 객체들이 공유하는 속성과 메소드를 저장하느
-- 프로토타입을
+- `prototype`은 객체 생성자 함수에 의해 생성되는 객체들이 공유하는 속성과 메소드를 저장하는 특수 객체이다.
+- 모든 javascript 객체는 선언 할당하면 해당 생성자 함수의 `prototype` 객체와 연결되며 프로토타입 체이닝을 통해 해당 객체의 속성, 메소드에 접근 가능하다.
+
