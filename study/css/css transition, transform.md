@@ -56,4 +56,8 @@
 - 기본구성 `transform : scale(x,y) translate(x,y) rotate(deg) skew(xdeg,ydeg);`
 	- translate(x,y) : 원래 위치를 기준으로 내가 원하는 방향으로 위치시킨다.
 	- scale(x,y) : (숫자)의 배율만큼 사이즈를 조정한다. (1=기본값, 1.2=120%, 2=2배) 
-	  -
+	  *x,y축의 배율이 같으면 한번만 적어준다.*
+	- rotate(deg) : 각도를 나타내는 deg(degree)를 넣어 시계방향으로 회전
+	- skew(deg) : 비틀기 효과, 마름모 꼴.
+- transform-origin : rotate(), skew() 등의 회전, 변형 속성을 사용하기 전에 기준점을 지정해 주는
+  속성. 초기값
