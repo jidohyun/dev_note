@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/css/css transition, transform.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/css/css transition, transform.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/css/css transition, transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md"
+                "file": "study/css/css transition, transform.md"
               }
             }
           }
@@ -232,8 +232,9 @@
   },
   "active": "7d8e53bebd5eba29",
   "lastOpenFiles": [
-    "study/js/Prototype.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+    "study/css/css transition, transform.md",
+    "study/js/Prototype.md",
     "study/js/var.md",
     "study/js/Virtual DOM.md",
     "study/js/DOM.md",
@@ -257,7 +258,6 @@
     "study/자료구조/.md",
     "study/js/변수.md",
     "study/네트워크/MAN(대도시 지역 네트워크).md",
-    "study/자료구조/그래프 (graph).md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
