@@ -60,4 +60,57 @@
 	- rotate(deg) : 각도를 나타내는 deg(degree)를 넣어 시계방향으로 회전
 	- skew(deg) : 비틀기 효과, 마름모 꼴.
 - transform-origin : rotate(), skew() 등의 회전, 변형 속성을 사용하기 전에 기준점을 지정해 주는
-  속성. 초기값
+  속성. 초기 값은 50% 50%으로 요소의 중심점이 된다. 백분율과 키워드로 작성 가능 (0% 0% = left top)
+
+```html
+<div id="wrap">
+    <article>
+        <p class="one"></p>
+    </article>
+    <article>
+        <p class="two"></p>
+    </article>  
+    <article>
+        <p class="three"></p>
+    </article>  
+</div>
+
+<style>
+	#wrap{
+            width: 800px;
+            margin: 30px auto;
+        }
+
+        article{
+            width: 200px;
+            height: 200px;
+            margin: 0 0 80px 200px;
+            border: 5px solid orange;
+        }
+
+        article>p{
+            width: 200px;
+            height: 200px;
+            opacity: 0.5;
+        }
+
+        p.one{
+      	    background-color: #0f0;
+            transform: scale(1.2,1.2) skew(10deg);  //1.2(120%) 확대, skew(마름모꼴) 변형 
+        }
+
+        p.two{
+            background-color: pink;
+            transform-origin: right top;  //오른쪽 위를 기준으로 설정
+            transform:scale(1.2) rotate(45deg);  //1.2배 확대, 45도 시계방향회전
+        }
+
+        p.three{
+            background-color: gold;
+            transform: translate(70px,50px);  //원래 위치에서 가로70, 세로50 이동
+        }
+</style>
+```
+
+![](https://i.imgur.com/n3V3TuV.png)
+
