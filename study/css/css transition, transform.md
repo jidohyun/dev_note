@@ -47,4 +47,6 @@
 
 ![](https://i.imgur.com/a7dNDZI.png)
 
-- transition : font-size 1s ease-out, background 
+- `transition : font-size 1s ease-out, background-color 2s ease-in 1s;`
+
+### transform
