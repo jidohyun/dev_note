@@ -43,7 +43,8 @@
     "//study",
     "/",
     "//study/study/자료구조,알고리즘",
-    "//study/study/js"
+    "//study/study/js",
+    "//study/study/css"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
