@@ -114,3 +114,39 @@
 
 ![](https://i.imgur.com/n3V3TuV.png)
 
+### transition 과 transform을 이용한 hover 효과
+
+프레임안에 있는 이미지 hover했을 때, 이미지가 1.2(120%)배 확대되며 0.7(70%) 불투명도가 적용된다.
+이미지는 0.3초동안 ease-in-out으로 확대된다. 이 때 frame에 overflow:hidden을 적용하지 않으면 이미지 크기가 1.2배 그대로 커지게 된다.
+
+```html
+<style>
+	.frame{
+            overflow: hidden;  //확대된 부분 숨기기
+            width: 300px;
+            height: 150px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        .frame>img{
+            display: block;
+            width: 100%;
+            transition:all 0.3s ease-in-out;  //0.3초동안 변화
+        }
+
+        .frame>img:hover{
+            transform:scale(1.2);  //1.2배 확대 
+            opacity: 0.7;  //불투명도 70% 적용 
+        }
+</style>
+
+<body>
+      <p class="frame">
+          <img src="./images/big1.jpg" alt="#">
+      </p>
+</body>
+```
+
+![](https://i.imgur.com/xA5o3Uf.png)
+
