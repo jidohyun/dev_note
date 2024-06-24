@@ -50,3 +50,10 @@
 - `transition : font-size 1s ease-out, background-color 2s ease-in 1s;`
 
 ### transform
+
+초기값에 영향을 미치지 않는 요소의 변형
+
+- 기본구성 `transform : scale(x,y) translate(x,y) rotate(deg) skew(xdeg,ydeg);`
+	- translate(x,y) : 원래 위치를 기준으로 내가 원하는 방향으로 위치시킨다.
+	- scale(x,y) : (숫자)의 배율만큼 사이즈를 조정한다. (1=기본값, 1.2=120%, 2=2배) 
+	  -
