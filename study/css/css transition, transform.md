@@ -43,4 +43,8 @@
 ```
 
 빨간색 박스에서 hover 시, 1초동안 파란박스로 색상이 자연스럽게 변화되어 간다.
-그리고 박스를 active(클릭) 하고있는 동안, 핑크박스의 색깔과 크기로 변화한다.
+그리고 박스를 active(클릭) 하고있는 동안, 핑크박스의 색깔과 크기로 변화한다. 
+
+![](https://i.imgur.com/a7dNDZI.png)
+
+- transition : font-size 1s ease-out, background 
