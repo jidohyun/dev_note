@@ -24,7 +24,7 @@
     p.box{
     	width:200px;
         height:200px;
-        background-color:red;
+        background-color: red;
         transition: all 1s ease-in;	//모든 속성을 1초동안 ease-in
     }
     
