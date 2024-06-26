@@ -58,3 +58,21 @@
 ### animation-name
 
 애니메이션을 적용하고 싶은 요소에 `animation` 속성의 첫 번째 값으로, 혹은 `animation-name` 이라는 속성으로 `@keyframes` 키워드를 사용해서 만든 애니메이션 이름을 작성해주면 된다.
+
+```css
+#logo {
+	animation : lotate;
+}
+```
+
+또는
+
+```css
+#logo {
+	animation-name : lotate;
+}
+```
+
+하지만 이 속성만으로는 애니메이션이 재생되지 않는다. 여러 속성들 중 최소한 `animation-name` 과 `animation-duration` 은 지정해야 애니메이션이 실행되기 때문이다.
+
+
