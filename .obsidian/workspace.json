@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/css/css 애니메이션.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/css/css 애니메이션.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/css/css 애니메이션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md"
+                "file": "study/css/css 애니메이션.md"
               }
             }
           }
@@ -244,11 +244,12 @@
   },
   "active": "d9808530c48eee6f",
   "lastOpenFiles": [
+    "study/css/css transition, transform.md",
+    "study/css/css 애니메이션.md",
+    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "Pasted image 20240625164028.png",
     "과학.md",
     "Excalidraw/Drawing 2024-06-25 15.13.19.excalidraw.md",
-    "study/css/css transition, transform.md",
-    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/js/Prototype.md",
     "study/js/var.md",
     "study/js/Virtual DOM.md",
@@ -288,7 +289,6 @@
     "study/js",
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
-    "img/Pasted image 20240514214138.png",
-    "img/Pasted image 20240510190151.png"
+    "img/Pasted image 20240514214138.png"
   ]
 }
