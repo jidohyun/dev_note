@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/css/css 애니메이션.md",
+                "file": "study/css/css transition, transform.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/css/css 애니메이션.md",
+                "file": "study/css/css transition, transform.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/css/css 애니메이션.md",
+                "file": "study/css/css transition, transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/css/css 애니메이션.md"
+                "file": "study/css/css transition, transform.md"
               }
             }
           }
@@ -244,11 +244,11 @@
   },
   "active": "d9808530c48eee6f",
   "lastOpenFiles": [
-    "study/css/css transition, transform.md",
     "study/css/css 애니메이션.md",
+    "study/css/css 미디어 쿼리.md",
+    "study/css/css transition, transform.md",
     "study/html/html.md",
     "과학.md",
-    "study/css/css 미디어 쿼리.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "Pasted image 20240625164028.png",
     "Excalidraw/Drawing 2024-06-25 15.13.19.excalidraw.md",
