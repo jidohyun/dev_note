@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "과학.md",
+                "file": "study/css/css 애니메이션.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "과학.md",
+                "file": "study/css/css 애니메이션.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "과학.md",
+                "file": "study/css/css 애니메이션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "과학.md"
+                "file": "study/css/css 애니메이션.md"
               }
             }
           }
@@ -244,12 +244,13 @@
   },
   "active": "d9808530c48eee6f",
   "lastOpenFiles": [
-    "study/css/css 애니메이션.md",
-    "study/css/css 미디어 쿼리.md",
     "study/css/css transition, transform.md",
+    "study/css/css 애니메이션.md",
+    "study/html/html.md",
+    "과학.md",
+    "study/css/css 미디어 쿼리.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "Pasted image 20240625164028.png",
-    "과학.md",
     "Excalidraw/Drawing 2024-06-25 15.13.19.excalidraw.md",
     "study/js/Prototype.md",
     "study/js/var.md",
@@ -270,7 +271,6 @@
     "study/react/13. .md",
     "study/react/12. 배열에 항목 추가하기.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
-    "study/자료구조/스택(stack).md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
