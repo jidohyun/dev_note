@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/css/css transition, transform.md",
+                "file": "study/react/13.  .md",
                 "mode": "source",
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/css/css transition, transform.md",
+                "file": "study/react/13.  .md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/css/css transition, transform.md",
+                "file": "study/react/13.  .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/css/css transition, transform.md"
+                "file": "study/react/13.  .md"
               }
             }
           }
@@ -237,14 +237,16 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "d9808530c48eee6f",
   "lastOpenFiles": [
+    "study/css/css transition, transform.md",
     "study/css/css 애니메이션.md",
     "study/css/css 미디어 쿼리.md",
-    "study/css/css transition, transform.md",
     "study/html/html.md",
     "과학.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
@@ -266,7 +268,7 @@
     "study/js/UI.md",
     "study/js/콜백함수.md",
     "study/react/react 1.md",
-    "study/react/13. .md",
+    "study/react/13.  .md",
     "study/react/12. 배열에 항목 추가하기.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
     "Pasted image 20240616172200.png",
