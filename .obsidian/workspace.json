@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "ca1700cb35df3973",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -242,14 +254,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d9808530c48eee6f",
+  "active": "ca1700cb35df3973",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
+    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/1. React의 기초.md",
     "study/react/12. 배열에 항목 추가하기.md",
-    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "study/css/css transition, transform.md",
     "study/css/css 애니메이션.md",
     "study/css/css 미디어 쿼리.md",
@@ -270,7 +283,6 @@
     "study/js/.md",
     "study/js/AJAX.md",
     "study/js/`.md",
-    "study/js/js.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
