@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
                 "mode": "source",
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md"
+                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md"
               }
             }
           }
@@ -256,8 +256,9 @@
   },
   "active": "ca1700cb35df3973",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
+    "study/웹/웹.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+    "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/10. 배열 렌더링하기.md",
@@ -282,7 +283,6 @@
     "study/js/async, await.md",
     "study/js/.md",
     "study/js/AJAX.md",
-    "study/js/`.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
