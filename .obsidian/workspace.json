@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "fb3b71c506576a6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -190,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/study.md",
+                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/study.md",
+                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/study.md"
+                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md"
               }
             }
           }
@@ -253,11 +266,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "e016acce17a0765c",
   "lastOpenFiles": [
-    "무제 폴더",
-    "study/무제 파일.md",
     "study/study.md",
+    "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
+    "jump up 병렬 프로그래밍과 최적화의 세계/.md",
+    "jump up 병렬 프로그래밍과 최적화의 세계",
+    "study/무제 파일.md",
     ".md",
     "study/react/react 깊게 이해하기.md",
     "study/react/React.md",
@@ -282,7 +297,6 @@
     "Excalidraw/Drawing 2024-06-25 15.13.19.excalidraw.md",
     "study/js/Prototype.md",
     "study/js/var.md",
-    "study/js/Virtual DOM.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
@@ -297,7 +311,6 @@
     "img/Pasted image 20240520185736.png",
     "study/자료구조",
     "study/네트워크",
-    "study/react",
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
     "img/Pasted image 20240514214138.png"
