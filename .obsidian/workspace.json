@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "file": "study/study.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,8 +170,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "file": "study/study.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+                "file": "study/study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md"
+                "file": "study/study.md"
               }
             }
           }
@@ -254,15 +253,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "ca1700cb35df3973",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "무제 폴더",
+    "study/무제 파일.md",
+    "study/study.md",
+    ".md",
+    "study/react/react 깊게 이해하기.md",
+    "study/react/React.md",
+    "study/react/react 1.md",
+    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
+    "study/react/10. 배열 렌더링하기.md",
+    "study/react/무제 파일 1.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/웹/웹.md",
-    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
-    "study/react/10. 배열 렌더링하기.md",
     "study/react/1. React의 기초.md",
     "study/react/12. 배열에 항목 추가하기.md",
     "study/css/css transition, transform.md",
@@ -275,14 +283,6 @@
     "study/js/Prototype.md",
     "study/js/var.md",
     "study/js/Virtual DOM.md",
-    "study/js/DOM.md",
-    "study/독서/독서.md",
-    "study/react/무제 파일.md",
-    "study/react/4. props.md",
-    "study/js/Promise.md",
-    "study/js/async, await.md",
-    "study/js/.md",
-    "study/js/AJAX.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
@@ -298,7 +298,6 @@
     "study/자료구조",
     "study/네트워크",
     "study/react",
-    "study/js",
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
     "img/Pasted image 20240514214138.png"
