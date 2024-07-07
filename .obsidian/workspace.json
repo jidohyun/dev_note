@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md"
+                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md"
               }
             }
           }
@@ -256,6 +256,7 @@
   },
   "active": "ca1700cb35df3973",
   "lastOpenFiles": [
+    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/웹/웹.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
@@ -269,7 +270,6 @@
     "study/css/css 미디어 쿼리.md",
     "study/html/html.md",
     "과학.md",
-    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "Pasted image 20240625164028.png",
     "Excalidraw/Drawing 2024-06-25 15.13.19.excalidraw.md",
     "study/js/Prototype.md",
