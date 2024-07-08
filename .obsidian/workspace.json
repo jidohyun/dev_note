@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
+                "file": "study/react/React-Router-Dom.md",
                 "mode": "source",
                 "source": false
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
+                "file": "study/react/React-Router-Dom.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
+                "file": "study/react/React-Router-Dom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md"
+                "file": "study/react/React-Router-Dom.md"
               }
             }
           }
@@ -268,8 +268,12 @@
   },
   "active": "fb3b71c506576a6c",
   "lastOpenFiles": [
-    "study/study.md",
+    "study/react/2. React 컴포넌트.md",
+    "study/react/React-Router-Dom.md",
+    "study/react/.md",
     "jump up 병렬 프로그래밍과 최적화의 세계/1차시..md",
+    "jump up 병렬 프로그래밍과 최적화의 세계/jump up 병렬 프로그래밍과 최적화의 세계.md",
+    "study/study.md",
     "jump up 병렬 프로그래밍과 최적화의 세계/.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     "study/무제 파일.md",
@@ -292,11 +296,7 @@
     "study/css/css 애니메이션.md",
     "study/css/css 미디어 쿼리.md",
     "study/html/html.md",
-    "과학.md",
     "Pasted image 20240625164028.png",
-    "Excalidraw/Drawing 2024-06-25 15.13.19.excalidraw.md",
-    "study/js/Prototype.md",
-    "study/js/var.md",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
     "study/독서",
