@@ -119,9 +119,11 @@
             "id": "c5b1a56e3bb210a8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "study/네트워크/VPN.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -213,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/네트워크/네트워크.md",
+                "file": "study/네트워크/VPN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/네트워크/네트워크.md",
+                "file": "study/네트워크/VPN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/네트워크/네트워크.md"
+                "file": "study/네트워크/VPN.md"
               }
             }
           }
@@ -278,6 +280,20 @@
   },
   "active": "c5b1a56e3bb210a8",
   "lastOpenFiles": [
+    "study/네트워크/WAN(광역 네트워크).md",
+    "study/네트워크/MAN(대도시 지역 네트워크).md",
+    "study/네트워크/TLS=SSL.md",
+    "study/네트워크/LAN(근거리 통신망).md",
+    "study/네트워크/라우팅.md",
+    "study/네트워크/보안 엑세스 서비스 에지(SASE).md",
+    "study/네트워크/분산 서비스 거부(DDoS).md",
+    "study/네트워크/서브넷.md",
+    "study/네트워크/서비스형 네트워크(NaaS).md",
+    "study/네트워크/인터넷.md",
+    "study/네트워크/스위치, 라우터.md",
+    "study/네트워크/자율 시스템(AS).md",
+    "study/네트워크/임대 회선.md",
+    "study/네트워크/네트워크 스위치.md",
     "study/react/React-Router-Dom.md",
     "study/react/2. React 컴포넌트.md",
     "study/react/.md",
@@ -292,20 +308,6 @@
     "study/react/React.md",
     "study/react/react 1.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
-    "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
-    "study/react/10. 배열 렌더링하기.md",
-    "study/react/무제 파일 1.md",
-    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
-    "study/웹/웹.md",
-    "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "study/react/8. 여러 개의 input 상태 관리하기.md",
-    "study/react/1. React의 기초.md",
-    "study/react/12. 배열에 항목 추가하기.md",
-    "study/css/css transition, transform.md",
-    "study/css/css 애니메이션.md",
-    "study/css/css 미디어 쿼리.md",
-    "study/html/html.md",
     "Pasted image 20240625164028.png",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
