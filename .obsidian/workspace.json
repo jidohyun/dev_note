@@ -116,6 +116,16 @@
             }
           },
           {
+            "id": "c5b1a56e3bb210a8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -128,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -266,7 +276,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "fb3b71c506576a6c",
+  "active": "c5b1a56e3bb210a8",
   "lastOpenFiles": [
     "study/react/React-Router-Dom.md",
     "study/react/2. React 컴포넌트.md",
