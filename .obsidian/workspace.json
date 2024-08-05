@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/네트워크/VPN.md",
+                "file": "study/js/async, await.md",
                 "mode": "source",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/네트워크/VPN.md",
+                "file": "study/js/async, await.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/네트워크/VPN.md",
+                "file": "study/js/async, await.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/네트워크/VPN.md"
+                "file": "study/js/async, await.md"
               }
             }
           }
@@ -280,6 +280,11 @@
   },
   "active": "c5b1a56e3bb210a8",
   "lastOpenFiles": [
+    "study/js/Promise.md",
+    "study/js/Prototype.md",
+    "study/js/DOM.md",
+    "study/js/AJAX.md",
+    "study/네트워크/VPN.md",
     "study/네트워크/WAN(광역 네트워크).md",
     "study/네트워크/MAN(대도시 지역 네트워크).md",
     "study/네트워크/TLS=SSL.md",
@@ -302,12 +307,7 @@
     "study/study.md",
     "jump up 병렬 프로그래밍과 최적화의 세계/.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
-    "study/무제 파일.md",
     ".md",
-    "study/react/react 깊게 이해하기.md",
-    "study/react/React.md",
-    "study/react/react 1.md",
-    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "Pasted image 20240625164028.png",
     "Pasted image 20240616172200.png",
     "해시 테이블(Hash tables ",
