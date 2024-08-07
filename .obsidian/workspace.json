@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/DOM.md",
+                "file": "study/자료구조/스택(stack).md",
                 "mode": "source",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/DOM.md",
+                "file": "study/자료구조/스택(stack).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/DOM.md",
+                "file": "study/자료구조/스택(stack).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/DOM.md"
+                "file": "study/자료구조/스택(stack).md"
               }
             }
           }
@@ -280,6 +280,13 @@
   },
   "active": "c5b1a56e3bb210a8",
   "lastOpenFiles": [
+    "study/자료구조/시간복잡도.md",
+    "study/자료구조/연결 리스트 (linked list).md",
+    "study/자료구조/자료구조의 기초.md",
+    "study/자료구조/큐(queue).md",
+    "study/자료구조/트리(tree).md",
+    "study/자료구조/자료구조.md",
+    "study/js/DOM.md",
     "study/js/Virtual DOM.md",
     "study/js/async, await.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
@@ -288,7 +295,6 @@
     "study/react/babel.md",
     "study/js/Promise.md",
     "study/js/Prototype.md",
-    "study/js/DOM.md",
     "study/js/AJAX.md",
     "study/네트워크/VPN.md",
     "study/네트워크/WAN(광역 네트워크).md",
@@ -300,12 +306,6 @@
     "study/네트워크/분산 서비스 거부(DDoS).md",
     "study/네트워크/서브넷.md",
     "study/네트워크/서비스형 네트워크(NaaS).md",
-    "study/네트워크/인터넷.md",
-    "study/네트워크/스위치, 라우터.md",
-    "study/네트워크/자율 시스템(AS).md",
-    "study/네트워크/임대 회선.md",
-    "study/네트워크/네트워크 스위치.md",
-    "study/react/2. React 컴포넌트.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
