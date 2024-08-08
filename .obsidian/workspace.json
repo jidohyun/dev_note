@@ -140,6 +140,16 @@
             }
           },
           {
+            "id": "eb251a9ac5d57c23",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -152,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -226,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/Single Linked List.md",
+                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/Single Linked List.md",
+                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/Single Linked List.md"
+                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md"
               }
             }
           }
@@ -289,10 +299,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "9f506973139c3de1",
+  "active": "eb251a9ac5d57c23",
   "lastOpenFiles": [
-    "study/자료구조/스택(stack).md",
     "study/자료구조/Single Linked List.md",
+    "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
+    "Pasted image 20240808182717.png",
+    "study/자료구조/스택(stack).md",
     "study/알고리즘/선택정렬 알고리즘.md",
     "study/알고리즘/삽입정렬 알고리즘.md",
     "study/알고리즘/버블정렬 알고리즘.md",
@@ -317,7 +329,6 @@
     "study/react/React.md",
     "study/react/React-Router-Dom.md",
     "study/react/babel.md",
-    "study/js/Promise.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
@@ -335,7 +346,6 @@
     "img/Pasted image 20240520185736.png",
     "study/자료구조",
     "img/Pasted image 20240514215047.png",
-    "img/Pasted image 20240514214144.png",
-    "img/Pasted image 20240514214138.png"
+    "img/Pasted image 20240514214144.png"
   ]
 }
