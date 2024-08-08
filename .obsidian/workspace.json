@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/알고리즘/무제 파일.md",
+                "file": "study/알고리즘/삽입정렬 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/알고리즘/무제 파일.md",
+                "file": "study/알고리즘/삽입정렬 알고리즘.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/알고리즘/무제 파일.md",
+                "file": "study/알고리즘/삽입정렬 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/알고리즘/무제 파일.md"
+                "file": "study/알고리즘/삽입정렬 알고리즘.md"
               }
             }
           }
@@ -279,9 +279,11 @@
   },
   "active": "c5b1a56e3bb210a8",
   "lastOpenFiles": [
+    "study/알고리즘/선택정렬 알고리즘.md",
+    "study/알고리즘/삽입정렬 알고리즘.md",
+    "study/알고리즘/.md",
     "study/알고리즘/버블정렬 알고리즘.md",
     "study/알고리즘/알고리즘.md",
-    "study/알고리즘/무제 파일.md",
     "무제 파일.md",
     "study/자료구조/자료구조.md",
     "study/알고리즘",
@@ -304,8 +306,6 @@
     "study/react/babel.md",
     "study/js/Promise.md",
     "study/js/Prototype.md",
-    "study/js/AJAX.md",
-    "study/네트워크/VPN.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
