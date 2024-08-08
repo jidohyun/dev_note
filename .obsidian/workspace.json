@@ -143,9 +143,11 @@
             "id": "eb251a9ac5d57c23",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md"
+                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -236,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
+                "file": "study/자료구조/연결 리스트 (linked list).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
+                "file": "study/자료구조/연결 리스트 (linked list).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md"
+                "file": "study/자료구조/연결 리스트 (linked list).md"
               }
             }
           }
@@ -301,8 +303,9 @@
   },
   "active": "eb251a9ac5d57c23",
   "lastOpenFiles": [
-    "study/자료구조/Single Linked List.md",
+    "스크린샷 2024-08-08 오후 6.37.28.png",
     "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
+    "study/자료구조/Single Linked List.md",
     "Pasted image 20240808182717.png",
     "study/자료구조/스택(stack).md",
     "study/알고리즘/선택정렬 알고리즘.md",
@@ -328,7 +331,6 @@
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/React.md",
     "study/react/React-Router-Dom.md",
-    "study/react/babel.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
