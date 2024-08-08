@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/알고리즘/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,8 +194,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/알고리즘/무제 파일.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/스택(stack).md",
+                "file": "study/알고리즘/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/스택(stack).md"
+                "file": "study/알고리즘/무제 파일.md"
               }
             }
           }
@@ -280,15 +279,22 @@
   },
   "active": "c5b1a56e3bb210a8",
   "lastOpenFiles": [
+    "study/알고리즘/버블정렬 알고리즘.md",
+    "study/알고리즘/알고리즘.md",
+    "study/알고리즘/무제 파일.md",
+    "무제 파일.md",
+    "study/자료구조/자료구조.md",
+    "study/알고리즘",
+    "study/웹/웹.md",
+    "study/자료구조/무제 파일.md",
+    "study/자료구조/스택(stack).md",
     "study/자료구조/배열(array).md",
     "study/자료구조/그래프 (graph).md",
-    "study/자료구조/스택(stack).md",
     "study/자료구조/시간복잡도.md",
     "study/자료구조/연결 리스트 (linked list).md",
     "study/자료구조/자료구조의 기초.md",
     "study/자료구조/큐(queue).md",
     "study/자료구조/트리(tree).md",
-    "study/자료구조/자료구조.md",
     "study/js/DOM.md",
     "study/js/Virtual DOM.md",
     "study/js/async, await.md",
@@ -300,12 +306,6 @@
     "study/js/Prototype.md",
     "study/js/AJAX.md",
     "study/네트워크/VPN.md",
-    "study/네트워크/WAN(광역 네트워크).md",
-    "study/네트워크/MAN(대도시 지역 네트워크).md",
-    "study/네트워크/TLS=SSL.md",
-    "study/네트워크/LAN(근거리 통신망).md",
-    "study/네트워크/라우팅.md",
-    "study/네트워크/보안 엑세스 서비스 에지(SASE).md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
@@ -322,7 +322,6 @@
     "img/Pasted image 20240520185721.png",
     "img/Pasted image 20240520185736.png",
     "study/자료구조",
-    "study/네트워크",
     "img/Pasted image 20240514215047.png",
     "img/Pasted image 20240514214144.png",
     "img/Pasted image 20240514214138.png"
