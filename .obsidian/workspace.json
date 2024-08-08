@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/자료구조/배열(array).md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/자료구조/배열(array).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/자료구조/배열(array).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md"
+                "file": "study/자료구조/배열(array).md"
               }
             }
           }
@@ -301,36 +301,37 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "eb251a9ac5d57c23",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "study/자료구조/스택(stack).md",
+    "study/자료구조/시간복잡도.md",
+    "study/자료구조/연결 리스트 (linked list).md",
+    "study/자료구조/자료구조.md",
+    "study/자료구조/자료구조의 기초.md",
+    "study/자료구조/큐(queue).md",
+    "study/네트워크/LAN(근거리 통신망).md",
+    "study/네트워크/MAN(대도시 지역 네트워크).md",
+    "study/네트워크/TLS=SSL.md",
+    "study/네트워크/VPN.md",
     "스크린샷 2024-08-08 오후 6.37.28.png",
     "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
     "study/자료구조/Single Linked List.md",
     "Pasted image 20240808182717.png",
-    "study/자료구조/스택(stack).md",
     "study/알고리즘/선택정렬 알고리즘.md",
     "study/알고리즘/삽입정렬 알고리즘.md",
     "study/알고리즘/버블정렬 알고리즘.md",
     "study/알고리즘/.md",
     "study/알고리즘/알고리즘.md",
     "무제 파일.md",
-    "study/자료구조/자료구조.md",
     "study/알고리즘",
     "study/웹/웹.md",
     "study/자료구조/무제 파일.md",
     "study/자료구조/배열(array).md",
     "study/자료구조/그래프 (graph).md",
-    "study/자료구조/시간복잡도.md",
-    "study/자료구조/연결 리스트 (linked list).md",
-    "study/자료구조/자료구조의 기초.md",
-    "study/자료구조/큐(queue).md",
     "study/자료구조/트리(tree).md",
     "study/js/DOM.md",
     "study/js/Virtual DOM.md",
     "study/js/async, await.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "study/react/React.md",
-    "study/react/React-Router-Dom.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
@@ -347,7 +348,6 @@
     "img/Pasted image 20240520185721.png",
     "img/Pasted image 20240520185736.png",
     "study/자료구조",
-    "img/Pasted image 20240514215047.png",
-    "img/Pasted image 20240514214144.png"
+    "img/Pasted image 20240514215047.png"
   ]
 }
