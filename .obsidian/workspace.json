@@ -121,7 +121,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/알고리즘/삽입정렬 알고리즘.md",
+                "file": "study/알고리즘/선택정렬 알고리즘.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f506973139c3de1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/자료구조/Single Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -214,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/알고리즘/삽입정렬 알고리즘.md",
+                "file": "study/자료구조/Single Linked List.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/알고리즘/삽입정렬 알고리즘.md",
+                "file": "study/자료구조/Single Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/알고리즘/삽입정렬 알고리즘.md"
+                "file": "study/자료구조/Single Linked List.md"
               }
             }
           }
@@ -277,19 +289,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c5b1a56e3bb210a8",
+  "active": "9f506973139c3de1",
   "lastOpenFiles": [
+    "study/자료구조/스택(stack).md",
+    "study/자료구조/Single Linked List.md",
     "study/알고리즘/선택정렬 알고리즘.md",
     "study/알고리즘/삽입정렬 알고리즘.md",
-    "study/알고리즘/.md",
     "study/알고리즘/버블정렬 알고리즘.md",
+    "study/알고리즘/.md",
     "study/알고리즘/알고리즘.md",
     "무제 파일.md",
     "study/자료구조/자료구조.md",
     "study/알고리즘",
     "study/웹/웹.md",
     "study/자료구조/무제 파일.md",
-    "study/자료구조/스택(stack).md",
     "study/자료구조/배열(array).md",
     "study/자료구조/그래프 (graph).md",
     "study/자료구조/시간복잡도.md",
@@ -305,7 +318,6 @@
     "study/react/React-Router-Dom.md",
     "study/react/babel.md",
     "study/js/Promise.md",
-    "study/js/Prototype.md",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "Pasted image 20240625164028.png",
