@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/네트워크/네트워크.md",
+                "file": "study/CS/네트워크/네트워크.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/알고리즘/선택정렬 알고리즘.md",
+                "file": "study/CS/알고리즘/선택정렬 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/Single Linked List.md",
+                "file": "study/CS/자료구조/Single Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/CS/자료구조/연결 리스트 (linked list).md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/웹/웹 브라우저의 역사.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f65847cad975f078",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -250,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/자료구조/연결 리스트 (linked list).md"
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
               }
             }
           }
@@ -313,10 +325,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "01bb2daea67aa441",
+  "active": "f65847cad975f078",
   "lastOpenFiles": [
+    "study/CS/자료구조/그래프 (graph).md",
+    "study/CS/Deep/문자를 다루는 인코딩.md",
+    "study/CS/Deep",
+    "study/웹/유니코드.md",
+    "study/CS",
+    "study/웹/웹 브라우저의 역사.md",
+    "study/웹/웹.md",
+    "study/CS/자료구조/연결 리스트 (linked list).md",
     "Excalidraw/Drawing 2024-08-08 21.55.54.excalidraw.md",
-    "study/자료구조/연결 리스트 (linked list).md",
     "Excalidraw/Drawing 2024-06-16 19.07.10.excalidraw.md",
     "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
     "Excalidraw/Drawing 2024-06-11 16.32.55.excalidraw.md",
@@ -331,35 +350,28 @@
     "img/Pasted image 20240409171806.png",
     "img/Pasted image 20240409171733.png",
     "study/css/css 미디어 쿼리.md",
-    "study/자료구조/배열(array).md",
-    "study/자료구조/스택(stack).md",
-    "study/자료구조/시간복잡도.md",
-    "study/자료구조/자료구조.md",
-    "study/자료구조/자료구조의 기초.md",
-    "study/자료구조/큐(queue).md",
-    "study/네트워크/LAN(근거리 통신망).md",
-    "study/네트워크/MAN(대도시 지역 네트워크).md",
-    "study/네트워크/TLS=SSL.md",
-    "study/네트워크/VPN.md",
+    "study/CS/자료구조/배열(array).md",
+    "study/CS/자료구조/스택(stack).md",
+    "study/CS/자료구조/시간복잡도.md",
+    "study/CS/자료구조/자료구조.md",
+    "study/CS/자료구조/자료구조의 기초.md",
+    "study/CS/자료구조/큐(queue).md",
+    "study/CS/네트워크/LAN(근거리 통신망).md",
+    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
+    "study/CS/네트워크/TLS=SSL.md",
+    "study/CS/네트워크/VPN.md",
     "스크린샷 2024-08-08 오후 6.37.28.png",
     "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
-    "study/자료구조/Single Linked List.md",
-    "study/알고리즘/선택정렬 알고리즘.md",
-    "study/알고리즘/삽입정렬 알고리즘.md",
-    "study/알고리즘/버블정렬 알고리즘.md",
-    "study/알고리즘/.md",
-    "study/알고리즘/알고리즘.md",
-    "무제 파일.md",
-    "study/알고리즘",
-    "study/웹/웹.md",
+    "study/CS/자료구조/Single Linked List.md",
+    "study/CS/알고리즘/선택정렬 알고리즘.md",
+    "study/CS/알고리즘/삽입정렬 알고리즘.md",
+    "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "해시 테이블(Hash tables ",
     "study/독서",
     "study/웹",
     "Excalidraw",
-    "study/html",
-    "Tags",
-    "study/자료구조"
+    "study/html"
   ]
 }
