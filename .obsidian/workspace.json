@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/Virtual DOM.md",
+                "file": "study/js/async, await.md",
                 "mode": "source",
                 "source": false
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/Virtual DOM.md",
+                "file": "study/js/async, await.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/Virtual DOM.md",
+                "file": "study/js/async, await.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/Virtual DOM.md"
+                "file": "study/js/async, await.md"
               }
             }
           }
@@ -339,6 +339,7 @@
   },
   "active": "522442c9a3f23b01",
   "lastOpenFiles": [
+    "study/js/Virtual DOM.md",
     "study/js/배열 내장함수.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
@@ -376,7 +377,6 @@
     "study/CS/자료구조/배열(array).md",
     "study/CS/자료구조/시간복잡도.md",
     "study/CS/자료구조/자료구조.md",
-    "study/CS/자료구조/자료구조의 기초.md",
     "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
