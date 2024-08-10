@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/CS/네트워크/TLS=SSL.md",
                 "mode": "source",
                 "source": false
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/CS/네트워크/TLS=SSL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/CS/네트워크/TLS=SSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
+                "file": "study/CS/네트워크/TLS=SSL.md"
               }
             }
           }
@@ -339,6 +339,7 @@
   },
   "active": "522442c9a3f23b01",
   "lastOpenFiles": [
+    "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/js/async, await.md",
     "study/js/Virtual DOM.md",
     "study/js/배열 내장함수.md",
@@ -362,7 +363,6 @@
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "study/CS/자료구조/스택(stack).md",
     "study/CS/자료구조/Single Linked List.md",
-    "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/Deep",
     "study/웹/유니코드.md",
     "study/CS",
