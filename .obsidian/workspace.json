@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/async, await.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "mode": "source",
                 "source": false
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/async, await.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/async, await.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/async, await.md"
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
               }
             }
           }
@@ -339,6 +339,7 @@
   },
   "active": "522442c9a3f23b01",
   "lastOpenFiles": [
+    "study/js/async, await.md",
     "study/js/Virtual DOM.md",
     "study/js/배열 내장함수.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
@@ -376,7 +377,6 @@
     "study/css/css 미디어 쿼리.md",
     "study/CS/자료구조/배열(array).md",
     "study/CS/자료구조/시간복잡도.md",
-    "study/CS/자료구조/자료구조.md",
     "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
