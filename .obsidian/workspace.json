@@ -188,6 +188,18 @@
             }
           },
           {
+            "id": "840d4c853c098409",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/CS/Deep/base 64 인코딩.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -200,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/CS/Deep/base 64 인코딩.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/CS/Deep/base 64 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
+                "file": "study/CS/Deep/base 64 인코딩.md"
               }
             }
           }
@@ -337,11 +349,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "522442c9a3f23b01",
+  "active": "840d4c853c098409",
   "lastOpenFiles": [
+    "study/CS/Deep/문자를 다루는 인코딩.md",
+    "study/CS/자료구조/트리(tree).md",
+    "study/CS/Deep/base 64 인코딩.md",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "study/CS/네트워크/TLS=SSL.md",
-    "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/js/async, await.md",
     "study/js/Virtual DOM.md",
     "study/js/배열 내장함수.md",
@@ -375,8 +389,6 @@
     "img/Pasted image 20240412193449.png",
     "img/Pasted image 20240412192939.png",
     "img/Pasted image 20240412192755.png",
-    "img/Pasted image 20240412192134.png",
-    "study/css/css 미디어 쿼리.md",
     "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
