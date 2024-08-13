@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/웹/프론트엔드 아키텍쳐.md",
+                "file": "study/js/배열 내장함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -298,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/웹/프론트엔드 아키텍쳐.md",
+                "file": "study/js/배열 내장함수.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/웹/프론트엔드 아키텍쳐.md",
+                "file": "study/js/배열 내장함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/웹/프론트엔드 아키텍쳐.md"
+                "file": "study/js/배열 내장함수.md"
               }
             }
           }
@@ -363,12 +363,12 @@
   },
   "active": "bc1561e70346c180",
   "lastOpenFiles": [
+    "study/웹/프론트엔드 아키텍쳐.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
     "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/CS/Deep/base 64 인코딩.md",
-    "study/웹/프론트엔드 아키텍쳐.md",
     "study/웹/웹 브라우저의 역사.md",
     "study/웹/웹.md",
     "study/CS/자료구조/트리(tree).md",
