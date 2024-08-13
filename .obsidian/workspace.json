@@ -193,7 +193,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/Deep/base 64 인코딩.md",
+                "file": "study/웹/웹 브라우저의 역사.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc1561e70346c180",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/웹/프론트엔드 아키텍쳐.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -286,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/Deep/base 64 인코딩.md",
+                "file": "study/웹/프론트엔드 아키텍쳐.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/Deep/base 64 인코딩.md",
+                "file": "study/웹/프론트엔드 아키텍쳐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/Deep/base 64 인코딩.md"
+                "file": "study/웹/프론트엔드 아키텍쳐.md"
               }
             }
           }
@@ -349,21 +361,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "840d4c853c098409",
+  "active": "bc1561e70346c180",
   "lastOpenFiles": [
     "study/CS/Deep/문자를 다루는 인코딩.md",
+    "study/CS/알고리즘/버블정렬 알고리즘.md",
+    "study/CS/알고리즘/삽입정렬 알고리즘.md",
+    "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/CS/Deep/base 64 인코딩.md",
+    "study/웹/프론트엔드 아키텍쳐.md",
+    "study/웹/웹 브라우저의 역사.md",
+    "study/웹/웹.md",
     "study/CS/자료구조/트리(tree).md",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "study/CS/네트워크/TLS=SSL.md",
     "study/js/async, await.md",
     "study/js/Virtual DOM.md",
     "study/js/배열 내장함수.md",
-    "study/CS/알고리즘/버블정렬 알고리즘.md",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
     "Pasted image 20240809181448.png",
-    "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/CS/자료구조/그래프 (graph).md",
     "Pasted image 20240809181323.png",
     "study/CS/자료구조/단일 연결 리스트 (Single linked list).md",
@@ -382,9 +397,6 @@
     "study/CS/Deep",
     "study/웹/유니코드.md",
     "study/CS",
-    "study/웹/웹 브라우저의 역사.md",
-    "study/웹/웹.md",
-    "Excalidraw/Drawing 2024-06-16 18.54.43.excalidraw.md",
     "img/Pasted image 20240409171144.png",
     "img/Pasted image 20240412193449.png",
     "img/Pasted image 20240412192939.png",
