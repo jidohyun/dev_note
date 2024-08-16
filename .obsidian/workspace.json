@@ -212,6 +212,16 @@
             }
           },
           {
+            "id": "f3b94d14c05b9bd5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -224,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -298,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/Prototype.md",
+                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/Prototype.md",
+                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/Prototype.md"
+                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md"
               }
             }
           }
@@ -361,8 +371,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "f3b94d14c05b9bd5",
   "lastOpenFiles": [
+    "study/js/Prototype.md",
+    "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
     "study/js/async, await.md",
     "study/js/Promise.md",
     "study/js/배열 내장함수.md",
@@ -393,8 +405,6 @@
     "Excalidraw/Drawing 2024-06-16 19.07.10.excalidraw.md",
     "Excalidraw/Drawing 2024-06-11 16.32.55.excalidraw.md",
     "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
-    "study/CS/자료구조/스택(stack).md",
-    "study/CS/자료구조/Single Linked List.md",
     "study/CS/Deep",
     "study/CS",
     "img/Pasted image 20240409171144.png",
