@@ -215,9 +215,11 @@
             "id": "f3b94d14c05b9bd5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md"
+                "file": "study/react/7. input 상태 관리하기.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -308,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
+                "file": "study/react/7. input 상태 관리하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
+                "file": "study/react/7. input 상태 관리하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md"
+                "file": "study/react/7. input 상태 관리하기.md"
               }
             }
           }
@@ -373,8 +375,10 @@
   },
   "active": "f3b94d14c05b9bd5",
   "lastOpenFiles": [
-    "study/js/Prototype.md",
+    "study/react/6. useState.md",
+    "study/react/5. 조건부 렌더링.md",
     "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
+    "study/js/Prototype.md",
     "study/js/async, await.md",
     "study/js/Promise.md",
     "study/js/배열 내장함수.md",
@@ -403,8 +407,6 @@
     "Excalidraw/Drawing 2024-08-09 07.21.36.excalidraw.md",
     "Excalidraw/Drawing 2024-06-16 20.42.23.excalidraw.md",
     "Excalidraw/Drawing 2024-06-16 19.07.10.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-11 16.32.55.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-07 16.48.12.excalidraw.md",
     "study/CS/Deep",
     "study/CS",
     "img/Pasted image 20240409171144.png",
