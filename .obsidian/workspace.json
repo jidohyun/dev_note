@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/7. input 상태 관리하기.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "mode": "source",
                 "source": false
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/7. input 상태 관리하기.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/7. input 상태 관리하기.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/7. input 상태 관리하기.md"
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
               }
             }
           }
@@ -375,38 +375,38 @@
   },
   "active": "f3b94d14c05b9bd5",
   "lastOpenFiles": [
-    "study/react/6. useState.md",
-    "study/react/5. 조건부 렌더링.md",
-    "Excalidraw/Drawing 2024-08-16 21.41.11.excalidraw.md",
-    "study/js/Prototype.md",
-    "study/js/async, await.md",
-    "study/js/Promise.md",
-    "study/js/배열 내장함수.md",
-    "study/웹/웹 브라우저의 역사.md",
-    "study/CS/자료구조/단일 연결 리스트 (Single linked list).md",
     "study/웹/프론트엔드 아키텍쳐.md",
+    "study/CS/자료구조/해시 테이블.md",
+    "study/CS/자료구조/자료구조.md",
+    "study/CS/자료구조/스택(stack).md",
+    "study/CS/자료구조/배열(array).md",
+    "study/CS/자료구조/단일 연결 리스트 (Single linked list).md",
+    "study/CS/자료구조/큐(queue).md",
+    "study/CS/자료구조/자료구조의 기초.md",
+    "study/CS/자료구조/시간복잡도.md",
+    "study/CS/네트워크/TLS=SSL.md",
+    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
+    "study/CS/네트워크/LAN(근거리 통신망).md",
+    "study/CS/네트워크/클라우드 기반.md",
+    "study/CS/네트워크/자율 시스템(AS).md",
+    "study/CS/네트워크/임대 회선.md",
+    "study/CS/네트워크/인터넷.md",
+    "study/CS/네트워크/스위치, 라우터.md",
+    "study/CS/네트워크/분산 서비스 거부(DDoS).md",
+    "study/CS/네트워크/서브넷.md",
+    "study/CS/네트워크/서비스형 네트워크(NaaS).md",
+    "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
+    "study/CS/네트워크/라우팅.md",
+    "study/CS/네트워크/네트워크 스위치.md",
+    "study/CS/네트워크/네트워크.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
-    "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/알고리즘/선택정렬 알고리즘.md",
-    "study/CS/Deep/base 64 인코딩.md",
-    "study/웹/웹.md",
-    "study/CS/자료구조/트리(tree).md",
     "스크린샷 2024-08-11 오후 3.50.00.png",
-    "study/CS/네트워크/TLS=SSL.md",
-    "study/js/Virtual DOM.md",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
     "Pasted image 20240809181448.png",
-    "study/CS/자료구조/그래프 (graph).md",
     "Pasted image 20240809181323.png",
     "스크린샷 2024-08-09 오전 7.26.01.png",
-    "Excalidraw/Drawing 2024-08-08 18.27.55.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-04 22.52.26.excalidraw.md",
     "스크린샷 2024-08-09 오전 7.23.23.png",
-    "Excalidraw/Drawing 2024-08-08 21.55.54.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-09 07.21.36.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-16 20.42.23.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-16 19.07.10.excalidraw.md",
     "study/CS/Deep",
     "study/CS",
     "img/Pasted image 20240409171144.png",
