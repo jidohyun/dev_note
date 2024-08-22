@@ -248,6 +248,28 @@
             }
           },
           {
+            "id": "8393fdca567da671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/CS/자료구조/자료구조의 기초.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d95d9da1211e1885",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -260,7 +282,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -334,7 +356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +373,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,7 +396,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/typeScript/타입스크립트.md"
+                "file": "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md"
               }
             }
           }
@@ -397,10 +419,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "74ae298b0f7ac4c6",
+  "active": "d95d9da1211e1885",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-21 08.35.16.excalidraw.md",
+    "study/CS/자료구조/자료구조의 기초.md",
+    "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-22 13.59.16.excalidraw.md",
     "study/typeScript/타입스크립트.md",
+    "Excalidraw/Drawing 2024-08-21 08.35.16.excalidraw.md",
     "study/study.md",
     "study/typeScript",
     "무제 파일 1.md",
@@ -412,7 +437,6 @@
     "study/CS/자료구조/배열(array).md",
     "study/CS/자료구조/단일 연결 리스트 (Single linked list).md",
     "study/CS/자료구조/큐(queue).md",
-    "study/CS/자료구조/자료구조의 기초.md",
     "study/CS/자료구조/시간복잡도.md",
     "study/CS/네트워크/TLS=SSL.md",
     "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
@@ -424,8 +448,6 @@
     "study/CS/네트워크/스위치, 라우터.md",
     "study/CS/네트워크/분산 서비스 거부(DDoS).md",
     "study/CS/네트워크/서브넷.md",
-    "study/CS/네트워크/서비스형 네트워크(NaaS).md",
-    "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
     "Pasted image 20240809181448.png",
