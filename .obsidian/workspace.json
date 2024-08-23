@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/6. useState.md",
+                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/6. useState.md",
+                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/6. useState.md",
+                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/6. useState.md"
+                "file": "study/CS/알고리즘/버블정렬 알고리즘.md"
               }
             }
           }
@@ -375,9 +375,9 @@
   },
   "active": "d95d9da1211e1885",
   "lastOpenFiles": [
+    "study/react/6. useState.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/7. input 상태 관리하기.md",
-    "study/react/6. useState.md",
     "study/react/5. 조건부 렌더링.md",
     "study/react/4. props.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
