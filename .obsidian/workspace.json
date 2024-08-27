@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
+                "file": "study/react/10. 배열 렌더링하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
+                "file": "study/react/10. 배열 렌더링하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
+                "file": "study/react/10. 배열 렌더링하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md"
+                "file": "study/react/10. 배열 렌더링하기.md"
               }
             }
           }
@@ -375,16 +375,25 @@
   },
   "active": "d95d9da1211e1885",
   "lastOpenFiles": [
+    "study/react/4. props.md",
+    "study/CS/알고리즘/삽입정렬 알고리즘.md",
+    "study/CS/알고리즘/버블정렬 알고리즘.md",
+    "study/CS/네트워크/서비스형 네트워크(NaaS).md",
+    "study/CS/네트워크/임대 회선.md",
+    "study/CS/네트워크/LAN(근거리 통신망).md",
+    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
+    "study/CS/네트워크/DNS 프로토콜 TCP.md",
+    "study/CS/네트워크/자율 시스템(AS).md",
+    "study/CS/네트워크/스위치, 라우터.md",
+    "study/CS/네트워크/인터넷.md",
+    "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/12. 배열에 항목 추가하기.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
-    "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/react/6. useState.md",
     "study/react/7. input 상태 관리하기.md",
     "study/react/5. 조건부 렌더링.md",
-    "study/react/4. props.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "study/react/11. useRef로 컴포넌트 안의 변수 만들기.md",
     "study/react/실습1. useState를 활용한 TodoList.md",
     "study/CS/자료구조/자료구조.md",
@@ -392,16 +401,7 @@
     "study/CS/자료구조/자료구조의 기초.md",
     "Excalidraw/Drawing 2024-08-22 13.59.16.excalidraw.md",
     "study/typeScript/타입스크립트.md",
-    "Excalidraw/Drawing 2024-08-21 08.35.16.excalidraw.md",
-    "study/study.md",
     "study/typeScript",
-    "무제 파일 1.md",
-    "study/CS/Deep/문자를 다루는 인코딩.md",
-    "study/웹/프론트엔드 아키텍쳐.md",
-    "study/CS/자료구조/해시 테이블.md",
-    "study/CS/자료구조/스택(stack).md",
-    "study/CS/자료구조/배열(array).md",
-    "study/CS/자료구조/단일 연결 리스트 (Single linked list).md",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
     "Pasted image 20240809181448.png",
