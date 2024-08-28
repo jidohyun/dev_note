@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "study/typeScript/기본 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "study/typeScript/기본 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md",
+                "file": "study/typeScript/기본 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md",
+                "file": "study/typeScript/기본 타입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md",
+                "file": "study/typeScript/기본 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/웹/웹 브라우저의 역사.md"
+                "file": "study/typeScript/기본 타입.md"
               }
             }
           }
@@ -375,6 +375,7 @@
   },
   "active": "d95d9da1211e1885",
   "lastOpenFiles": [
+    "study/웹/웹 브라우저의 역사.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/4. props.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
@@ -400,7 +401,6 @@
     "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md",
     "study/CS/자료구조/자료구조의 기초.md",
     "Excalidraw/Drawing 2024-08-22 13.59.16.excalidraw.md",
-    "study/typeScript/타입스크립트.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
