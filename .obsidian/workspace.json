@@ -224,6 +224,18 @@
             }
           },
           {
+            "id": "12a2af8e44125a18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/typeScript/인터페이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -236,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -310,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/typeScript/기본 타입.md",
+                "file": "study/typeScript/인터페이스.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +339,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/typeScript/기본 타입.md",
+                "file": "study/typeScript/인터페이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/typeScript/기본 타입.md"
+                "file": "study/typeScript/인터페이스.md"
               }
             }
           }
@@ -373,8 +385,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d95d9da1211e1885",
+  "active": "12a2af8e44125a18",
   "lastOpenFiles": [
+    "study/typeScript/기본 타입.md",
+    "study/typeScript/인터페이스.md",
     "study/웹/웹 브라우저의 역사.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/4. props.md",
@@ -399,8 +413,6 @@
     "study/react/실습1. useState를 활용한 TodoList.md",
     "study/CS/자료구조/자료구조.md",
     "Excalidraw/Drawing 2024-08-22 13.59.31.excalidraw.md",
-    "study/CS/자료구조/자료구조의 기초.md",
-    "Excalidraw/Drawing 2024-08-22 13.59.16.excalidraw.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
