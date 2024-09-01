@@ -387,9 +387,9 @@
   },
   "active": "12a2af8e44125a18",
   "lastOpenFiles": [
-    "study/js/Prototype.md",
-    "study/typeScript/인터페이스.md",
     "study/typeScript/기본 타입.md",
+    "study/typeScript/인터페이스.md",
+    "study/js/Prototype.md",
     "study/웹/웹 브라우저의 역사.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/4. props.md",
