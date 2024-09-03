@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "study/typeScript/기본 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -334,7 +334,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "study/typeScript/기본 타입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/typeScript/타입스크립트.md",
+                "file": "study/typeScript/기본 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,7 +374,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/typeScript/타입스크립트.md"
+                "file": "study/typeScript/기본 타입.md"
               }
             }
           }
@@ -399,8 +399,8 @@
   },
   "active": "8b5a4c8801655097",
   "lastOpenFiles": [
-    "study/typeScript/기본 타입.md",
     "study/typeScript/타입스크립트.md",
+    "study/typeScript/기본 타입.md",
     "study/typeScript/인터페이스.md",
     "study/css/css 미디어 쿼리.md",
     "study/css/css 애니메이션.md",
