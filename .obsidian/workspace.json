@@ -253,7 +253,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "박정환 선배님 Ｑ＆Ａ.md",
+                "file": "study/TIL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af613b2e3f3445c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/study.md",
                 "mode": "source",
                 "source": false
               }
@@ -272,7 +284,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -346,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "박정환 선배님 Ｑ＆Ａ.md",
+                "file": "study/study.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "박정환 선배님 Ｑ＆Ａ.md",
+                "file": "study/study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "박정환 선배님 Ｑ＆Ａ.md"
+                "file": "study/study.md"
               }
             }
           }
@@ -409,11 +421,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "fef86ec119ed4d06",
+  "active": "af613b2e3f3445c4",
   "lastOpenFiles": [
-    "문서화.md",
-    "study/TIL.md",
+    "study/선배들과의 만남.md",
     "study/study.md",
+    "study/TIL.md",
+    "박정환 선배님 Ｑ＆Ａ.md",
+    "프론트백 선배들과의 만남남.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/typeScript/인터페이스.md",
     "study/typeScript/기본 타입.md",
@@ -435,8 +449,6 @@
     "study/CS/네트워크/LAN(근거리 통신망).md",
     "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
-    "study/CS/네트워크/자율 시스템(AS).md",
-    "study/CS/네트워크/스위치, 라우터.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
