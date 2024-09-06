@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
+                "file": "박정환 선배님 Ｑ＆Ａ.md",
                 "mode": "source",
                 "source": false
               }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
+                "file": "박정환 선배님 Ｑ＆Ａ.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
+                "file": "박정환 선배님 Ｑ＆Ａ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/알고리즘/버블정렬 알고리즘.md"
+                "file": "박정환 선배님 Ｑ＆Ａ.md"
               }
             }
           }
@@ -411,6 +411,10 @@
   },
   "active": "fef86ec119ed4d06",
   "lastOpenFiles": [
+    "문서화.md",
+    "study/TIL.md",
+    "study/study.md",
+    "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/typeScript/인터페이스.md",
     "study/typeScript/기본 타입.md",
     "Excalidraw/Drawing 2024-09-03 22.31.03.excalidraw.md",
@@ -426,7 +430,6 @@
     "study/react/10. 배열 렌더링하기.md",
     "study/react/4. props.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/CS/네트워크/서비스형 네트워크(NaaS).md",
     "study/CS/네트워크/임대 회선.md",
     "study/CS/네트워크/LAN(근거리 통신망).md",
@@ -434,9 +437,6 @@
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
     "study/CS/네트워크/자율 시스템(AS).md",
     "study/CS/네트워크/스위치, 라우터.md",
-    "study/CS/네트워크/인터넷.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "study/react/8. 여러 개의 input 상태 관리하기.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
