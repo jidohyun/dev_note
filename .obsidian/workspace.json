@@ -265,7 +265,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/study.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "mode": "source",
                 "source": false
               }
@@ -358,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/study.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/study.md",
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/study.md"
+                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
               }
             }
           }
@@ -423,8 +423,8 @@
   },
   "active": "af613b2e3f3445c4",
   "lastOpenFiles": [
-    "study/선배들과의 만남.md",
     "study/study.md",
+    "study/선배들과의 만남.md",
     "study/TIL.md",
     "박정환 선배님 Ｑ＆Ａ.md",
     "프론트백 선배들과의 만남남.md",
