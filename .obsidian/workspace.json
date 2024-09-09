@@ -265,7 +265,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/typeScript/인터페이스.md",
                 "mode": "source",
                 "source": false
               }
@@ -358,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/typeScript/인터페이스.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md",
+                "file": "study/typeScript/인터페이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/Deep/문자를 다루는 인코딩.md"
+                "file": "study/typeScript/인터페이스.md"
               }
             }
           }
@@ -423,6 +423,9 @@
   },
   "active": "af613b2e3f3445c4",
   "lastOpenFiles": [
+    "study/typeScript/기본 타입.md",
+    "study/typeScript/타입스크립트.md",
+    "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/study.md",
     "study/선배들과의 만남.md",
     "study/TIL.md",
@@ -430,9 +433,7 @@
     "프론트백 선배들과의 만남남.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/typeScript/인터페이스.md",
-    "study/typeScript/기본 타입.md",
     "Excalidraw/Drawing 2024-09-03 22.31.03.excalidraw.md",
-    "study/typeScript/타입스크립트.md",
     "study/css/css 미디어 쿼리.md",
     "study/css/css 애니메이션.md",
     "study/js/배열 내장함수.md",
@@ -448,7 +449,6 @@
     "study/CS/네트워크/임대 회선.md",
     "study/CS/네트워크/LAN(근거리 통신망).md",
     "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
-    "study/CS/네트워크/DNS 프로토콜 TCP.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
