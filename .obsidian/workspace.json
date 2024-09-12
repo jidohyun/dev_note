@@ -263,8 +263,24 @@
             "id": "af613b2e3f3445c4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "study/CS/Deep/base 64 인코딩.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "115954b42ed234c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -280,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -354,6 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -370,6 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -391,7 +409,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md"
+              }
             }
           }
         ]
@@ -413,12 +433,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "af613b2e3f3445c4",
+  "active": "115954b42ed234c0",
   "lastOpenFiles": [
-    "study/typeScript/인터페이스.md",
-    "study/typeScript/기본 타입.md",
-    "study/typeScript/타입스크립트.md",
+    "study/CS/Deep/base 64 인코딩.md",
+    "study/CS/Deep/\b헤드리스 컴포넌트.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
+    "study/typeScript/기본 타입.md",
+    "study/typeScript/인터페이스.md",
+    "study/typeScript/타입스크립트.md",
     "study/study.md",
     "study/선배들과의 만남.md",
     "study/TIL.md",
@@ -439,8 +461,6 @@
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
     "study/CS/네트워크/서비스형 네트워크(NaaS).md",
     "study/CS/네트워크/임대 회선.md",
-    "study/CS/네트워크/LAN(근거리 통신망).md",
-    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
