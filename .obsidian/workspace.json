@@ -284,6 +284,18 @@
             }
           },
           {
+            "id": "6405c33507d80dc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e67bb5dcb1c51666",
             "type": "leaf",
             "state": {
@@ -296,7 +308,7 @@
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -433,10 +445,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "115954b42ed234c0",
+  "active": "6405c33507d80dc2",
   "lastOpenFiles": [
-    "study/CS/Deep/base 64 인코딩.md",
+    "스크린샷 2024-09-13 오전 8.18.45.png",
+    "Excalidraw/Drawing 2024-09-13 08.17.17.excalidraw.md",
     "study/CS/Deep/\b헤드리스 컴포넌트.md",
+    "study/CS/Deep/base 64 인코딩.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/typeScript/기본 타입.md",
     "study/typeScript/인터페이스.md",
@@ -459,8 +473,6 @@
     "study/react/10. 배열 렌더링하기.md",
     "study/react/4. props.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/네트워크/서비스형 네트워크(NaaS).md",
-    "study/CS/네트워크/임대 회선.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
