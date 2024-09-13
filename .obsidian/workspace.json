@@ -313,7 +313,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/typeScript/조건부 타입.md",
+                "file": "study/react/React-Router-Dom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "943fe7a8dab2b92a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/react/zustand.md",
                 "mode": "source",
                 "source": false
               }
@@ -332,7 +344,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -406,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/typeScript/조건부 타입.md",
+                "file": "study/react/zustand.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -423,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/typeScript/조건부 타입.md",
+                "file": "study/react/zustand.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -446,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/typeScript/조건부 타입.md"
+                "file": "study/react/zustand.md"
               }
             }
           }
@@ -469,21 +481,23 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "83e67e945c063b07",
+  "active": "943fe7a8dab2b92a",
   "lastOpenFiles": [
+    "study/react/React-Router-Dom.md",
+    "study/react/zustand.md",
+    "무제 폴더",
+    "study/typeScript/조건부 타입.md",
     "스크린샷 2024-09-13 오후 7.41.39.png",
     "스크린샷 2024-09-13 오후 7.41.24.png",
     "스크린샷 2024-09-13 오후 7.29.12.png",
     "study/typeScript/제네릭 타입.md",
     "study/typeScript/인터페이스.md",
-    "study/typeScript/조건부 타입.md",
     "study/typeScript/유니온.md",
     "study/typeScript/타입스크립트.md",
     "study/typeScript/Type Script.md",
     "study/typeScript/기본 타입.md",
     "study/react/React.md",
     "study/react/react 깊게 이해하기.md",
-    "study/react/React-Router-Dom.md",
     "study/react/커스텀 훅.md",
     "study/선배들과의 만남.md",
     "헤드리스 컴포넌트를.md",
@@ -509,13 +523,11 @@
     "스크린샷 2024-08-09 오전 7.23.23.png",
     "study/CS/Deep",
     "study/CS",
-    "img/Pasted image 20240409171144.png",
     "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
     "해시 테이블(Hash tables ",
     "study/독서",
-    "study/웹",
-    "Excalidraw"
+    "study/웹"
   ]
 }
