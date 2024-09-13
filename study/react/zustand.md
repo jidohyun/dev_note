@@ -11,3 +11,23 @@
 
 ### 사용법
 
+```ts
+// store.ts 
+import create from "zustand";
+
+// store의 타입을 정의해준다.
+interface Store { 
+	data : string;
+	setData : () => void;
+} 
+
+// store를 create
+const useStore = create<Store>((set) => ({
+	data : '', 
+	setData : (newData) => set((state) => ({data : newData})
+}));
+
+export default useStore;
+```
+
+이렇게 쉽게 스토어를 생성해주었다.
