@@ -31,3 +31,4 @@ export default useStore;
 ```
 
 이렇게 쉽게 스토어를 생성해주었다.
+
