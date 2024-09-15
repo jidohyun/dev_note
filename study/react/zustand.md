@@ -30,5 +30,7 @@ const useStore = create<Store>((set) => ({
 export default useStore;
 ```
 
-이렇게 쉽게 스토어를 생성해주었다.
+이렇게 쉽게 스토어를 생성해주었다
 
+위 코드에서 `set`은 zustand의 기본 함수이다. 
+set 함수는 함수형 업데이트를 사용한다고 하는데, 함수형 업데이트란 react에서 상태를 업데이트 하기 위한 기술중 하나라고 한다.
