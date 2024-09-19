@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/zustand.md",
+                "file": "study/react/\b상태관리 라이브러리.md",
                 "mode": "source",
                 "source": false
               }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/zustand.md",
+                "file": "study/react/\b상태관리 라이브러리.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/zustand.md",
+                "file": "study/react/\b상태관리 라이브러리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/zustand.md"
+                "file": "study/react/\b상태관리 라이브러리.md"
               }
             }
           }
@@ -484,7 +484,7 @@
   "active": "943fe7a8dab2b92a",
   "lastOpenFiles": [
     "study/react/React-Router-Dom.md",
-    "study/react/zustand.md",
+    "study/react/\b상태관리 라이브러리.md",
     "무제 폴더",
     "study/typeScript/조건부 타입.md",
     "스크린샷 2024-09-13 오후 7.41.39.png",
