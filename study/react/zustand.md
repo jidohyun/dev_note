@@ -12,26 +12,59 @@
 ### 사용법
 
 ```ts
-// store.ts 
-import create from "zustand";
+// letterStore.ts
 
-// store의 타입을 정의해준다.
-interface Store { 
-	data : string;
-	setData : () => void;
-} 
+interface letterState {
 
-// store를 create
-const useStore = create<Store>((set) => ({
-	data : '', 
-	setData : (newData) => set((state) => ({data : newData})
+id: number;
+
+title: string;
+
+content: string;
+
+}
+
+interface letterListState {
+
+letters: letterState[];
+
+addLetter: (newLetter: { title: string; content: string }) => void;
+
+}
+
+export const useLetterStore = create<letterListState>((set) => ({
+
+... 생략
+
 }));
-
-export default useStore;
 ```
 
 이렇게 쉽게 스토어를 생성해주었다
 
 위 코드에서 `set`은 zustand의 기본 함수이다. 
-set 함수는 함수형 업데이트를 사용한다고 하는데, 함수형 업데이트란 react에서 상태를 업데이트 하기 위한 기술중 하나라고 한다.
+set 함수는 함수형 업데이트를 사용한다고 하는데, 함수형 업데이트란 react에서 상태를 업데이트 하기 위한 기술이다.
+
+```tsx
+export const useLetterStore = create<letterListState>((set) => ({
+
+  letters: [],
+
+  addLetter: ({ title, content }) =>
+
+    set((state) => ({
+
+      letters: [
+
+        ...state.letters,
+
+        {
+          id: state.letters.length + 1,
+          title,
+          content,
+        },
+      ],
+    })),
+
+}));
+```
 
