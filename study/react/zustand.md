@@ -15,27 +15,18 @@
 // letterStore.ts
 
 interface letterState {
-
-id: number;
-
-title: string;
-
-content: string;
-
+	id: number;
+	title: string;
+	content: string;
 }
 
 interface letterListState {
-
-letters: letterState[];
-
-addLetter: (newLetter: { title: string; content: string }) => void;
-
+	letters: letterState[];
+	addLetter: (newLetter: { title: string; content: string }) => void;
 }
 
 export const useLetterStore = create<letterListState>((set) => ({
-
-... 생략
-
+	... 생략
 }));
 ```
 
@@ -46,17 +37,11 @@ set 함수는 함수형 업데이트를 사용한다고 하는데, 함수형 업
 
 ```tsx
 export const useLetterStore = create<letterListState>((set) => ({
-
   letters: [],
-
   addLetter: ({ title, content }) =>
-
     set((state) => ({
-
       letters: [
-
         ...state.letters,
-
         {
           id: state.letters.length + 1,
           title,
@@ -64,7 +49,6 @@ export const useLetterStore = create<letterListState>((set) => ({
         },
       ],
     })),
-
 }));
 ```
 
