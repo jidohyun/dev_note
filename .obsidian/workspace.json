@@ -347,9 +347,11 @@
             "id": "7079de2a1e9db902",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-20 19.19.56.excalidraw.md"
+                "file": "study/react/커스텀 훅.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -440,7 +442,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-20 19.19.56.excalidraw.md",
+                "file": "study/react/커스텀 훅.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -457,7 +459,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-20 19.19.56.excalidraw.md",
+                "file": "study/react/커스텀 훅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -480,7 +482,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-20 19.19.56.excalidraw.md"
+                "file": "study/react/커스텀 훅.md"
               }
             }
           }
@@ -505,8 +507,9 @@
   },
   "active": "7079de2a1e9db902",
   "lastOpenFiles": [
-    "study/react/react query.md",
+    "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "Excalidraw/Drawing 2024-09-20 19.19.56.excalidraw.md",
+    "study/react/react query.md",
     "study/react/\b상태관리 라이브러리(zustand).md",
     "study/js/배열 내장함수.md",
     "study/react/React.md",
@@ -539,7 +542,6 @@
     "study/react/8. 여러 개의 input 상태 관리하기.md",
     "스크린샷 2024-09-13 오전 8.18.45.png",
     "Excalidraw/Drawing 2024-09-13 08.17.17.excalidraw.md",
-    "study/CS/Deep/base 64 인코딩.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
