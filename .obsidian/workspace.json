@@ -337,7 +337,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리(zustand).md",
+                "file": "study/react/react query.md",
                 "mode": "source",
                 "source": false
               }
@@ -430,7 +430,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리(zustand).md",
+                "file": "study/react/react query.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -447,7 +447,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리(zustand).md",
+                "file": "study/react/react query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -470,7 +470,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리(zustand).md"
+                "file": "study/react/react query.md"
               }
             }
           }
@@ -495,8 +495,8 @@
   },
   "active": "e2d9f9d673885efc",
   "lastOpenFiles": [
-    "study/js/배열 내장함수.md",
     "study/react/\b상태관리 라이브러리(zustand).md",
+    "study/js/배열 내장함수.md",
     "study/react/react query.md",
     "study/react/React.md",
     "study/react/react 깊게 이해하기.md",
