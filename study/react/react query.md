@@ -62,7 +62,7 @@ export const function DelayedData() {
 	return (
 		<>
 			<div>데이터가 {isStale ? '상했어요..' : '신선해요!'}</div>
-			<div>{JSON.stringify}
+			<div>{JSON.stringify(data)}</div>
 		</>
 	)
 }
