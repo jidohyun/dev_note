@@ -313,7 +313,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/React-Router-Dom.md",
+                "file": "study/typeScript/조건부 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리.md",
+                "file": "study/react/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리.md",
+                "file": "study/react/React.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리.md",
+                "file": "study/react/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/\b상태관리 라이브러리.md"
+                "file": "study/react/React.md"
               }
             }
           }
@@ -483,10 +483,14 @@
   },
   "active": "943fe7a8dab2b92a",
   "lastOpenFiles": [
-    "study/react/React-Router-Dom.md",
-    "study/react/\b상태관리 라이브러리.md",
-    "무제 폴더",
+    "study/react/커스텀 훅.md",
+    "study/react/babel.md",
+    "study/react/React.md",
     "study/typeScript/조건부 타입.md",
+    "study/react/React-Router-Dom.md",
+    "study/react/react 깊게 이해하기.md",
+    "study/react/\b상태관리 라이브러리(zustand).md",
+    "무제 폴더",
     "스크린샷 2024-09-13 오후 7.41.39.png",
     "스크린샷 2024-09-13 오후 7.41.24.png",
     "스크린샷 2024-09-13 오후 7.29.12.png",
@@ -496,9 +500,6 @@
     "study/typeScript/타입스크립트.md",
     "study/typeScript/Type Script.md",
     "study/typeScript/기본 타입.md",
-    "study/react/React.md",
-    "study/react/react 깊게 이해하기.md",
-    "study/react/커스텀 훅.md",
     "study/선배들과의 만남.md",
     "헤드리스 컴포넌트를.md",
     "study/CS/Deep/\b헤드리스 컴포넌트.md",
@@ -513,7 +514,6 @@
     "프론트백 선배들과의 만남남.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "Excalidraw/Drawing 2024-09-03 22.31.03.excalidraw.md",
-    "study/css/css 미디어 쿼리.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
