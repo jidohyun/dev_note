@@ -35,3 +35,9 @@ export default function DelayedData() {
 ![](https://i.imgur.com/OECYMfJ.png)
 *캐시된 데이터가 없을 때*
 
+반대로 쿼리 키와 일치하는 데이터가 있으면, 서버에 요청하지 않고 캐시된 데이터를 사용하게 된다.
+따라서 같은 데이터를 가져오는 요청이 여러 번 발생해도, 캐시된 데이터를 사용하게 되어 중복 요청을 줄일 수 있다. 
+
+![](https://i.imgur.com/sO3wUCk.png)
+*캐시된 데이터가 있을 때*
+
