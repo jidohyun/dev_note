@@ -240,7 +240,7 @@ const initialState: State = {
 }
 
 export const useCountStore = create<State & Actions>(set => ({ 
-	...initialState, 
+	...initialState,
 	actions: { 
 		increase: () => set(state => ({ count: state.count + 1 })), 
 		decrease: () => set(state => ({ count: state.count - 1 })), 
