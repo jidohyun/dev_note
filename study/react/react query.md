@@ -56,8 +56,15 @@ import { useQuery } from '@tanstack/react-query'
 export const function DelayedData() {
 	const { data, isStale } = useQuery({
 		queryKey: ['delay'],
-		queryFn: 
+		queryFn: // 데이터 호출
+		staleTime: 1000 * 10
 	})
+	return (
+		<>
+			<div>데이터가 {isStale ? '상했어요..' : '신선해요!'}</div>
+			<div>{JSON.stringify}
+		</>
+	)
 }
 ```
 
