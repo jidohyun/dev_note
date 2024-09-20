@@ -47,3 +47,14 @@ react query는 캐시한 데이터를 신선하거나 상한 상태로 구분해
 캐시된 데이터가 신선하다면 캐시된 데이터를 사용하고, 만약 데이터가 상했다면 다시 서버에 데이터를 요청해서 신선한 데이터를 가져온다.
 *일종의 데이터 유통기한*
 
+데이터가 상하는 데 걸리는 시간은 `staleTime`옵션으로 지정할 수 있다.
+그리고 신선한지 상했는지 여부는 `isStale`으로 확인할 수 있다.
+
+```tsx
+import { useQuery } from '@tanstack/react-query'
+
+export const function DelayedData() {
+	const { data, isStale } = useQuery({
+	})
+}
+```
