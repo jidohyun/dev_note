@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/React.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -418,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/React.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/React.md",
+                "file": "study/react/react 깊게 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/React.md"
+                "file": "study/react/react 깊게 이해하기.md"
               }
             }
           }
