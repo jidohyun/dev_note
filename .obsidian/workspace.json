@@ -337,7 +337,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react query .md",
+                "file": "study/react/react query.md",
                 "mode": "source",
                 "source": false
               }
@@ -430,7 +430,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react query .md",
+                "file": "study/react/react query.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -447,7 +447,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react query .md",
+                "file": "study/react/react query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -470,7 +470,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react query .md"
+                "file": "study/react/react query.md"
               }
             }
           }
@@ -495,22 +495,24 @@
   },
   "active": "e2d9f9d673885efc",
   "lastOpenFiles": [
+    "study/react/React.md",
+    "study/react/react 깊게 이해하기.md",
+    "study/react/react query.md",
+    "study/react/커스텀 훅.md",
+    "study/react/babel.md",
+    "react query.md",
+    "study/react/\b상태관리 라이브러리(zustand).md",
+    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "Pasted image 20240920132156.png",
     "study/react/4. props.md",
     "무제 파일 1.canvas",
     "2024-09-20.md",
     "무제 파일.canvas",
-    "study/react/react query .md",
     "Pasted image 20240920131939.png",
-    "study/react/react 깊게 이해하기.md",
     "study/typeScript/타입스크립트.md",
     "study/typeScript/Type Script.md",
-    "study/react/커스텀 훅.md",
-    "study/react/babel.md",
-    "study/react/React.md",
     "study/typeScript/조건부 타입.md",
     "study/react/React-Router-Dom.md",
-    "study/react/\b상태관리 라이브러리(zustand).md",
     "무제 폴더",
     "스크린샷 2024-09-13 오후 7.41.39.png",
     "스크린샷 2024-09-13 오후 7.41.24.png",
@@ -528,13 +530,11 @@
     "study/CS/Deep/base 64 인코딩.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/study.md",
-    "study/TIL.md",
     "study/typeScript",
     "스크린샷 2024-08-11 오후 3.50.00.png",
     "스크린샷 2024-08-09 오후 6.14.27 복사본.png",
     "Pasted image 20240809181448.png",
     "Pasted image 20240809181323.png",
-    "스크린샷 2024-08-09 오전 7.26.01.png",
     "study/CS/Deep",
     "study/CS",
     "study/CS/알고리즘",
