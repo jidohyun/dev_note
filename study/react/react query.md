@@ -41,3 +41,7 @@ export default function DelayedData() {
 ![](https://i.imgur.com/sO3wUCk.png)
 *캐시된 데이터가 있을 때*
 
+### 데이터의 신선도
+
+react query는 캐시한 데이터를 신선하거나 상한 상태로 구분해 관리한다.
+캐시된 데이터가 신선하다면 
