@@ -56,7 +56,8 @@ import { useQuery } from '@tanstack/react-query'
 export const function DelayedData() {
 	const { data, isStale } = useQuery({
 		queryKey: ['delay'],
-		queryFn: asyn
+		queryFn: 
 	})
 }
 ```
+
