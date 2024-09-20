@@ -15,3 +15,19 @@ react query는 서버로부터 데이터 가져오기, 데이터 캐싱, 캐시 
 ### 데이터 캐싱
 
 react query를 사용하여 데이터를 가져올땐 항상 쿼리 키(`queryKey`)를 지정하게 된다. 
+이 쿼리 키는 캐시된 데이터와 비교해 새로운 데이터를 가져올지, 캐시된 데이터를 사용할지 결정하는 기준이 된다.
+
+```tsx
+import { useQuery } from '@tanstack/react-query' 
+
+export default function DelayedData() { 
+	const { data } = useQuery({ 
+	queryKey: ['delay'], 
+	queryFn: async () => (await fetch('https://api.heropy.dev/v0/delay?t=1000')).json()
+	})
+	return <div>{JSON.stringify(data)}</div> 
+}
+```
+
+다음 이미지는 쿼리 키와 일치하는 데이터가 없을 때, 서버에서 새로운 데이터를 가져오는 과정을 보여준다.
+서버에서 데이터를 가져오면 그 데이터는 캐시되고 그 이후 요청부터는 캐시된 데이터를 사용할 수 있다.
