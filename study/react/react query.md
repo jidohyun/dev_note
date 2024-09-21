@@ -76,4 +76,25 @@ export const function DelayedData() {
 const 반환 = useQuery
 ```
 
-지연 응답 API는 `t`의 
+지연 응답 API는 `t`파라미터 값의 시간이 지난 후 응답한다.
+응답 데이터는 간단한 메시지와 응답시간을 포함한다.
+
+```tsx
+import { useQuery } from '@tanstack/react-query'
+
+type ResponseValue = {
+	message: string
+	time: string
+}
+
+export default function DelayedData() {
+	const { data } = useQuery<ResponseValue>({
+		queryKey: ['delay'],
+		queryFn: // api 호출
+		staleTime: 1000 * 10 // 10초
+	})
+	return <div>{data?.time}</div>
+}
+```
+
+
