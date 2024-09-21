@@ -228,3 +228,23 @@ export default function UserNames() {
 	) 
 }
 ```
+
+쿼리 함수를 따로 선언해 제공하면, 선택 함수를 통한 최종 데이터의 타입을 추론할 수 있다.
+다음 예제에서 쿼리 함수의 반환은 `Users`타입이고, 최종 데이터(선택 함수의 반환)은 `string[]`타입으로 추론된다.
+
+```tsx
+// ... 
+async function queryFn(): Promise<Users> { 
+	const res = await fetch('https://api.heropy.dev/v0/users') 
+	const { users } = await res.json() 
+	return users 
+} 
+export default function UserNames() { 
+	// data는 string[] 타입으로 추론 
+	const { data } = useQuery({ 
+	queryKey: ['users'], 
+	queryFn, 
+	staleTime: 1000 * 10, 
+	select: data => data.map(user => user.name) 
+	}) // ... }
+```
