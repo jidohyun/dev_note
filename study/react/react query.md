@@ -239,6 +239,7 @@ async function queryFn(): Promise<Users> {
 	const { users } = await res.json() 
 	return users 
 } 
+
 export default function UserNames() { 
 	// data는 string[] 타입으로 추론 
 	const { data } = useQuery({ 
@@ -246,5 +247,7 @@ export default function UserNames() {
 	queryFn, 
 	staleTime: 1000 * 10, 
 	select: data => data.map(user => user.name) 
-	}) // ... }
+	}) 
+	// ... 
+}
 ```
