@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/react query.md",
                 "mode": "source",
                 "source": false
               }
@@ -442,7 +442,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/react query.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -459,7 +459,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/react/react query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -482,7 +482,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/배열 내장함수.md"
+                "file": "study/react/react query.md"
               }
             }
           }
@@ -507,6 +507,7 @@
   },
   "active": "7079de2a1e9db902",
   "lastOpenFiles": [
+    "study/js/배열 내장함수.md",
     "study/react/react query.md",
     "study/react/React.md",
     "study/react/상태관리 라이브러리(zustand).md",
@@ -525,7 +526,6 @@
     "study/react/커스텀 훅.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
     "Excalidraw/Drawing 2024-09-20 19.19.56.excalidraw.md",
-    "study/js/배열 내장함수.md",
     "study/react/react 깊게 이해하기.md",
     "study/react/babel.md",
     "react query.md",
