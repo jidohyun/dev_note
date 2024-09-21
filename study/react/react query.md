@@ -194,3 +194,37 @@ export default function DelayedData() {
 }
 ```
 
+### select
+
+선택 함수(`select`)를 사용하면 가져온 데이터를 변형할 수 있다
+쿼리 함수가 반환하는 데이터를 인수로 받아 선택함수에서 처리하고 반환하면 최종 데이터가 된다.
+최종 데이터 타입은 `useQuery`의 3번째 제네릭 타입으로 선언할 수 있다.
+
+```tsx
+import { useQuery } from '@tanstack/react-query' 
+
+type Users = User[] 
+interface User { 
+	id: string 
+	name: string 
+	age: number 
+} 
+
+export default function UserNames() { 
+	const { data } = useQuery<Users, Error, string[]>({ 
+		queryKey: ['users'], 
+		queryFn: async () => { const res = await fetch('https://api.heropy.dev/v0/users') 
+		const { users } = await res.json() 
+		return users 
+	}, 
+	staleTime: 1000 * 10, 
+	select: data => data.map(user => user.name) 
+	}) 
+	return ( 
+		<> 
+			<h2>User Names</h2> 
+			<ul>{data?.map((name, i) => <li key={i}>{name}</li>)}</ul> 
+		</> 
+	) 
+}
+```
