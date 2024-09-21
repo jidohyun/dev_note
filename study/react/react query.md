@@ -68,3 +68,12 @@ export const function DelayedData() {
 }
 ```
 
+### useQuery
+
+가장 기본적인 쿼리 훅으로, 컴포넌트에서 데이터를 가져올 때 사용한다.
+
+```tsx
+const 반환 = useQuery
+```
+
+지연 응답 API는 `t`의 
