@@ -160,3 +160,37 @@ export default function App() {
 
 ### queryFn
 
+쿼리 함수(queryFn)는 데이터를 가져오는 비동기 함수로, 꼭 데이터를 반환하거나 오류를 던져야 한다.
+던져진 오류는 반환되는 `error`객체로 확인할 수 있다.
+`error`는 기본적으로 `null`이다.
+
+```tsx
+import { useQuery } from '@tanstack/react-query' 
+
+type ResponseValue = { 
+	message: string 
+	time: string 
+} 
+
+export default function DelayedData() { 
+	const { data, error } = useQuery<ResponseValue>({ 
+		queryKey: ['delay'], 
+		queryFn: async () => { const res = await fetch('https://api.heropy.dev/v0/delay?t=1000') 
+		const data = await res.json() 
+		if (!data.time) { 
+			throw new Error('문제가 발생했습니다!') 
+		} 
+		return data 
+	}, 
+	staleTime: 1000 * 10, 
+	retry: 1 
+	}) 
+	return ( 
+		<> 
+			{data && <div>{JSON.stringify(data)}</div>} 
+			{error && <div>{error.message}</div>} 
+		</> 
+	) 
+}
+```
+
