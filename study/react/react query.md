@@ -57,7 +57,7 @@ export const function DelayedData() {
 	const { data, isStale } = useQuery({
 		queryKey: ['delay'],
 		queryFn: // 데이터 호출
-		staleTime: 1000 * 10
+		staleTime: 1000 * 10 //10초 후 상함 즉, 10초 동안 신선함.
 	})
 	return (
 		<>
