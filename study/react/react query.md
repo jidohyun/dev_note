@@ -140,3 +140,23 @@ export default function DelayedData({ wait = 1000 }: { wait: number }) {
 }
 ```
 
+```tsx
+import { QueryProvider } from './queryProvider' 
+import DelayedData from './components/DelayedData' 
+
+export default function App() { 
+	return ( 
+	<QueryProvider> 
+		<DelayedData /> 
+			<DelayedData wait={2000} /> 
+			<DelayedData wait={3000} /> 
+		</QueryProvider> 
+	) 
+}
+```
+
+기본적으로 쿼리 함수(queryFn)에서 사용하느 변수는 쿼리 키에 포함돼야 한다.
+그러면 변수가 변경될 때마다 자동으로 다시 가져올 수 있다.
+
+### queryFn
+
