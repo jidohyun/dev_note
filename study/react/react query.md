@@ -265,6 +265,16 @@ export default function UserNames() {
 export default function DelayedData() { 
 	const { data, isFetching, isPending, isLoading } = useQuery<ResponseValue>({
 		queryKey: ['delay'], queryFn: async () => (await fetch('https://api.heropy.dev/v0/delay?t=1000')).json(), 
-		staleTime: 1000 * 10 }) 
-		return ( <> <div>isFetching: {JSON.stringify(isFetching)}</div> <div>isPending: {JSON.stringify(isPending)}</div> <div>isLoading: {JSON.stringify(isLoading)}</div> <div>{data?.time}</div> </> ) }
+		staleTime: 1000 * 10 
+	}) 
+	return (
+		<>
+			<div>isFetching: {JSON.stringify(isFetching)}</div> 
+			<div>isPending: {JSON.stringify(isPending)}</div> 
+			<div>isLoading: {JSON.stringify(isLoading)}</div> 
+			<div>{data?.time}</div> 
+		</>
+	)
+}
 ```
+
