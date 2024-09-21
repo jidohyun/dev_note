@@ -252,3 +252,7 @@ export default function UserNames() {
 }
 ```
 
+### 상태 확인
+
+`isFetching`은 쿼리 함수(`queryFn`)가 실행 중인지 묻는 여부로, 데이터를 가져오는 중을 나타낸다.
+`isPending`은 캐시된 데이터가 없고 쿼리가 아직 완료되지 않은 상태의 여부로, ``
