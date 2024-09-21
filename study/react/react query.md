@@ -260,3 +260,11 @@ export default function UserNames() {
 
 `isLoading`은 `isFetching && isPending`와 같은 의미로, 쿼리의 첫 번째 가져오기가 진행중인 경우를 나타낸다.
 
+```tsx
+// ... 
+export default function DelayedData() { 
+	const { data, isFetching, isPending, isLoading } = useQuery<ResponseValue>({
+		queryKey: ['delay'], queryFn: async () => (await fetch('https://api.heropy.dev/v0/delay?t=1000')).json(), 
+		staleTime: 1000 * 10 }) 
+		return ( <> <div>isFetching: {JSON.stringify(isFetching)}</div> <div>isPending: {JSON.stringify(isPending)}</div> <div>isLoading: {JSON.stringify(isLoading)}</div> <div>{data?.time}</div> </> ) }
+```
