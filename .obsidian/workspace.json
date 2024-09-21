@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/js/배열 내장함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -442,7 +442,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/js/배열 내장함수.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -459,7 +459,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/js/배열 내장함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -482,7 +482,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react query.md"
+                "file": "study/js/배열 내장함수.md"
               }
             }
           }
