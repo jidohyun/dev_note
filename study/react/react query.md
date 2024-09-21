@@ -97,4 +97,6 @@ export default function DelayedData() {
 }
 ```
 
+### queryKey
 
+쿼리 키는 쿼리를 식별하는 고유한 값으로, 배열 형태로 저장한다.
