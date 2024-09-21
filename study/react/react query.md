@@ -139,3 +139,4 @@ export default function DelayedData({ wait = 1000 }: { wait: number }) {
 	return <div>{data?.time}</div> 
 }
 ```
+
