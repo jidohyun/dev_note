@@ -100,3 +100,42 @@ export default function DelayedData() {
 ### queryKey
 
 쿼리 키는 쿼리를 식별하는 고유한 값으로, 배열 형태로 저장한다.
+다중 아이템 쿼리 키를 사용할 때는 아이템의 순서가 중요하다.
+
+```tsx
+// 단일 아이템 쿼리 키 
+useQuery({ queryKey: ['hello'] }) 
+
+// 다중 아이템 쿼리 키 
+useQuery({ queryKey: ['hello', 'world', 123, { a: 1, b: 2 }] }) 
+
+// 서로 같은 쿼리 
+useQuery({ queryKey: ['hello', 'world', 123, { a: 1, b: 2 }] }) 
+useQuery({ queryKey: ['hello', 'world', 123, { b: 2, c: undefined, a: 1 }] }) 
+
+// 서로 다른 쿼리 
+useQuery({ queryKey: ['hello', 'world', 123, { a: 1, b: 2 }] }) 
+useQuery({ queryKey: ['hello', 'world', 123, { a: 1, b: 2, c: 3 }] }) 
+useQuery({ queryKey: ['hello', 'world'] }) 
+useQuery({ queryKey: [123, 'world', { a: 1, b: 2, c: 3 }], 'hello' })
+```
+
+다음 예제에서 DelayedData 컴포넌트의 `wait` Prop의 값이 다르면, 각각 별개의 요청을 전송한다.
+
+```tsx
+import { useQuery } from '@tanstack/react-query' 
+
+type ResponseValue = { 
+	message: string 
+	time: string 
+} 
+
+export default function DelayedData({ wait = 1000 }: { wait: number }) { 
+	const { data } = useQuery<ResponseValue>({ 
+		queryKey: ['delay', wait], 
+		queryFn: async () => (await fetch(`https://api.heropy.dev/v0/delay?t=${wait}`)).json(), 
+		staleTime: 1000 * 10 
+	}) 
+	return <div>{data?.time}</div> 
+}
+```
