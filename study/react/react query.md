@@ -282,3 +282,4 @@ export default function DelayedData() {
 ### 다시 가져오기
 
 `refetch` 함수를 사용하면 데이터를 새롭게 가져올 수 있다.
+
