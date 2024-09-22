@@ -262,6 +262,7 @@ export default function UserNames() {
 
 ```tsx
 // ... 
+
 export default function DelayedData() { 
 	const { data, isFetching, isPending, isLoading } = useQuery<ResponseValue>({
 		queryKey: ['delay'], queryFn: async () => (await fetch('https://api.heropy.dev/v0/delay?t=1000')).json(), 
