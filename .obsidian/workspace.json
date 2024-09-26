@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/알고리즘/삽입정렬 알고리즘.md",
+                "file": "study/CS/알고리즘/선택정렬 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/알고리즘/삽입정렬 알고리즘.md",
+                "file": "study/CS/알고리즘/선택정렬 알고리즘.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/알고리즘/삽입정렬 알고리즘.md",
+                "file": "study/CS/알고리즘/선택정렬 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/알고리즘/삽입정렬 알고리즘.md"
+                "file": "study/CS/알고리즘/선택정렬 알고리즘.md"
               }
             }
           }
@@ -158,9 +158,10 @@
   },
   "active": "7079de2a1e9db902",
   "lastOpenFiles": [
+    "study/CS/알고리즘/알고리즘.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
-    "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
+    "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/react/react query.md",
     "study/js/배열 내장함수.md",
     "study/react/React.md",
@@ -194,7 +195,6 @@
     "무제 폴더",
     "img/스크린샷 2024-09-13 오후 7.29.12.png",
     "study/typeScript/제네릭 타입.md",
-    "study/typeScript/인터페이스.md",
     "img/스크린샷 2024-09-13 오전 8.18.45.png",
     "study/typeScript",
     "img/스크린샷 2024-08-11 오후 3.50.00.png",
