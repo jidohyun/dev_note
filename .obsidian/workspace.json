@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "암호화화.md",
+                "file": "study/CS/보안/암호화.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "암호화화.md",
+                "file": "study/CS/보안/암호화.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "암호화화.md",
+                "file": "study/CS/보안/암호화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "암호화화.md"
+                "file": "study/CS/보안/암호화.md"
               }
             }
           }
@@ -181,10 +181,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "78df55198406d704",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
     "study/CS/Deep/문자를 다루는 인코딩.md",
-    "암호화화.md",
+    "study/CS/보안/암호화.md",
     "study/CS/보안",
     "study/CS/Deep/base 64 인코딩.md",
     "study/CS/Deep/\b헤드리스 컴포넌트.md",
