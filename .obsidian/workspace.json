@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5d2655190e5e534c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/시험 공부/탑싯/탑싯 문제풀이.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/시험 공부/탑싯/탑싯 문제풀이.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/배열 내장함수.md",
+                "file": "study/시험 공부/탑싯/탑싯 문제풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/배열 내장함수.md"
+                "file": "study/시험 공부/탑싯/탑싯 문제풀이.md"
               }
             }
           }
@@ -158,6 +171,8 @@
   },
   "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "study/js/배열 내장함수.md",
+    "study/시험 공부/탑싯/탑싯 문제풀이.md",
     "study/시험 공부/정보처리기능사 실기",
     "study/시험 공부/탑싯",
     "study/시험 공부",
@@ -171,7 +186,6 @@
     "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/react/react query.md",
     "study/CS/알고리즘/알고리즘.md",
-    "study/js/배열 내장함수.md",
     "study/react/React.md",
     "study/react/상태관리 라이브러리(zustand).md",
     "Vault.md",
@@ -204,7 +218,6 @@
     "study/CS",
     "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
-    ".md",
-    "해시 테이블(Hash tables "
+    ".md"
   ]
 }
