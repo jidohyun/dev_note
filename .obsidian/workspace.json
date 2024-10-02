@@ -156,8 +156,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7079de2a1e9db902",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "study/시험 공부/정보처리기능사 실기",
+    "study/시험 공부/탑싯",
+    "study/시험 공부",
+    "study/CS/무제 폴더",
     "study/js/AJAX.md",
     "study/js/js.md",
     "study/js/DOM.md",
@@ -192,8 +196,6 @@
     "Pasted image 20240920132156.png",
     "study/react/4. props.md",
     "Pasted image 20240920131939.png",
-    "study/typeScript/타입스크립트.md",
-    "무제 폴더",
     "img/스크린샷 2024-09-13 오후 7.29.12.png",
     "img/스크린샷 2024-09-13 오전 8.18.45.png",
     "study/typeScript",
@@ -203,8 +205,6 @@
     "study/CS/알고리즘",
     "jump up 병렬 프로그래밍과 최적화의 세계",
     ".md",
-    "해시 테이블(Hash tables ",
-    "study/독서",
-    "study/웹"
+    "해시 테이블(Hash tables "
   ]
 }
