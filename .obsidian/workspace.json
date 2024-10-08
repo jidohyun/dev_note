@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/typeScript/기본 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.50390243530273
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ed9f0cd45091161",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/typeScript/기본 타입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/typeScript/기본 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react query.md"
+                "file": "study/typeScript/기본 타입.md"
               }
             }
           }
@@ -195,6 +196,7 @@
   },
   "active": "21a237260b239552",
   "lastOpenFiles": [
+    "study/react/react query.md",
     "study/CS/보안/해싱.md",
     "study/CS/보안/암호화.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
@@ -214,7 +216,6 @@
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
     "study/CS/알고리즘/선택정렬 알고리즘.md",
-    "study/react/react query.md",
     "study/CS/알고리즘/알고리즘.md",
     "study/react/React.md",
     "study/react/상태관리 라이브러리(zustand).md",
