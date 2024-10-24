@@ -17,3 +17,5 @@
 [[13.  마운트, 언마운트, 업데이트시 할 작업 설정하기]]
 [[상태관리 라이브러리(zustand)]]
 [[react query]]
+[[electron deep dive]]
+[
