@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/운영체제/프로세스.md",
+                "file": "study/react/electron deep dive.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/운영체제/프로세스.md",
+                "file": "study/react/electron deep dive.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/운영체제/프로세스.md",
+                "file": "study/react/electron deep dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/운영체제/프로세스.md"
+                "file": "study/react/electron deep dive.md"
               }
             }
           }
@@ -253,10 +253,10 @@
   },
   "active": "5b142348e6fbcd25",
   "lastOpenFiles": [
+    "study/CS/운영체제/프로세스.md",
     "study/CS/운영체제/운영체제.md",
     "study/CS/보안/해싱.md",
     "study/CS/보안/암호화.md",
-    "study/CS/운영체제/프로세스.md",
     "study/CS/네트워크/네트워크.md",
     "study/CS/네트워크/네트워크 스위치.md",
     "study/CS/운영체제",
