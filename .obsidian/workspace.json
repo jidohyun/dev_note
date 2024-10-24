@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/electron deep dive.md",
+                "file": "study/CS/네트워크/프로세스.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/electron deep dive.md",
+                "file": "study/CS/네트워크/프로세스.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/electron deep dive.md",
+                "file": "study/CS/네트워크/프로세스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/electron deep dive.md"
+                "file": "study/CS/네트워크/프로세스.md"
               }
             }
           }
@@ -239,8 +239,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "ff97df3c2ecdf683",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "study/CS/네트워크/네트워크.md",
+    "study/CS/네트워크/프로세스.md",
+    "study/CS/네트워크/네트워크 스위치.md",
+    "study/CS/네트워크/WAN(광역 네트워크).md",
+    "study/react/electron deep dive.md",
     "study/react/react 깊게 이해하기.md",
     "study/react/react query.md",
     "study/react/상태관리 라이브러리(zustand).md",
@@ -248,11 +253,9 @@
     "study/react/커스텀 훅.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/Deep/\b헤드리스 컴포넌트.md",
-    "study/CS/네트워크/네트워크.md",
     "study/CS/보안/암호화.md",
     "study/CS/보안/해싱.md",
     "study/typeScript/Type Script.md",
-    "study/react/electron deep dive.md",
     "study/react/React.md",
     "study/react/babel.md",
     "study/typeScript/기본 타입.md",
@@ -264,10 +267,7 @@
     "study/웹/CORS.md",
     "무제 파일.md",
     "Excalidraw/Drawing 2024-10-11 16.14.51.excalidraw.md",
-    "study/react/7. input 상태 관리하기.md",
     "study/CS/보안",
-    "study/CS/Deep/base 64 인코딩.md",
-    "study/시험 공부/탑싯/탑싯 문제풀이.md",
     "study/시험 공부/정보처리기능사 실기",
     "study/시험 공부/탑싯",
     "study/시험 공부",
