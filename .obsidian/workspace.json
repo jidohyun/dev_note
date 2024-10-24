@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/웹/CORS.md",
+                "file": "study/typeScript/유니온.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/웹/CORS.md",
+                "file": "study/typeScript/유니온.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/웹/CORS.md",
+                "file": "study/typeScript/유니온.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/웹/CORS.md"
+                "file": "study/typeScript/유니온.md"
               }
             }
           }
@@ -229,15 +229,21 @@
   },
   "active": "8c27b9a5cec52100",
   "lastOpenFiles": [
-    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+    "study/typeScript/인터페이스.md",
+    "study/typeScript/제네릭 타입.md",
+    "study/typeScript/조건부 타입.md",
+    "study/typeScript/타입스크립트.md",
+    "study/typeScript/Type Script.md",
+    "study/typeScript/유니온.md",
+    "study/typeScript/기본 타입.md",
     "study/웹/CORS.md",
+    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "무제 파일.md",
     "Excalidraw/Drawing 2024-10-11 16.14.51.excalidraw.md",
     "study/react/7. input 상태 관리하기.md",
     "study/CS/보안/해싱.md",
     "study/CS/보안/암호화.md",
     "study/react/React.md",
-    "study/typeScript/기본 타입.md",
     "study/react/react query.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/보안",
@@ -254,12 +260,6 @@
     "study/js/DOM.md",
     "study/js/Promise.md",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
-    "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/알고리즘/선택정렬 알고리즘.md",
-    "study/CS/알고리즘/알고리즘.md",
-    "study/react/상태관리 라이브러리(zustand).md",
-    "Vault.md",
-    "note.md",
     "img/스크린샷 2024-09-13 오후 7.41.39.png",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",
     "무제 파일.canvas",
