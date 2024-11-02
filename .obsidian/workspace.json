@@ -107,14 +107,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/electron deep dive.md",
+                "file": "study/선배들과의 만남.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28f07bb69747d144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "대크톡 네트워킹 세션.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -188,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/electron deep dive.md",
+                "file": "대크톡 네트워킹 세션.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/electron deep dive.md",
+                "file": "대크톡 네트워킹 세션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/electron deep dive.md"
+                "file": "대크톡 네트워킹 세션.md"
               }
             }
           }
@@ -251,8 +263,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5b142348e6fbcd25",
+  "active": "28f07bb69747d144",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "대크톡 네트워킹 세션.md",
+    "study/선배들과의 만남.md",
+    "study/TIL.md",
+    "study/react/electron deep dive.md",
     "study/CS/운영체제/프로세스.md",
     "study/CS/운영체제/운영체제.md",
     "study/CS/보안/해싱.md",
@@ -261,7 +278,6 @@
     "study/CS/네트워크/네트워크 스위치.md",
     "study/CS/운영체제",
     "study/CS/네트워크/WAN(광역 네트워크).md",
-    "study/react/electron deep dive.md",
     "study/react/react 깊게 이해하기.md",
     "study/react/react query.md",
     "study/react/상태관리 라이브러리(zustand).md",
@@ -276,10 +292,6 @@
     "study/typeScript/인터페이스.md",
     "study/typeScript/조건부 타입.md",
     "study/typeScript/타입스크립트.md",
-    "study/typeScript/제네릭 타입.md",
-    "study/typeScript/유니온.md",
-    "study/웹/CORS.md",
-    "무제 파일.md",
     "study/CS/보안",
     "study/시험 공부/정보처리기능사 실기",
     "study/시험 공부/탑싯",
