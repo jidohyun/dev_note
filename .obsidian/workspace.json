@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "대크톡 네트워킹 세션.md",
+                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "대크톡 네트워킹 세션.md",
+                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "대크톡 네트워킹 세션.md",
+                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "대크톡 네트워킹 세션.md"
+                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md"
               }
             }
           }
@@ -265,6 +265,10 @@
   },
   "active": "28f07bb69747d144",
   "lastOpenFiles": [
+    "study/CS/네트워크/WAN(광역 네트워크).md",
+    "study/CS/네트워크/VPN.md",
+    "study/CS/네트워크/LAN(근거리 통신망).md",
+    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
     "대크톡 네트워킹 세션.md",
     "무제 파일.md",
     "study/선배들과의 만남.md",
@@ -277,7 +281,6 @@
     "study/CS/네트워크/네트워크.md",
     "study/CS/네트워크/네트워크 스위치.md",
     "study/CS/운영체제",
-    "study/CS/네트워크/WAN(광역 네트워크).md",
     "study/react/react 깊게 이해하기.md",
     "study/react/react query.md",
     "study/react/상태관리 라이브러리(zustand).md",
@@ -289,9 +292,6 @@
     "study/react/React.md",
     "study/react/babel.md",
     "study/typeScript/기본 타입.md",
-    "study/typeScript/인터페이스.md",
-    "study/typeScript/조건부 타입.md",
-    "study/typeScript/타입스크립트.md",
     "study/CS/보안",
     "study/시험 공부/정보처리기능사 실기",
     "study/시험 공부/탑싯",
