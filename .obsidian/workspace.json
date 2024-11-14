@@ -119,14 +119,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
+                "file": "study/js/조건문.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aef4793c3f91292c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/js/원시타입과 객체타입.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
+                "file": "study/js/원시타입과 객체타입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
+                "file": "study/js/원시타입과 객체타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/네트워크/MAN(대도시 지역 네트워크).md"
+                "file": "study/js/원시타입과 객체타입.md"
               }
             }
           }
@@ -263,12 +275,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "28f07bb69747d144",
+  "active": "aef4793c3f91292c",
   "lastOpenFiles": [
+    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+    "study/js/원시타입과 객체타입.md",
+    "study/js/조건문.md",
+    "study/js/var.md",
+    "study/js/Virtual DOM.md",
+    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
     "study/CS/네트워크/WAN(광역 네트워크).md",
     "study/CS/네트워크/VPN.md",
     "study/CS/네트워크/LAN(근거리 통신망).md",
-    "study/CS/네트워크/MAN(대도시 지역 네트워크).md",
     "대크톡 네트워킹 세션.md",
     "무제 파일.md",
     "study/선배들과의 만남.md",
@@ -287,11 +304,6 @@
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "study/react/커스텀 훅.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
-    "study/CS/Deep/\b헤드리스 컴포넌트.md",
-    "study/typeScript/Type Script.md",
-    "study/react/React.md",
-    "study/react/babel.md",
-    "study/typeScript/기본 타입.md",
     "study/CS/보안",
     "study/시험 공부/정보처리기능사 실기",
     "study/시험 공부/탑싯",
