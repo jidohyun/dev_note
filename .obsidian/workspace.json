@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/원시타입과 객체타입(참조타입).md",
+                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/원시타입과 객체타입(참조타입).md",
+                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/원시타입과 객체타입(참조타입).md",
+                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/원시타입과 객체타입(참조타입).md"
+                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md"
               }
             }
           }
@@ -300,7 +300,7 @@
   "active": "aef4793c3f91292c",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
-    "study/js/원시타입과 객체타입(참조타입).md",
+    "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/인터렉션.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/js/조건문.md",
