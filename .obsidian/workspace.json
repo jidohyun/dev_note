@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/원시타입과 객체타입.md",
+                "file": "study/js/원시타입과 객체타입(참조타입).md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/원시타입과 객체타입.md",
+                "file": "study/js/원시타입과 객체타입(참조타입).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/원시타입과 객체타입.md",
+                "file": "study/js/원시타입과 객체타입(참조타입).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/원시타입과 객체타입.md"
+                "file": "study/js/원시타입과 객체타입(참조타입).md"
               }
             }
           }
@@ -278,7 +278,7 @@
   "active": "aef4793c3f91292c",
   "lastOpenFiles": [
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
-    "study/js/원시타입과 객체타입.md",
+    "study/js/원시타입과 객체타입(참조타입).md",
     "study/js/조건문.md",
     "study/js/var.md",
     "study/js/Virtual DOM.md",
