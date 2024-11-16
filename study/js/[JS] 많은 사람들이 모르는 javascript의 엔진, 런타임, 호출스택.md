@@ -64,4 +64,23 @@ printSquare(5);
 
 호출 스택의 각 항목을 **스택 프레임**이라고 한다. 
 
-그리고 아래는 예외가 throw되었을 때 스택 추적이 구성되는 방식이다 기본적으로 
+그리고 아래는 예외가 throw되었을 때 스택 추적이 구성되는 방식이다.
+
+```js
+function foo() {  
+    throw new Error('SessionStack will help you resolve crashes :)');  
+}
+
+function bar() {  
+    foo();  
+}
+
+function start() {  
+    bar();  
+}
+
+start();
+```
+
+Chrome에서 이 코드를 실행하면 다음과 같은 스택 추적이 생성된다.
+
