@@ -138,6 +138,18 @@
             }
           },
           {
+            "id": "589076bd19cad910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "695d229d4666f0f6",
             "type": "leaf",
             "state": {
@@ -160,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -234,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md"
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md"
               }
             }
           }
@@ -297,10 +309,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "aef4793c3f91292c",
+  "active": "589076bd19cad910",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
+    "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
+    "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
     "study/js/인터렉션.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/js/조건문.md",
@@ -324,7 +337,6 @@
     "study/react/12. 배열에 항목 추가하기.md",
     "study/react/10. 배열 렌더링하기.md",
     "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "대크톡 네트워킹 세션.md",
     "study/CS/운영체제",
     "study/CS/보안",
     "study/시험 공부/정보처리기능사 실기",
