@@ -16,6 +16,14 @@ JavaScript에 크게 의존하는 프로젝트일 수록, 개발자는 더욱더
 
 V8엔진은 익히 들어봤을 것이다. V8엔진은 현재 Chromium기반 인터넷 사용자의 약 75% 정도가 사용한다. (Chrome, Node.js에서 사용됨)
 
-JavaScript엔진은 
+![](https://i.imgur.com/rP2uD3P.png)
 
+JavaScript의 엔진은 이렇게 두 가지의 구성요소로 구성된다.
+- Memory Heap: 메모리 할당이 발생하는 위치
+- Call Stack: 코드가 실행될 때 스택 프레임이 있는 위치
+
+### 런타임
+
+브라우저엔 거의 모든 JavaScript 개발자가 사용한 API가 있다. ex) `setTimeout`
+그러나 이런 API들은 엔진에서 제공하지 안
 
