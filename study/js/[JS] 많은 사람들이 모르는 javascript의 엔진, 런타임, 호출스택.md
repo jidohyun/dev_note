@@ -60,3 +60,5 @@ printSquare(5);
 
 엔진이 이 코드를 실행하기 시작하면, 호출 스택이 비어 있을 것이다. 그 후 단계는 다음과 같다.
 
+![](https://i.imgur.com/60BZupV.png)
+
