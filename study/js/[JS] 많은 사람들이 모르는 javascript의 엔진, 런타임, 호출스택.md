@@ -14,5 +14,8 @@ JavaScript에 크게 의존하는 프로젝트일 수록, 개발자는 더욱더
 
 ### JavaScript 엔진
 
-V8엔진은 익히 들어봤을 것이다. V8엔진은 현재 Chromium 인터넷 사용자의 약 75% 정도가 사용한다. 
+V8엔진은 익히 들어봤을 것이다. V8엔진은 현재 Chromium기반 인터넷 사용자의 약 75% 정도가 사용한다. (Chrome, Node.js에서 사용됨)
+
+JavaScript엔진은 
+
 
