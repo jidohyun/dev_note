@@ -43,3 +43,20 @@ JavaScript는 단일 스레드 프로그래밍 언어이다. 즉, 단일 호출 
 
 **호출 스택은, 프로그램이 어느 위치에 있는지 기록하는 데이터 구조이다.** 함수에 들어가면 함수를 스택 맨 위에 푸쉬한다. 함수를 리턴하면 스택 맨 위에서 팝한다. 스택의 역할은 그게 전부이다.
 
+다음 코드를 보면,
+
+```js
+function multiply(x, y) {  
+    return x * y;  
+}
+
+function printSquare(x) {  
+    var s = multiply(x, x);  
+    console.log(s);  
+}
+
+printSquare(5);
+```
+
+엔진이 이 코드를 실행하기 시작하면, 호출 스택이 비어 있을 것이다. 그 후 단계는 다음과 같다.
+
