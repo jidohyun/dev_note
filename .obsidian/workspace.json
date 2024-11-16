@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md"
+                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md"
               }
             }
           }
@@ -309,11 +309,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "695d229d4666f0f6",
+  "active": "589076bd19cad910",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
     "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/typeScript/Type Script.md",
-    "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/인터렉션.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
