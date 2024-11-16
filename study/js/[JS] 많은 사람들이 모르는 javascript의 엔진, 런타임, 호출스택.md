@@ -29,5 +29,7 @@ JavaScript의 엔진은 이렇게 두 가지의 구성요소로 구성된다.
 
 좀 더 복잡한 형태로 제공되는데,
 
+![](https://i.imgur.com/DN52Oun.png)
 
 
+물론 JavaScript는 엔진으로 동작하지만, 실제로는 훨씬 더 
