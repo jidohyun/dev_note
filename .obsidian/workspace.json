@@ -141,12 +141,8 @@
             "id": "589076bd19cad910",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -246,7 +242,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +258,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,9 +279,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -311,8 +303,9 @@
   },
   "active": "589076bd19cad910",
   "lastOpenFiles": [
-    "Pasted image 20241116153403.png",
+    "무제 파일.canvas",
     "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
+    "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
     "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md",
     "study/typeScript/Type Script.md",
@@ -346,7 +339,6 @@
     "study/CS/보안",
     "img/스크린샷 2024-09-13 오후 7.41.39.png",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",
-    "무제 파일.canvas",
     "무제 파일 1.canvas",
     "img/스크린샷 2024-09-13 오후 7.41.24.png",
     "img/스크린샷 2024-08-09 오전 7.23.23.png",
