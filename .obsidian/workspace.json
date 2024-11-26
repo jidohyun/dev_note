@@ -141,8 +141,12 @@
             "id": "589076bd19cad910",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "유니온.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -242,6 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "유니온.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,6 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "유니온.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +285,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "유니온.md"
+              }
             }
           }
         ]
@@ -303,6 +311,7 @@
   },
   "active": "589076bd19cad910",
   "lastOpenFiles": [
+    "유니온.md",
     "무제 파일.canvas",
     "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
     "Pasted image 20241116153403.png",
