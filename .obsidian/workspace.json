@@ -16,7 +16,9 @@
                 "file": "study/js/배열 내장함수.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "배열 내장함수"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "study/CS/Deep/문자를 다루는 인코딩.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "문자를 다루는 인코딩"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "study/CS/보안/암호화.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "암호화"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "study/react/7. input 상태 관리하기.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "7. input 상태 관리하기"
             }
           },
           {
@@ -62,7 +70,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2024-10-11 16.14.51.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-11 16.14.51.excalidraw"
             }
           },
           {
@@ -74,7 +84,9 @@
                 "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "13.  마운트, 언마운트, 업데이트시 할 작업 설정하기"
             }
           },
           {
@@ -86,7 +98,9 @@
                 "file": "study/react/react 깊게 이해하기.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "react 깊게 이해하기"
             }
           },
           {
@@ -98,7 +112,9 @@
                 "file": "study/CS/운영체제/프로세스.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "프로세스"
             }
           },
           {
@@ -110,7 +126,9 @@
                 "file": "study/선배들과의 만남.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "선배들과의 만남"
             }
           },
           {
@@ -122,7 +140,9 @@
                 "file": "study/js/조건문.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "조건문"
             }
           },
           {
@@ -134,7 +154,9 @@
                 "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입"
             }
           },
           {
@@ -146,7 +168,21 @@
                 "file": "유니온.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "유니온"
+            }
+          },
+          {
+            "id": "687184b8469b4178",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           },
           {
@@ -156,7 +192,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2024-11-14 16.41.51.excalidraw.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-14 16.41.51.excalidraw"
             }
           },
           {
@@ -168,11 +206,13 @@
                 "file": "study/typeScript/Type Script.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Type Script"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -192,7 +232,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -207,7 +249,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -215,7 +259,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -223,7 +269,9 @@
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
-              "state": {}
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
             }
           }
         ]
@@ -246,15 +294,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "유니온.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
             }
           },
           {
@@ -263,10 +312,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "유니온.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
             }
           },
           {
@@ -277,7 +327,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -285,9 +337,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "유니온.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "개요"
             }
           }
         ]
@@ -309,7 +361,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "589076bd19cad910",
+  "active": "687184b8469b4178",
   "lastOpenFiles": [
     "유니온.md",
     "무제 파일.canvas",
