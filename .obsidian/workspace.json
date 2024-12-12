@@ -165,12 +165,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react 깊게 이해하기"
+              "title": "9. useRef 로 특정 DOM 선택하기"
             }
           },
           {
@@ -282,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "react 깊게 이해하기의 백링크"
+              "title": "9. useRef 로 특정 DOM 선택하기의 백링크"
             }
           },
           {
@@ -301,12 +301,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md",
+                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "react 깊게 이해하기의 나가는 링크"
+              "title": "9. useRef 로 특정 DOM 선택하기의 나가는 링크"
             }
           },
           {
@@ -328,10 +328,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/react 깊게 이해하기.md"
+                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md"
               },
               "icon": "lucide-list",
-              "title": "react 깊게 이해하기 개요"
+              "title": "9. useRef 로 특정 DOM 선택하기 개요"
             }
           }
         ]
@@ -355,9 +355,11 @@
   },
   "active": "589076bd19cad910",
   "lastOpenFiles": [
+    "study/CS/보안/해싱.md",
+    "study/CS/보안/암호화.md",
+    "study/react/react 깊게 이해하기.md",
     "study/react/React.md",
     "study/react/12. 배열에 항목 추가하기.md",
-    "study/react/react 깊게 이해하기.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "유니온.md",
     "무제 파일.canvas",
@@ -382,8 +384,6 @@
     "study/js/상수.md",
     "study/js/변수.md",
     "study/js/배열 내장함수.md",
-    "study/react/4. props.md",
-    "study/react/2. React 컴포넌트.md",
     "study/CS/운영체제",
     "study/CS/보안",
     "study/시험 공부/정보처리기능사 실기",
