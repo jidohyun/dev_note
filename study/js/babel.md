@@ -24,7 +24,7 @@ JS엔 트랜스파일이라는 개념이 있다.
 아래는 **ES6 (ECMAScript 2015)** 로, 비교적 최근 추가된 문법이다
 
 ```js
-if(something) {
+if (something) {
 	let x = 3;
 	console.log(x);
 }
@@ -37,5 +37,13 @@ else {
 다음은 앞선 코드를 babel이 트랜스파일한 결과이다. 프로덕션 환경에 배포할 때는 이처럼 트랜스파일러를 거친 산출물(js 파일)을 배포한다.
 
 ```js
-
+var x$0, x$1;
+if(something) {
+	x$0 = 3;
+	console.log(x$0);
+}
+else {
+	x$1 = 4;
+	console.log(x$1);
+}
 ```
