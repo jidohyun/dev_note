@@ -163,12 +163,14 @@
             "id": "40f45a61d8f90260",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md"
+                "file": "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-23 18.17.26.excalidraw"
+              "icon": "lucide-file",
+              "title": "[JS] JS할거면 인터프리터는 알아야지지"
             }
           },
           {
@@ -381,9 +383,9 @@
   },
   "active": "40f45a61d8f90260",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
+    "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md",
     "study/js/DOM.md",
     "study/js/async, await.md",
     "study/js/js.md",
