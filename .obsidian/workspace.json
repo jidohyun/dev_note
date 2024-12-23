@@ -151,12 +151,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
+                "file": "study/js/babel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입"
+              "title": "babel"
             }
           },
           {
@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/js/babel.md",
+                "file": "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "babel"
+              "title": "13.  마운트, 언마운트, 업데이트시 할 작업 설정하기"
             }
           },
           {
@@ -214,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -367,8 +367,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "07ebbbf77437def7",
+  "active": "aef4793c3f91292c",
   "lastOpenFiles": [
+    "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
+    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
+    "study/js/상수.md",
+    "study/js/연산자.md",
+    "study/선배들과의 만남.md",
+    "대크톡 네트워킹 세션.md",
+    "note.md",
+    "study/js/babel.md",
     "study/js/Promise.md",
     "study/js/js.md",
     "study/react/React.md",
@@ -378,7 +386,6 @@
     "study/js/async, await.md",
     "study/js/조건문.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
-    "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/Deep/base 64 인코딩.md",
@@ -388,13 +395,6 @@
     "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/CS/알고리즘/삽입정렬 알고리즘.md",
     "study/CS/알고리즘/알고리즘.md",
-    "study/CS/알고리즘/Drawing 2024-12-23 14.55.03.excalidraw.md",
-    "study/react/9. useRef 로 특정 DOM 선택하기.md",
-    "study/CS/보안/해싱.md",
-    "study/CS/보안/암호화.md",
-    "study/react/react 깊게 이해하기.md",
-    "study/react/12. 배열에 항목 추가하기.md",
-    "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
