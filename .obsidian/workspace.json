@@ -191,14 +191,12 @@
             "id": "2dd4feae100a67a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "[JS] JS할거면 인터프리터는 알아야지지"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-23 18.17.26.excalidraw"
             }
           },
           {
@@ -399,6 +397,7 @@
   },
   "active": "2dd4feae100a67a7",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-12-23 19.08.55.excalidraw.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
     "Excalidraw/Drawing 2024-12-23 18.33.30.excalidraw.md",
@@ -424,7 +423,6 @@
     "study/js/상수.md",
     "study/js/연산자.md",
     "study/선배들과의 만남.md",
-    "study/react/React.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
