@@ -149,14 +149,17 @@
             "id": "aef4793c3f91292c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "study/js/[JS] 상위호환성, 트랜스파일러 babel.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "[JS] 상위호환성, 트랜스파일러 babel"
+              "icon": "lucide-layout-dashboard",
+              "title": "무제 파일"
             }
           },
           {
@@ -367,8 +370,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "aef4793c3f91292c",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "study/js/[JS] 상위호환성, 트랜스파일러 babel.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "study/js/상수.md",
@@ -376,7 +380,6 @@
     "study/선배들과의 만남.md",
     "대크톡 네트워킹 세션.md",
     "note.md",
-    "study/js/[JS] 상위호환성, 트랜스파일러 babel.md",
     "study/js/Promise.md",
     "study/js/js.md",
     "study/react/React.md",
