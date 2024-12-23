@@ -160,6 +160,18 @@
             }
           },
           {
+            "id": "40f45a61d8f90260",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-23 18.17.26.excalidraw"
+            }
+          },
+          {
             "id": "589076bd19cad910",
             "type": "leaf",
             "state": {
@@ -214,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -367,8 +379,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "aef4793c3f91292c",
+  "active": "40f45a61d8f90260",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
     "study/js/DOM.md",
@@ -394,7 +407,6 @@
     "study/react/React.md",
     "study/js/Prototype.md",
     "study/js/조건문.md",
-    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
