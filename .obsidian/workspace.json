@@ -191,12 +191,14 @@
             "id": "2dd4feae100a67a7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-23 18.17.26.excalidraw.md"
+                "file": "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-23 18.17.26.excalidraw"
+              "icon": "lucide-file",
+              "title": "[JS] JS할거면 인터프리터는 알아야지지"
             }
           },
           {
@@ -397,9 +399,9 @@
   },
   "active": "2dd4feae100a67a7",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-12-23 19.08.55.excalidraw.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
+    "Excalidraw/Drawing 2024-12-23 19.08.55.excalidraw.md",
     "Excalidraw/Drawing 2024-12-23 18.33.30.excalidraw.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "Excalidraw/Drawing 2024-12-23 18.32.45.excalidraw.md",
