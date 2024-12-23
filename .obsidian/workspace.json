@@ -149,17 +149,14 @@
             "id": "aef4793c3f91292c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "무제 파일.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "무제 파일"
+              "icon": "lucide-file",
+              "title": "[JS] JS할거면 인터프리터는 알아야지지"
             }
           },
           {
@@ -370,34 +367,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "aef4793c3f91292c",
   "lastOpenFiles": [
-    "study/js/[JS] 상위호환성, 트랜스파일러 babel.md",
     "study/js/[JS] js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
+    "study/js/[JS] JS할거면 인터프리터는 알아야지지.md",
+    "study/js/DOM.md",
+    "study/js/async, await.md",
+    "study/js/js.md",
+    "study/js/Promise.md",
+    "study/js/var.md",
+    "study/js/Virtual DOM.md",
+    "Vault.md",
+    "README.md",
+    "note.md",
+    "study/typeScript/유니온.md",
+    "study/typeScript/인터페이스.md",
+    "study/typeScript/조건부 타입.md",
+    "study/typeScript/기본 타입.md",
+    "study/typeScript/Type Script.md",
+    "study/대크톡 네트워킹 세션.md",
+    "study/js/[JS] 상위호환성, 트랜스파일러 babel.md",
     "study/react/13.  마운트, 언마운트, 업데이트시 할 작업 설정하기.md",
     "study/js/상수.md",
     "study/js/연산자.md",
     "study/선배들과의 만남.md",
-    "대크톡 네트워킹 세션.md",
-    "note.md",
-    "study/js/Promise.md",
-    "study/js/js.md",
     "study/react/React.md",
-    "study/js/var.md",
     "study/js/Prototype.md",
-    "study/js/DOM.md",
-    "study/js/async, await.md",
     "study/js/조건문.md",
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
-    "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
-    "study/CS/Deep/문자를 다루는 인코딩.md",
-    "study/CS/Deep/base 64 인코딩.md",
-    "study/CS/Deep/\b헤드리스 컴포넌트.md",
-    "study/CS/알고리즘/버블정렬 알고리즘.md",
-    "study/CS/알고리즘/브루트포스 알고리즘.md",
-    "study/CS/알고리즘/선택정렬 알고리즘.md",
-    "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/알고리즘/알고리즘.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
