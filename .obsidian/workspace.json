@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/react query.md",
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react query"
+              "title": "\b헤드리스 컴포넌트"
             }
           },
           {
@@ -399,6 +399,12 @@
   },
   "active": "2dd4feae100a67a7",
   "lastOpenFiles": [
+    "study/typeScript/인터페이스.md",
+    "study/typeScript/타입스크립트.md",
+    "study/typeScript/Type Script.md",
+    "study/react/5. 조건부 렌더링.md",
+    "study/react/12. 배열에 항목 추가하기.md",
+    "study/react/react query.md",
     "study/react/electron deep dive.md",
     "study/react/react 깊게 이해하기.md",
     "study/typeScript/유니온.md",
@@ -419,12 +425,6 @@
     "study/js/async, await.md",
     "study/js/js.md",
     "study/js/Promise.md",
-    "study/js/var.md",
-    "study/js/Virtual DOM.md",
-    "Vault.md",
-    "README.md",
-    "note.md",
-    "study/typeScript/인터페이스.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
