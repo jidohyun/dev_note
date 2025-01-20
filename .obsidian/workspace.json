@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/react/6. useState.md",
+                "file": "study/typeScript/조건부 타입.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. useState"
+              "title": "조건부 타입"
             }
           },
           {
@@ -399,6 +399,11 @@
   },
   "active": "2dd4feae100a67a7",
   "lastOpenFiles": [
+    "study/typeScript/타입스크립트.md",
+    "study/react/electron deep dive.md",
+    "study/react/React.md",
+    "study/react/상태관리 라이브러리(zustand).md",
+    "study/react/6. useState.md",
     "study/js/Prototype.md",
     "study/웹/CORS.md",
     "study/웹/프론트엔드 아키텍쳐.md",
@@ -420,11 +425,6 @@
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
     "study/CS/네트워크/클라우드 기반.md",
     "study/CS/네트워크/VPN.md",
-    "study/CS/알고리즘/브루트포스 알고리즘.md",
-    "study/CS/알고리즘/삽입정렬 알고리즘.md",
-    "study/CS/알고리즘/선택정렬 알고리즘.md",
-    "study/CS/운영체제/운영체제.md",
-    "study/CS/운영체제/프로세스.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
