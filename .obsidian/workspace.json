@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/Deep/같이 실행되지 않는 코드 분리하기.md",
+                "file": "study/react/6. useState.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "같이 실행되지 않는 코드 분리하기"
+              "title": "6. useState"
             }
           },
           {
@@ -399,21 +399,24 @@
   },
   "active": "2dd4feae100a67a7",
   "lastOpenFiles": [
+    "study/js/Prototype.md",
+    "study/웹/CORS.md",
+    "study/웹/프론트엔드 아키텍쳐.md",
+    "study/CS/네트워크/네트워크 스위치.md",
+    "study/CS/네트워크/라우터.md",
+    "study/CS/네트워크/라우팅.md",
+    "study/CS/네트워크/스위치, 라우터.md",
+    "study/CS/네트워크/인터넷.md",
+    "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/Deep/같이 실행되지 않는 코드 분리하기.md",
     "study/CS/Deep/\b헤드리스 컴포넌트.md",
-    "study/웹/프론트엔드 아키텍쳐.md",
     "study/CS/Deep/base 64 인코딩.md",
-    "study/CS/네트워크/인터넷.md",
     "study/CS/네트워크/임대 회선.md",
     "study/CS/네트워크/자율 시스템(AS).md",
-    "study/CS/네트워크/스위치, 라우터.md",
     "study/CS/네트워크/서비스형 네트워크(NaaS).md",
-    "study/CS/네트워크/라우터.md",
-    "study/CS/네트워크/라우팅.md",
     "study/CS/네트워크/분산 서비스 거부(DDoS).md",
     "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
-    "study/CS/네트워크/네트워크 스위치.md",
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
     "study/CS/네트워크/클라우드 기반.md",
     "study/CS/네트워크/VPN.md",
@@ -422,9 +425,6 @@
     "study/CS/알고리즘/선택정렬 알고리즘.md",
     "study/CS/운영체제/운영체제.md",
     "study/CS/운영체제/프로세스.md",
-    "study/typeScript/인터페이스.md",
-    "study/typeScript/타입스크립트.md",
-    "study/typeScript/Type Script.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
