@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/typeScript/조건부 타입.md",
+                "file": "study/typeScript/유니온.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "조건부 타입"
+              "title": "유니온"
             }
           },
           {
@@ -399,6 +399,7 @@
   },
   "active": "2dd4feae100a67a7",
   "lastOpenFiles": [
+    "study/typeScript/조건부 타입.md",
     "study/typeScript/타입스크립트.md",
     "study/react/electron deep dive.md",
     "study/react/React.md",
@@ -424,7 +425,6 @@
     "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
     "study/CS/네트워크/클라우드 기반.md",
-    "study/CS/네트워크/VPN.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
