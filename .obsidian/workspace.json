@@ -205,12 +205,14 @@
             "id": "243597a37a6935de",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "9. useRef 로 특정 DOM 선택하기"
             }
           },
           {
@@ -412,6 +414,7 @@
   },
   "active": "243597a37a6935de",
   "lastOpenFiles": [
+    "아ㄴ녕.md",
     "study/typeScript/조건부 타입.md",
     "study/typeScript/타입스크립트.md",
     "study/react/electron deep dive.md",
@@ -437,7 +440,6 @@
     "study/CS/네트워크/분산 서비스 거부(DDoS).md",
     "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
-    "study/CS/네트워크/클라우드 기반.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
