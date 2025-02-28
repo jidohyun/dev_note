@@ -216,6 +216,18 @@
             }
           },
           {
+            "id": "f2b4017de0734e9b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
+          },
+          {
             "id": "589076bd19cad910",
             "type": "leaf",
             "state": {
@@ -258,7 +270,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -412,7 +424,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "243597a37a6935de",
+  "active": "f2b4017de0734e9b",
   "lastOpenFiles": [
     "아ㄴ녕.md",
     "study/typeScript/조건부 타입.md",
