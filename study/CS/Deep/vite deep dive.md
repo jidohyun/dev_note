@@ -10,3 +10,9 @@ vite는 핵심적으로 두 가지 작업을 수행한다.
 
 하지만 이것들은 Webpack, Parcel, Rollup과 같은 js 번들러가 제공하는 일이다.
 
+지금까지 웹 개발자들은 JavaScript 언어에 표준 모듈 시스템이 없었기 때문에 필요할 때 내보내고 가져올 수 있는 모듈로 JavaScript코드를 분할할 수 있는 기본 방법이 없었다.
+
+이로 인해 CommonJS(CJS)및 Asynchronous module definition(AMD)과 같은 JavaScript용 다양한 비표준 모듈 시스템이 개발되었다. 이러한 모듈 시스템을 지원하고 여러 JavaScript 파일과 자산을 단일 번들로 연결하는 Webpack과 같은 도구가 개발되었다.
+
+하지만 Webpack이 훌륭하고 잘 작동하더라도 앱에 더 많은 코드와 종속성이 추가되면 프로세스가 점점 더 느려진다.
+
