@@ -216,6 +216,18 @@
             }
           },
           {
+            "id": "4e46610c1814b198",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-11 21.52.07.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-11 21.52.07.excalidraw"
+            }
+          },
+          {
             "id": "589076bd19cad910",
             "type": "leaf",
             "state": {
@@ -258,7 +270,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -412,8 +424,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "243597a37a6935de",
+  "active": "4e46610c1814b198",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-11 21.52.07.excalidraw.md",
     "레포.md",
     "study/CS/Deep/vite deep dive.md",
     "study/CS/빅데이터분석/빅데이터 분석.md",
@@ -440,7 +453,6 @@
     "study/CS/Deep/base 64 인코딩.md",
     "study/CS/네트워크/임대 회선.md",
     "study/CS/네트워크/자율 시스템(AS).md",
-    "study/CS/네트워크/서비스형 네트워크(NaaS).md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
