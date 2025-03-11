@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뻘짓.md",
+                "file": "레포.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "뻘짓"
+              "title": "레포"
             }
           },
           {
@@ -414,7 +414,7 @@
   },
   "active": "243597a37a6935de",
   "lastOpenFiles": [
-    "뻘짓.md",
+    "레포.md",
     "study/CS/Deep/vite deep dive.md",
     "study/CS/빅데이터분석/빅데이터 분석.md",
     "study/CS/빅데이터분석",
