@@ -165,12 +165,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/Deep/vite deep dive.md",
+                "file": "study/CS/데이터베이스/데이터베이스 표기법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vite deep dive"
+              "title": "데이터베이스 표기법"
             }
           },
           {
@@ -384,6 +384,8 @@
   },
   "active": "40f45a61d8f90260",
   "lastOpenFiles": [
+    "study/CS/데이터베이스/데이터베이스 표기법.md",
+    "study/CS/데이터베이스",
     "[Paste.md",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
     "Excalidraw/Drawing 2025-03-11 22.00.50.excalidraw.md",
@@ -411,7 +413,6 @@
     "study/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
     "study/CS/Deep/같이 실행되지 않는 코드 분리하기.md",
-    "study/CS/Deep/\b헤드리스 컴포넌트.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
@@ -430,7 +431,6 @@
     "Pasted image 20240920132156.png",
     "Pasted image 20240920131939.png",
     "study/typeScript",
-    "study/CS/Deep",
-    "study/CS"
+    "study/CS/Deep"
   ]
 }
