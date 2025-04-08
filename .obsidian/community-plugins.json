@@ -1,12 +1,4 @@
 [
   "obsidian-git",
-  "obsidian-imgur-plugin",
-  "editing-toolbar",
-  "obsidian-image-toolkit",
-  "dataview",
-  "obsidian-outliner",
-  "url-into-selection",
-  "obsidian-tasks-plugin",
-  "oz-clear-unused-images",
-  "make-md"
+  "obsidian-imgur-plugin"
 ]
