@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/운영체제/운영체제.md",
+                "file": "study/CS/운영체제/인터럽트 사이클.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "운영체제"
+              "title": "인터럽트 사이클"
             }
           },
           {
@@ -347,10 +347,12 @@
   "active": "aef4793c3f91292c",
   "lastOpenFiles": [
     "study/CS/운영체제/인출 사이클.md",
-    "study/CS/운영체제/프로세스.md",
-    "study/CS/운영체제/운영체제.md",
-    "study/CS/운영체제/컴퓨터 구조.md",
     "study/CS/운영체제/CPU.md",
+    "study/CS/운영체제/프로세스.md",
+    "study/CS/운영체제/컴퓨터 구조.md",
+    "study/CS/운영체제/인터럽트 사이클.md",
+    "study/CS/운영체제/실행 사이클.md",
+    "study/CS/운영체제/운영체제.md",
     "study/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
     "study/react/tanstack react-table.md",
     "study/react/React.md",
@@ -373,8 +375,6 @@
     "study/react/상태관리 라이브러리(zustand).md",
     "study/react/6. useState.md",
     "study/js/Prototype.md",
-    "study/웹/CORS.md",
-    "study/웹/프론트엔드 아키텍쳐.md",
     "무제 파일.canvas",
     "Pasted image 20241116153403.png",
     "Pasted image 20241116153349.png",
