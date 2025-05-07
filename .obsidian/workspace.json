@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/네트워크/네트워크 스위치.md",
+                "file": "study/CS/네트워크/스위치, 라우터.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "네트워크 스위치"
+              "title": "스위치, 라우터"
             }
           },
           {
@@ -360,18 +360,18 @@
   },
   "active": "87bd2e4fc332a793",
   "lastOpenFiles": [
-    "study/CS/네트워크/네트워크.md",
-    "study/CS/네트워크/네트워크 스위치.md",
+    "study/CS/네트워크/서브넷.md",
     "study/CS/네트워크/라우터.md",
+    "study/CS/네트워크/라우팅.md",
+    "study/CS/네트워크/네트워크 스위치.md",
+    "study/CS/네트워크/네트워크.md",
     "study/탑싯/소프트웨어 공학의 4가지 중요요소.md",
     "study/탑싯",
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/CS/네트워크/TLS=SSL.md",
     "study/CS/네트워크/VPN.md",
-    "study/CS/네트워크/라우팅.md",
     "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
     "study/CS/네트워크/분산 서비스 거부(DDoS).md",
-    "study/CS/네트워크/서브넷.md",
     "study/CS/네트워크/서비스형 네트워크(NaaS).md",
     "study/CS/네트워크/스위치, 라우터.md",
     "study/CS/네트워크/인터넷.md",
