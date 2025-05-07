@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/네트워크/서브넷.md",
+                "file": "study/js/인터렉션.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "서브넷"
+              "title": "인터렉션"
             }
           },
           {
@@ -360,6 +360,7 @@
   },
   "active": "87bd2e4fc332a793",
   "lastOpenFiles": [
+    "study/CS/네트워크/서브넷.md",
     "study/CS/네트워크/네트워크.md",
     "study/CS/네트워크/분산 서비스 거부(DDoS).md",
     "study/CS/네트워크/임대 회선.md",
@@ -367,7 +368,6 @@
     "study/CS/네트워크/인터넷.md",
     "study/CS/네트워크/클라우드 기반.md",
     "study/CS/네트워크/LAN(근거리 통신망).md",
-    "study/CS/네트워크/서브넷.md",
     "study/CS/네트워크/라우터.md",
     "study/CS/네트워크/보안 엑세스 서비스 에지(SASE).md",
     "study/CS/네트워크/라우팅.md",
