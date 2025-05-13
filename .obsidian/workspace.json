@@ -162,6 +162,18 @@
             }
           },
           {
+            "id": "65adc5130fc294cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "589076bd19cad910",
             "type": "leaf",
             "state": {
@@ -204,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -358,7 +370,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87bd2e4fc332a793",
+  "active": "65adc5130fc294cd",
   "lastOpenFiles": [
     "study/CS/네트워크/서브넷.md",
     "study/CS/네트워크/네트워크.md",
