@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/웹/프론트엔드 아키텍쳐.md",
+                "file": "study/CS/보안/해싱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프론트엔드 아키텍쳐"
+              "title": "해싱"
             }
           },
           {
@@ -360,8 +360,9 @@
   },
   "active": "87bd2e4fc332a793",
   "lastOpenFiles": [
-    "study/웹/CORS.md",
+    "study/CS/보안/암호화.md",
     "study/웹/프론트엔드 아키텍쳐.md",
+    "study/웹/CORS.md",
     "study/웹/웹 브라우저의 역사.md",
     "study/CS/네트워크/클라우드 기반.md",
     "study/CS/네트워크/자율 시스템(AS).md",
@@ -386,7 +387,6 @@
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/CS/네트워크/TLS=SSL.md",
     "study/CS/네트워크/서비스형 네트워크(NaaS).md",
-    "study/CS/데이터베이스/데이터베이스 표기법.md",
     "study/CS/데이터베이스",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
     "study/CS/빅데이터분석",
