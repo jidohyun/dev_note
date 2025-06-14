@@ -36,4 +36,17 @@ SELECT column1, column2, ... FROM table_name ORDER BY column_name [ASC | DESC];
 - `DESC`: 내림차순.
 - 여러 열 정렬 가능: `ORDER BY column1 ASC, column2 DESC`.
 
-ㅇㅇ
+- **예시**:
+```sql
+SELECT name, age FROM customers ORDER BY age ASC;
+```
+- `customers` 테이블에서 `name`, `age`를 나이순(오름차순)으로 정렬.
+
+```sql
+SELECT product_name, price FROM products ORDER BY price DESC, product_name ASC;
+```
+- `products` 테이블에서 `price`를 내림차순, 같은 `price`일 경우 `product_name`을 오름차순으로 정렬.
+
+- **주의점**
+	- 정렬 기준 열은 `SELECT`에 없어도 사용 가능(예: `SELECT name FROM customers ORDER BY age;`).
+	- `NULL` dms
