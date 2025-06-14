@@ -25,3 +25,11 @@ SELECT DISTINCT name, age FROM customers;
 	- 성능 저하 가능: 대규모 데이터에서 중복 제거라는 리소스 소모.
 	- `NULL`은 하나의 고유 값으로 간주.
 
+### 2. ORDER BY
+- **정의**: 조회 결과를 특정 열 기준으로 **정렬**
+- **역할**: 데이터를 오름차순(ACS) 또는 내림차순(DESC)으로 정렬해 가독성/분석 용이성 제공.
+- **문법**
+```sql
+SELECT column1, column2, ... FROM table_name ORDER BY column_name [ASC | DESC];
+```
+
