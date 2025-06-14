@@ -307,12 +307,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DB/SQL/고급/집계함수.md",
+                "file": "study/DB/SQL/기본/SELECT, FROM, WHERE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "집계함수"
+              "title": "SELECT, FROM, WHERE"
             }
           }
         ],
@@ -470,10 +470,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "c084eb74a35c71eb",
   "lastOpenFiles": [
-    "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
     "study/DB/SQL/고급/집계함수.md",
+    "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
     "study/DB/SQL/고급",
     "study/DB/SQL/기본/SELECT, FROM, WHERE.md",
     "study/DB/개념/데이터베이스 정의.md",
