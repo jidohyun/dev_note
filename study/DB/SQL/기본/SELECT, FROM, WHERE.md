@@ -33,5 +33,24 @@ SELECT column_name FROM table_name;
 - `table_name`: 조회 대상 테이블.
 
 ```sql
-SELECT order_id, order_date
+SELECT order_id, order_date FROM orders;
 ```
+- `orders` 테이블에서 `order_id`와 `order_date` 열을 조회.
+
+- **참고**: 여러 테이블을 조인(JOIN)할 때 FROM 절에 다수 테이블 명시 가능.
+```sql
+SELECT customers.name, orders.order_date 
+FROM customers 
+JOIN orders ON customers.customer_id = orders.customer_id;
+```
+
+### 3. WHERE
+
+- **정의**: 조회할 데이터의 **조건**을 지정.
+- **역할**: 특정 조건을 만족하는 행(Row)만 필터링해 출력.
+- **문법**:
+
+```sql
+SELECT column_name FROM table_name WHERE condition;
+```
+- `condition`: 필터링 조건(예: `age > 30`, `status = 'active'`)
