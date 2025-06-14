@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DB/SQL/무제.md",
+                "file": "study/DB/개념/데이터베이스 정의.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "데이터베이스 정의"
             }
           },
           {
@@ -386,10 +386,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "063761b76182e35c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-08 21.55.54.excalidraw.md",
     "study/DB/SQL/무제.md",
+    "study/DB/개념/데이터베이스 정의.md",
+    "study/DB/개념",
+    "Excalidraw/Drawing 2024-08-08 21.55.54.excalidraw.md",
     "study/DB/SQL",
     "Vault.md",
     "Excalidraw/Drawing 2024-06-16 20.42.50.excalidraw.md",
@@ -418,7 +420,6 @@
     "study/웹/CORS.md",
     "study/웹/웹 브라우저의 역사.md",
     "study/CS/네트워크/클라우드 기반.md",
-    "study/CS/네트워크/자율 시스템(AS).md",
     "study/탑싯",
     "study/CS/데이터베이스",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
@@ -428,7 +429,6 @@
     "Pasted image 20241116153349.png",
     "study/CS/운영체제",
     "study/CS/보안",
-    "study/시험 공부/정보처리기능사 실기",
     "img/스크린샷 2024-09-13 오후 7.41.39.png",
     "무제 파일 1.canvas",
     "img/스크린샷 2024-09-13 오후 7.41.24.png",
