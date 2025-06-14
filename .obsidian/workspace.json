@@ -414,7 +414,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -429,10 +430,11 @@
   },
   "active": "e1c6d543abaf68ff",
   "lastOpenFiles": [
-    "study/DB/INDEX.md",
-    "study/DB/개념/RDB.md",
     "study/DB/개념/DBMS.md",
+    "study/DB/개념/RDB.md",
     "study/DB/개념/데이터베이스 정의.md",
+    "study/js/Prototype.md",
+    "study/DB/INDEX.md",
     "study/DB/SQL/무제.md",
     "study/DB/개념",
     "Excalidraw/Drawing 2024-08-08 21.55.54.excalidraw.md",
@@ -460,7 +462,6 @@
     "study/탑싯/소프트웨어 공학의 4가지 중요요소.md",
     "study/Software Engineering",
     "study/CS/보안/암호화.md",
-    "study/웹/프론트엔드 아키텍쳐.md",
     "study/탑싯",
     "study/CS/데이터베이스",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
