@@ -28,4 +28,5 @@
 ### DBMS
 
 1. 관계형 DBMS (RDBMS)
-	- 
+	- 데이터를 테이블 형태로 관리, SQL 기반.
+	- 예: MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
