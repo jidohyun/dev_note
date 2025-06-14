@@ -49,4 +49,21 @@ SELECT product_name, price FROM products ORDER BY price DESC, product_name ASC;
 
 - **주의점**
 	- 정렬 기준 열은 `SELECT`에 없어도 사용 가능(예: `SELECT name FROM customers ORDER BY age;`).
-	- `NULL` dms
+	- `NULL` 은 RDBMS마다 다르게 처리 (MySQL/PostgreSQL: 오름차순 시 `NULL`이 먼저).
+	- 인덱스 활용 여부에 따라 성능 차이.
+
+- **종합 예시**
+
+```sql
+SELECT DISTINCT city 
+FROM customers 
+WHERE age > 25 
+ORDER BY city ASC;
+```
+- **설명**: `customers` 테이블에서 `age`가 25 초과인 고객의 고유한 `city`를 조회하고, 알파벳순(오름차순)으로 정렬.
+
+### 주요 특징 및 주의점
+- **DISTINCT**:
+	- 중복 제거 대상이 많을수록 쿼리 실행 시간 증가.
+	- `GROUP BY`로 대체 가능 경우 있음 (예: 집계 없이 고유 값 조회)
+	- `SELECT DISTINCT *`는 모든 열의 중복 제거 -> 비효율저
