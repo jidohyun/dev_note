@@ -54,3 +54,23 @@ JOIN orders ON customers.customer_id = orders.customer_id;
 SELECT column_name FROM table_name WHERE condition;
 ```
 - `condition`: 필터링 조건(예: `age > 30`, `status = 'active'`)
+- **연산자**: 
+	- 비교: `=`, `!-`, `>`, `<`, `>=`, `<=`
+	- 논리: `AND`, `OR`, `NOT`
+	- 기타: `LIKE`, `IN`, `BETWEEN`, `IS NULL`
+
+- **예시**:
+```sql
+SELECT name, age FROM customers WHERE age > 30;
+```
+- `customers` 테이블에서 `age`가 30 초과인 고객의 `name`과 `age` 조회.
+
+```sql
+SELECT product_name FROM products WHERE price BETWEEN 10 AND 50
+```
+- `products` 테이블에서 `price`가 10~50 사이인 제품의 `product_name` 조회.
+
+```sql
+SELECT email FROM users WHERE status = 'active' AND city = 'Seoul';
+```
+- ₩
