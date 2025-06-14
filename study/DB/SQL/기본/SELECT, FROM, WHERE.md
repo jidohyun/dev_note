@@ -86,4 +86,12 @@ WHERE city = 'Seoul' AND age >= 25;
 ### 주요 특징 및 주의점
 
 - **SELECT**:
-	- 열 ㅇ
+	- 열 이름은 명시적으로 작성하는 것이 가독성에 좋음. `*`는 간편하지만, 불필요한 데이터 조회 시 성능 저하 가능.
+	- 별칭(Alias) 사용 가능: `SELECT name AS customer_name`
+- **FROM**: 
+	- 테이블 이름은 스키마 명시 가능(예: `database_name.table_name`).
+	- 잘못된 테이블 이름은 오류 발생.
+- WHERE: 
+	- 조건 순서에 따라 성능 차이 가능(인덱스 활용 고려).
+	- 문자열은 단일 따옴표(`'`)로 감싸야 함(예: `'Seoul'`).
+	- `NULL` 값은 `IS NULL` 또는 `IS NOT NULL`로 확인.
