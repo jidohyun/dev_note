@@ -28,8 +28,12 @@ SELECT DISTINCT name, age FROM customers;
 ### 2. ORDER BY
 - **정의**: 조회 결과를 특정 열 기준으로 **정렬**
 - **역할**: 데이터를 오름차순(ACS) 또는 내림차순(DESC)으로 정렬해 가독성/분석 용이성 제공.
-- **문법**
+- **문법**:
 ```sql
 SELECT column1, column2, ... FROM table_name ORDER BY column_name [ASC | DESC];
 ```
+- `ASC`: 오름차순 (기본값, 생략 가능).
+- `DESC`: 내림차순.
+- 여러 열 정렬 가능: `ORDER BY column1 ASC, column2 DESC`.
 
+ㅇㅇ
