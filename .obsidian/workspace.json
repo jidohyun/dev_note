@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DB/SQL/기본/SELECT, FROM, WHERE.md",
+                "file": "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SELECT, FROM, WHERE"
+              "title": "DISTINCT, ORDER BY"
             }
           }
         ],
@@ -458,8 +458,8 @@
   },
   "active": "8db2122ee7be1aee",
   "lastOpenFiles": [
-    "study/DB/SQL/기본/무제.md",
     "study/DB/SQL/기본/SELECT, FROM, WHERE.md",
+    "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
     "study/DB/개념/데이터베이스 정의.md",
     "study/DB/SQL/무제.md",
     "study/DB/SQL/기본",
