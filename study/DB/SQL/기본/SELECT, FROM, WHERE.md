@@ -73,4 +73,17 @@ SELECT product_name FROM products WHERE price BETWEEN 10 AND 50
 ```sql
 SELECT email FROM users WHERE status = 'active' AND city = 'Seoul';
 ```
-- ₩
+- `users` 테이블에서 `status`가 'active'이고 `city`가 'Seoul'인 사용자의 `email` 조회.
+
+- **종합 예시**
+
+```sql
+SELECT customer_id, name, email 
+FROM customers 
+WHERE city = 'Seoul' AND age >= 25;
+```
+
+### 주요 특징 및 주의점
+
+- **SELECT**:
+	- 열 ㅇ
