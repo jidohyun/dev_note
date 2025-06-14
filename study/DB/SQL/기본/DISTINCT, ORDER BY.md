@@ -13,4 +13,15 @@ SELECT DISTINCT column1, column2, ... FROM table_name;
 ```sql
 SELECT DISTINCT city FROM customers;
 ```
-- `cust`
+- `customers` 테이블에서 `city`열의 고유한 값만 조회 (예: 'Seoul', 'Busan'만 반환).
+
+```sql
+SELECT DISTINCT name, age FROM customers;
+```
+- `name`과 `age`의 조합이 고유한 행만 반환 (동일한 이름과 나이 쌍은 하나로).
+
+- **주의점**
+	- `DISTINCT`는 모든 지정된 열의 조합에 적용 (단일 열이 아닌 경우)
+	- 성능 저하 가능: 대규모 데이터에서 중복 제거라는 리소스 소모.
+	- `NULL`은 하나의 고유 값으로 간주.
+
