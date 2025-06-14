@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DevOps/k8s.md",
+                "file": "study/선배들과의 만남.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k8s"
+              "title": "선배들과의 만남"
             }
           },
           {
@@ -374,11 +374,11 @@
   },
   "active": "8339a9bb4530697f",
   "lastOpenFiles": [
+    "study/DevOps/k8s.md",
     "study/study.md",
     "study/TIL.md",
     "README.md",
     "Vault.md",
-    "study/DevOps/k8s.md",
     "2025-03-11.md",
     "[Paste.md",
     "study/Software Engineering/소프트웨어 생명주기 모델.md",
