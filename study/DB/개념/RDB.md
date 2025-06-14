@@ -35,4 +35,11 @@ SQL을 사용해 데이터 정의, 조작, 제어.
 	- **도메인 무결성**: 데이터 타입 및 제약 조건 준수.
 	- **엔터티 무결성**: 기본 키의 고유성과 NULL 불가 규칙 준수.
 - **정규화 (Normalization)**: 데이터 중복 최소화, 일관성 유지.
-- **SQL 기반
+- **SQL 기반**: 표준화된 쿼리 언어로 데이터 조작 및 관리 용이.
+- **트랜잭션 지원**: ACID(Atomicity, Consistency, Isolation, Durability) 속성 보장.
+
+![](https://i.imgur.com/RPx0SiI.png)
+
+### RDB의 장점
+
+- **데이터 일관성**: 무결성 제약 조건으로 
