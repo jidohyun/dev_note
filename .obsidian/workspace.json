@@ -307,16 +307,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
+                "file": "study/운영체제/운영체제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DISTINCT, ORDER BY"
+              "title": "운영체제"
+            }
+          },
+          {
+            "id": "9e5366e0812f3b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/운영체제/CPU.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CPU"
+            }
+          },
+          {
+            "id": "541f01db5d5512b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/운영체제/인출 사이클.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "인출 사이클"
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -470,11 +498,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c084eb74a35c71eb",
+  "active": "541f01db5d5512b3",
   "lastOpenFiles": [
+    "study/운영체제/인터럽트 사이클.md",
+    "study/운영체제/운영체제.md",
+    "study/운영체제/컴퓨터 구조.md",
+    "study/운영체제/인출 사이클.md",
+    "study/운영체제/CPU.md",
+    "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
     "study/DB/SQL/기본/SELECT, FROM, WHERE.md",
     "study/DB/SQL/고급/집계함수.md",
-    "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
     "study/DB/SQL/고급",
     "study/DB/개념/데이터베이스 정의.md",
     "study/DB/SQL/무제.md",
@@ -500,12 +533,7 @@
     "study/study.md",
     "study/TIL.md",
     "README.md",
-    "2025-03-11.md",
-    "[Paste.md",
-    "study/Software Engineering/소프트웨어 생명주기 모델.md",
     "study/DevOps",
-    "ㅌㄹ.md",
-    "study/Software Engineering/index.md",
     "study/Software Engineering",
     "study/탑싯",
     "study/CS/데이터베이스",
