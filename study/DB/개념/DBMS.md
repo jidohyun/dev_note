@@ -30,3 +30,11 @@
 1. 관계형 DBMS (RDBMS)
 	- 데이터를 테이블 형태로 관리, SQL 기반.
 	- 예: MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
+	- 특징: 정형화된 데이터, 강력한 무결성, 복잡한 쿼리 처리에 적합.
+2. 비관계형 DBMS (NoSQL)
+	- 비정형/반정형 데이터 처리, 유연한 스키마.
+	- 예: MongoDB (문서형), Redis(키-값), Cassandra(컬럼형), Neo4j(그래프).
+3. 기타
+	- 계층형 DBMS, 네트워크형 DBMS (구형), 객체지향 DBMS, 시계열 DBMS (예: InfluxDB)
+
+### DBMS의 장점
