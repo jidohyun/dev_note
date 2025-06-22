@@ -220,6 +220,7 @@
   },
   "active": "511296779444f647",
   "lastOpenFiles": [
+    "study/운영체제/교착상태.md",
     "study/운영체제/동기화(세마포어).md",
     "study/운영체제/병행 프로세스.md",
     "study/운영체제/인출 사이클.md",
@@ -227,7 +228,6 @@
     "study/운영체제/임계영역의 해결.md",
     "study/운영체제/프로세스.md",
     "study/운영체제/CPU.md",
-    "study/운영체제/교착상태.md",
     "study/운영체제/INDEX.md",
     "study/DB/SQL/기본/DISTINCT, ORDER BY.md",
     "study/DB/SQL/기본/SELECT, FROM, WHERE.md",
