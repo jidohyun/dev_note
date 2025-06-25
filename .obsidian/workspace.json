@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/운영체제/임계영역의 해결.md",
+                "file": "study/CS/데이터베이스/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "임계영역의 해결"
+              "title": "무제"
             }
           }
         ],
@@ -234,13 +234,14 @@
   },
   "active": "5c6d8f7454815fa3",
   "lastOpenFiles": [
+    "study/운영체제/임계영역의 해결.md",
+    "study/CS/데이터베이스/무제.md",
     "study/운영체제/동기화(세마포어).md",
     "study/운영체제/교착상태.md",
     "study/운영체제/Dijkstra's 은행원 알고리즘.md",
     "study/운영체제/병행 프로세스.md",
     "study/운영체제/인출 사이클.md",
     "study/운영체제/인터럽트 사이클.md",
-    "study/운영체제/임계영역의 해결.md",
     "study/운영체제/프로세스.md",
     "study/운영체제/CPU.md",
     "study/운영체제/INDEX.md",
@@ -259,7 +260,6 @@
     "study/react/7. input 상태 관리하기.md",
     "study/CS/보안/암호화.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
-    "study/독서/개발자의 글쓰기.md",
     "study/언어",
     "study/운영체제/컴퓨터 구조",
     "study/DB/SQL/고급",
