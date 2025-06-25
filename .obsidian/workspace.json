@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/데이터베이스/데이터베이스 정의와 의미.md",
+                "file": "study/CS/데이터베이스/데이터베이스 기말.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스 정의와 의미"
+              "title": "데이터베이스 기말"
             }
           }
         ],
@@ -235,7 +235,7 @@
   "active": "5c6d8f7454815fa3",
   "lastOpenFiles": [
     "study/운영체제/임계영역의 해결.md",
-    "study/CS/데이터베이스/데이터베이스 정의와 의미.md",
+    "study/CS/데이터베이스/데이터베이스 기말.md",
     "study/운영체제/동기화(세마포어).md",
     "study/운영체제/교착상태.md",
     "study/운영체제/Dijkstra's 은행원 알고리즘.md",
