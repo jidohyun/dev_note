@@ -12,6 +12,5 @@ React Element 생성의 핵심은 `createElement`와 JSX 런타임 함수들이�
 createElement 함수는 `ReactJSXElement.js:638-708`에서 구현되며, 전통적인 React Element 생성 방식을 제공한다.
 
 
-
 JSX 런타임은 현대적인 JSX 변환을 위해 `ReactJSX.js:17-28` 에서 정의된다.
 
