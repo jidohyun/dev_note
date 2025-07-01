@@ -17,9 +17,27 @@ React.createElement(MyComponent, { title: 'Helllo' })
 
 `createElement(type, config, ...children)`은 다음과 같은 과정을 거쳐 **React Element 객체**를 반환한다.
 
-### 1. Key 추출 (config로부터)
+### 0. 함수 시그니처
 
-- `key`는 React가 리스트를 렌더링할 때 각 요소를 식별하는 데 사용하는 고유값이다.
-- `config.key`가 있으면 문자열로 변환하여 따로 분리해 저장한다.
+```js
+export function createElement(type, config, children) {
+```
 
+- `type`: 태그 혹은 컴포넌트 (e.g, `'div'`, `MyComponent`)
+- `config`: props 객체
+- `children`: JSX children
+- 추가로 `argument`에 `children`이 여러 개 올 수 있음
+
+### 1. 개발 모드에서 children key 검사
+
+```js
+if (__DEV__) {
+	for (let i = 2; i < arguments.length; i++) {
+		validateChildKeys(arguments[i], type);
+	}
+}
+```
+
+- 개발 모드라면, children에 **key가 잘 붙어 있는지 검사**
+- `<ui>{[<li />, <li />]}</ul>` 같은 리스트 children이 key가 없으면 경고
 
