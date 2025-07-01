@@ -41,3 +41,15 @@ if (__DEV__) {
 - 개발 모드라면, children에 **key가 잘 붙어 있는지 검사**
 - `<ui>{[<li />, <li />]}</ul>` 같은 리스트 children이 key가 없으면 경고
 
+### 2. 변수 선언
+
+```js
+let propName;
+const props = {};
+let key = null;
+```
+
+- `propName`: props 순회용
+- `props`: 최종적으로 쓸 props 객체
+- `key`: 리엑트 key값 저장
+
