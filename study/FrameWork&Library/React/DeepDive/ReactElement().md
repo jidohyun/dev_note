@@ -144,3 +144,4 @@ Object.defineProperty(element, '_debugTask', {
 - `_debugTask`
 	- 비동기 task 디버깅용
 
+### 5. Object.free
