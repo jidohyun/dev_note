@@ -298,3 +298,9 @@ return ReactElement(
   ...
 }
 ```
+
+이렇게 반환된 Element가 Virtual DOM이 되어 React가 렌더링할 때 사용하게 된다.
+
+### 전체 흐름 요약
+
+`createElement` -> config 파싱 -> key, props 추출 -> children 정리 -> defaultProps 병합
