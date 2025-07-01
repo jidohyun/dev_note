@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/JSX Transform.md",
+                "file": "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSX Transform"
+              "title": "React Element, JSX system"
             }
           }
         ],
@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ed9f0cd45091161",
@@ -249,10 +248,10 @@
   },
   "active": "9f387270e5e1308f",
   "lastOpenFiles": [
-    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
-    "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/FrameWork&Library/React/DeepDive/JSX Transform.md",
     "study/FrameWork&Library/React/DeepDive/createElement().md",
+    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
+    "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/Compiler/Babel.md",
     "study/언어/js/var.md",
     "study/언어/typeScript/타입스크립트.md",

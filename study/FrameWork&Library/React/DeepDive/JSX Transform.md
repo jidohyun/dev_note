@@ -91,4 +91,34 @@ jsxDEV(MyComp, {
 
 즉 디버깅에만 필요한 API이다. 
 
-### 4. Fragment expor t
+### 4. Fragment export 
+
+```js
+export { REACT_FRAGMENT_TYPE as Fragment, jsx, jsxs, jsxDEV };
+```
+
+- JSX에서 `<></>` 사용할 때 필요한 Fragment를 export
+- `REACT_FRAGMENT_TYPE` -> Symbol 값이 들어 있음
+
+예: 
+```jsx
+<>
+  <span />
+  <div />
+</>
+```
+
+-> transform 후:
+
+```js
+jsxs(Fragment, {
+  children: [...]
+});
+```
+
+### 종합 요약
+
+- `jsx` → children 1개일 때 호출됨
+- `jsxs` → children 여러 개일 때 호출됨
+- `jsxDEV` → 개발 모드에서 디버깅용으로 호출됨
+- `Fragment` → `<></>` 같은 fragment element 지원
