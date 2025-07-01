@@ -235,7 +235,7 @@ export default App;
 5. `props.color`에 기본값이 할당되지 않고, **명시적으로 전달된 `'red'`가 그대로 유지**됩니다.
 6. 결과적으로 `MyButton` 컴포넌트 내에서는 `props.color`가 `'red'`로 인식되어 **빨간색 버튼**이 렌더링됩니다.
 
-### 개발 모드: key getter 추가
+### 6. 개발 모드: key getter 추가
 
 ```js
 if (__DEV__) {
@@ -252,3 +252,49 @@ if (__DEV__) {
 - 개발 모드에서 props.key 접근 시 경고하도록 getter 추가
 - key는 리엑트에서 내부용이라 일반 props로 쓰지 말라는 경고
 
+### 7. 디버깅용 owner stack 체크
+
+```js
+const trackActualOwner =
+  __DEV__ &&
+  ReactSharedInternals.recentlyCreatedOwnerStacks++ < ownerStackLimit;
+```
+
+- 개발 모드일 때만 true
+- 디버깅용 렌더링 stack trace 생성 여부 결정
+
+### 8. React Element 생성
+
+```js
+return ReactElement(
+  type,
+  key,
+  undefined,
+  undefined,
+  getOwner(),
+  props,
+  __DEV__ &&
+    (trackActualOwner
+      ? Error('react-stack-top-frame')
+      : unknownOwnerDebugStack),
+  __DEV__ &&
+    (trackActualOwner
+      ? createTask(getTaskName(type))
+      : unknownOwnerDebugTask),
+);
+```
+
+- 실제로 React Element 객체를 생성
+- 반환값 예시:
+
+```js
+{
+  $$typeof: Symbol(react.element),
+  type,
+  key,
+  ref: null,
+  props,
+  _owner: ...,
+  ...
+}
+```
