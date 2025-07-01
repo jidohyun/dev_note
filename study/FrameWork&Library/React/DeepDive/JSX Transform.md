@@ -63,3 +63,32 @@ jsxs(MyComp, {
 왜 구분하냐?
 - children이 배열인지 단일 요소인지에 따라 내부 최적화가 달라질 수 있기 때문
 
+### 3. jsxDEV 변수
+
+```js
+const jsxDEV: any = __DEV__ ? _jsxDEV : undefined;
+```
+
+- 개발 모드 전용 함수
+- Babe의 개발 빌드에서만 사용됨
+- 추가 디버깅 정보 (예: 파일명, 라인번호, col 번호) 포함
+
+예: 
+```jsx
+<MyComp prop="value" />
+```
+
+-> dev transform 시 아래처럼 변환될 수 있음:
+
+```js
+jsxDEV(MyComp, {
+  prop: "value"
+}, undefined, false, __source, __self);
+```
+
+- `__source` -> 파일명, 라인, 컬럼
+- `__self` -> 현재 컴포넌트 `this`
+
+즉 디버깅에만 필요한 API이다. 
+
+### 4. Fragment expor t
