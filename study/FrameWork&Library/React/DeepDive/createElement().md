@@ -303,4 +303,6 @@ return ReactElement(
 
 ### 전체 흐름 요약
 
-`createElement` -> config 파싱 -> key, props 추출 -> children 정리 -> defaultProps 병합
+`createElement` -> config 파싱 -> key, props 추출 -> children 정리 -> defaultProps 병합 -> ReactElement 생성해서 반환
+
+이게 JSX를 JS 함수 호출로 바꾼 결과이다.
