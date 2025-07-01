@@ -144,4 +144,38 @@ Object.defineProperty(element, '_debugTask', {
 - `_debugTask`
 	- 비동기 task 디버깅용
 
-### 5. Object.free
+### 5. Object.freeze
+
+```js
+if (Object.freeze) {
+  Object.freeze(element.props);
+  Object.freeze(element);
+}
+```
+
+### 프로덕션 모드
+
+```js
+element = {
+  $$typeof: REACT_ELEMENT_TYPE,
+  type,
+  key,
+  ref,
+  props,
+};
+```
+
+- `_owner` 없음
+- 디버그 정보 없음
+- freeze 없음
+- -> 가벼운 객체를 생성해 렌더링 속도 향상
+
+### 마지막 return
+
+```js
+return element;
+```
+
+- 만들어진 React Element 객체를 반환
+- 이 객체는 React Fiber가 사용하여 Virtual DOM Tree를 만든다.
+
