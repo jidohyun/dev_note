@@ -163,7 +163,7 @@ if (type && type.defaultProps) {
 - 컴포넌트에 defaultProps가 있으면
 - props에 값이 없는 것만 채워 넣음
 
-예)
+#### 예)
 ```js
 // MyButton.js
 import React from 'react';
@@ -225,4 +225,30 @@ function App() {
 
 export default App;
 ```
+
+**이때 코드(`if (type && type.defaultProps) { ... }`)의 동작:**
+
+1. `type`은 `MyButton`이고, `MyButton.defaultProps`가 존재합니다.
+2. `defaultProps = { color: 'blue' }`가 됩니다.
+3. `for` 루프가 `defaultProps`를 순회합니다. `propName`은 `'color'`가 됩니다.
+4. `if (props['color'] === undefined)`를 확인합니다. `MyButton text="Submit" color="red"`에서는 `props['color']`가 `'red'`이므로 `undefined`가 아닙니다. 이 조건은 `false`가 됩니다.
+5. `props.color`에 기본값이 할당되지 않고, **명시적으로 전달된 `'red'`가 그대로 유지**됩니다.
+6. 결과적으로 `MyButton` 컴포넌트 내에서는 `props.color`가 `'red'`로 인식되어 **빨간색 버튼**이 렌더링됩니다.
+
+### 개발 모드: key getter 추가
+
+```js
+if (__DEV__) {
+  if (key) {
+    const displayName =
+      typeof type === 'function'
+        ? type.displayName || type.name || 'Unknown'
+        : type;
+    defineKeyPropWarningGetter(props, displayName);
+  }
+}
+```
+
+- 개발 모드에서 props.key 접근 시 경고하도록 getter 추가
+- key는 리엑트에서 내부용이라 일반 props로 쓰지 말라는 경고
 
