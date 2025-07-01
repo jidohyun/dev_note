@@ -53,3 +53,9 @@ let key = null;
 - `props`: 최종적으로 쓸 props 객체
 - `key`: 리엑트 key값 저장
 
+### 3. config 처리
+
+```js
+if (config != null) {
+```
+
