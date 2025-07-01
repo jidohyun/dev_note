@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
+                "file": "study/FrameWork&Library/React/DeepDive/ReactElement().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Element, JSX system"
+              "title": "ReactElement()"
             }
           }
         ],
@@ -248,10 +248,11 @@
   },
   "active": "9f387270e5e1308f",
   "lastOpenFiles": [
-    "study/FrameWork&Library/React/DeepDive/JSX Transform.md",
-    "study/FrameWork&Library/React/DeepDive/createElement().md",
-    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
     "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
+    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
+    "study/FrameWork&Library/React/DeepDive/JSX Transform.md",
+    "study/FrameWork&Library/React/DeepDive/ReactElement().md",
+    "study/FrameWork&Library/React/DeepDive/createElement().md",
     "study/Compiler/Babel.md",
     "study/언어/js/var.md",
     "study/언어/typeScript/타입스크립트.md",
@@ -281,7 +282,6 @@
     "study/운영체제/임계영역의 해결.md",
     "study/운영체제/동기화(세마포어).md",
     "study/운영체제/교착상태.md",
-    "study/운영체제/Dijkstra's 은행원 알고리즘.md",
     "study/언어",
     "study/운영체제/컴퓨터 구조",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",

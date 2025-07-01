@@ -18,5 +18,14 @@ JSX 런타임은 현대적인 JSX 변환을 위해 `ReactJSX.js:17-28` 에서 �
 
 ### React Element 구조
 
-React Element의 실제 구조는 `ReactJSXElement.js:176-254`의 `ReactElement` 함수에서 정의된다.
+React Element의 실제 구조는 `ReactJSXElement.js:176-254`의 [[ReactElement()]] 함수에서 정의된다.
 
+[ReactJSXElement.js:176-254](https://vscode.dev/github/facebook/react/blob/v19.1.0/packages/react/src/jsx/ReactJSXElement.js#L176-L298)
+
+핵심 속성들:
+
+- `$$typeof`: React Element임을 식별하는 심볼
+- `type`: 컴포넌트 타입 (함수, 클래스, 또는 문자열)
+- `key`: 리스트 렌더링에서 사용되는 고유 식별자
+- `props`: 컴포넌트에 전달되는 속성들
+- `_owner`: 개발 모드에서 디버깅을 위한 소유자 정보
