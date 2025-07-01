@@ -59,3 +59,44 @@ let key = null;
 if (config != null) {
 ```
 
+- config가 null이 아니면 props 추출 시작
+
+### 3-1. 개발 모드: 구버전 JSX transform 경고
+
+```js
+if (__DEV__) {
+  if (
+    !didWarnAboutOldJSXRuntime &&
+    '__self' in config &&
+    !('key' in config)
+  ) {
+    didWarnAboutOldJSXRuntime = true;
+    console.warn(
+      'Your app (or one of its dependencies) is using an outdated JSX ' +
+        'transform. Update to the modern JSX transform for ' +
+        'faster performance: https://react.dev/link/new-jsx-transform',
+    );
+  }
+}
+```
+
+- babel 7.9 이전 JSX transform을 쓸 때 뜨는 경고
+- `__self`라는 속성이 구버전 transform의 흔적임
+
+### 3-2. key 추출
+
+```js
+if (hasValidKey(config)) {
+	if (__DEV__) {
+		checkKeyStringCoercion(config.key);
+	}
+	key = '' + config.key;
+}
+```
+
+- `config.key`가 있으면 key로 저장
+- 문자열로 변환(`'' + config.key`)
+- 개발 모드에선 key를 문자열로 강제 변환 시 경고 체크
+
+### 3-3. props 추출
+
