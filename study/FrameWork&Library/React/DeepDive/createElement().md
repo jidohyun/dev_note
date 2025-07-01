@@ -100,3 +100,48 @@ if (hasValidKey(config)) {
 
 ### 3-3. props 추출
 
+```js
+for (propName in config) {
+  if (
+    hasOwnProperty.call(config, propName) &&
+    propName !== 'key' &&
+    propName !== '__self' &&
+    propName !== '__source'
+  ) {
+    props[propName] = config[propName];
+  }
+}
+```
+
+- key, __self, __source 제외하고 props 객체에 복사
+
+예)
+
+```js
+createElement('div', { id: 'foo', key: 'mykey' })
+// props = { id: 'foo' }
+```
+
+### 4. children 처리
+
+```js
+const childrenLength = arguments.length - 2;
+if (childrenLength === 1) {
+  props.children = children;
+} else if (childrenLength > 1) {
+  const childArray = Array(childrenLength);
+  for (let i = 0; i < childrenLength; i++) {
+    childArray[i] = arguments[i + 2];
+  }
+  if (__DEV__) {
+    if (Object.freeze) {
+      Object.freeze(childArray);
+    }
+  }
+  props.children = childArray;
+}
+```
+
+- 전달된 children 수 파악
+- 1개면 그대로 props.children에 넣음
+- 2개 이상이면 배열로 만들어 prop.children에 
