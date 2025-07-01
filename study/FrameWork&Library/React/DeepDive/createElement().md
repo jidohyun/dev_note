@@ -144,4 +144,5 @@ if (childrenLength === 1) {
 
 - 전달된 children 수 파악
 - 1개면 그대로 props.children에 넣음
-- 2개 이상이면 배열로 만들어 prop.children에 
+- 2개 이상이면 배열로 만들어 prop.children에 넣음
+- 개발 모드에선 Object.freeze로 children 배열을 얼려서 불변성 체크
