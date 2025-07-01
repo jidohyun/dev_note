@@ -26,4 +26,26 @@ Babel은 **자바스크립트 컴파일러**이다. 왜 인터프리터 언어�
 ### babel-polyfill
 
 babel은 이러한 polyfill을 손쉽게 지원하기 위해 babel-polyfill 기능을 지원한다.
-아까 이미 
+아까 이미 문법을 컴파일해서 Javascript로 Compile 한다고 했는데 왜 polyfill이 필요할까?
+
+babel을 사용한다고 최신 함수를 사용할 수 있는 건 아니다.
+babel은 문법을 변환하여 javascript 로 변환하는 transpiler 역할만 할 뿐이다.
+
+앞에서 설명한대로 polyfill은 프로그램이 처음에 시작될 때 지원하지 않는 기능들을 추가하는 것이다.
+즉, babel은 컴파일시에 실행되고 babel-polyfill은 런타임에 실행되는 것이다.
+
+얼마나 쉽게 설정할 수 있냐하면,
+아래는 최근 브라우져 2가지의 버전만 지원하면서 IE의 경우 10버전 이하는 제외하는 설정을 한 것 이다.
+
+```json
+{
+	"presets": [
+	    ["env", {
+		    "targets": {
+	            "browsers": ["last 2 versions", "not ie <= 10"]
+	        }
+        }]
+      ]
+    }
+```
+
