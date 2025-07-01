@@ -98,7 +98,7 @@ Object.defineProperty(element, 'ref', {
 
 - ref가 없으면 그냥 null로 고정
 
-### Validation Store
+### 3. Validation Store
 
 ```js
 element._store = {};
@@ -111,4 +111,36 @@ Object.defineProperty(element._store, 'validated', {
 ```
 
 - 개발 모드에서만 존재
-- React가 내부적으로 "이 엘리먼트"
+- React가 내부적으로 "이 엘리먼트 validate 되었나?" 체크할 때 씀
+- 예) key warning 중복 방지
+
+### 4. Debug 정보들
+
+
+```js
+Object.defineProperty(element, '_debugInfo', {
+  configurable: false,
+  enumerable: false,
+  writable: true,
+  value: null,
+});
+Object.defineProperty(element, '_debugStack', {
+  configurable: false,
+  enumerable: false,
+  writable: true,
+  value: debugStack,
+});
+Object.defineProperty(element, '_debugTask', {
+  configurable: false,
+  enumerable: false,
+  writable: true,
+  value: debugTask,
+});
+```
+
+- 서버 컴포넌트 디버깅용으로 쓰임
+- `_debugStack`
+	- "이 엘리먼트를 누가 렌더했나?" -> 스택 트레이스
+- `_debugTask`
+	- 비동기 task 디버깅용
+
