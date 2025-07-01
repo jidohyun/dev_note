@@ -7,7 +7,7 @@
 <MyComponent title="Hello" />
 ```
 
-Babel은 이를 다음처럼 변환한다.
+[[Babel]]은 이를 다음처럼 변환한다.
 
 ```js
 React.createElement(MyComponent, { title: 'Helllo' })
