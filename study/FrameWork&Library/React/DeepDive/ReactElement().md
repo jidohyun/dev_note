@@ -179,19 +179,14 @@ return element;
 - 만들어진 React Element 객체를 반환
 - 이 객체는 React Fiber가 사용하여 Virtual DOM Tree를 만든다.
 
-### 정리
-
-- **ReactElement**는 Virtual DOM의 최소 단위
-- dev 모드 -> 디버깅 정보, freeze
-- prod 모드 -> 최소 정보만
-- `$$typeof`로 React가 이 객체가 "React Element"인지 판별
-- ref 접근 시 deprecation warning 띄움
-
 ### 예시
 
+아래 JSX:
 ```jsx
 <div className="foo" ref={myRef} />
 ```
+
+JS로 변환되면:
 
 ```js
 ReactElement(
@@ -206,6 +201,8 @@ ReactElement(
 );
 ```
 
+-> ReactElement 반환값 예시 (dev 모드):
+
 ```js
 {
   $$typeof: Symbol(react.element),
@@ -219,3 +216,11 @@ ReactElement(
   _debugTask: ...
 }
 ```
+
+### 정리
+
+- **ReactElement**는 Virtual DOM의 최소 단위
+- dev 모드 -> 디버깅 정보, freeze
+- prod 모드 -> 최소 정보만
+- `$$typeof`로 React가 이 객체가 "React Element"인지 판별
+- ref 접근 시 deprecation warning 띄움
