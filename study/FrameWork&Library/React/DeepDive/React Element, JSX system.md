@@ -14,6 +14,8 @@ React Element 생성의 핵심은 `createElement`와 JSX 런타임 함수들이�
 
 JSX 런타임은 현대적인 JSX 변환을 위해 `ReactJSX.js:17-28` 에서 정의된다.
 
+[[JSX Transform]]
+
 [ReactJSX.js:17-28](https://vscode.dev/github/facebook/react/blob/v19.1.0/packages/react/src/jsx/ReactJSX.js#L17-L29)
 
 ### React Element 구조
