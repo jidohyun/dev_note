@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
+                "file": "study/FrameWork&Library/React/DeepDive/createElement().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Element, JSX system"
+              "title": "createElement()"
             }
           }
         ],
@@ -262,8 +262,8 @@
   },
   "active": "f4064c68c6a49ba8",
   "lastOpenFiles": [
-    "study/Compiler/Babel.md",
     "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
+    "study/Compiler/Babel.md",
     "study/언어/js/var.md",
     "study/언어/typeScript/타입스크립트.md",
     "study/언어/js/[JS] 상위호환성, 트랜스파일러 babel.md",
