@@ -19,3 +19,4 @@ JSX 런타임은 현대적인 JSX 변환을 위해 `ReactJSX.js:17-28` 에서 �
 ### React Element 구조
 
 React Element의 실제 구조는 `ReactJSXElement.js:176-254`의 `ReactElement` 함수에서 정의된다.
+
