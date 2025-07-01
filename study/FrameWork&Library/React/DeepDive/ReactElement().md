@@ -44,3 +44,71 @@ if (__DEV__) {
 }
 ```
 
+- 개발 모드(DEV) -> 디버깅 정보를 최대한 넣음
+- 프로덕션 모드 -> 최소한 정보만 남김
+
+### 개발 모드
+
+### 1. element 객체 생성
+
+```js
+element = {
+  $$typeof: REACT_ELEMENT_TYPE,
+  type,
+  key,
+  props,
+  _owner: owner,
+};
+```
+
+- `$$typeof`
+    - Symbol(react.element)
+    - React가 “이 객체는 Element”라고 인식하기 위한 플래그
+- `type`
+    - div, span, 혹은 컴포넌트 함수
+- `key`
+    - 리스트 렌더링 시 엘리먼트 구분하는 키
+- `props`
+    - JSX의 모든 속성이 들어감
+- `_owner`
+    - 이 엘리먼트를 생성한 컴포넌트를 가리킴
+    - 디버깅에 사용
+
+### 2. ref 처리 (개발 모드)
+
+ref가 null이 아닌 경우:
+```js
+Object.defineProperty(element, 'ref', {
+  enumerable: false,
+  get: elementRefGetterWithDeprecationWarning,
+});
+```
+
+- ref에 접근하면 경고 메시지 띄우도록 getter를 설정
+- 앞으로는 element.ref를 직접 쓰지 말라는 의미
+- `enumerable: false` -> 테스트 비교 시 ref가 안 보이게 숨김
+
+ref가 null인 경우:
+```js
+Object.defineProperty(element, 'ref', {
+  enumerable: false,
+  value: null,
+});
+```
+
+- ref가 없으면 그냥 null로 고정
+
+### Validation Store
+
+```js
+element._store = {};
+Object.defineProperty(element._store, 'validated', {
+  configurable: false,
+  enumerable: false,
+  writable: true,
+  value: 0,
+});
+```
+
+- 개발 모드에서만 존재
+- React가 내부적으로 "이 엘리먼트"
