@@ -186,3 +186,36 @@ return element;
 - prod 모드 -> 최소 정보만
 - `$$typeof`로 React가 이 객체가 "React Element"인지 판별
 - ref 접근 시 deprecation warning 띄움
+
+### 예시
+
+```jsx
+<div className="foo" ref={myRef} />
+```
+
+```js
+ReactElement(
+  "div",
+  null,
+  undefined,
+  undefined,
+  owner,
+  { className: "foo", ref: myRef },
+  debugStack,
+  debugTask
+);
+```
+
+```js
+{
+  $$typeof: Symbol(react.element),
+  type: "div",
+  key: null,
+  props: { className: "foo" },
+  ref: [getter with warning],
+  _owner: ...,
+  _store: { validated: 0 },
+  _debugStack: ...,
+  _debugTask: ...
+}
+```
