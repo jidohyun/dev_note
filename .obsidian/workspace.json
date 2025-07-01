@@ -83,30 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
+                "file": "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react 깊게 이해하기"
-            }
-          },
-          {
-            "id": "f4064c68c6a49ba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/createElement().md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "createElement()"
+              "title": "React Element, JSX system"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -163,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ed9f0cd45091161",
@@ -261,8 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f4064c68c6a49ba8",
+  "active": "9f387270e5e1308f",
   "lastOpenFiles": [
+    "study/FrameWork&Library/React/DeepDive/createElement().md",
+    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
     "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/Compiler/Babel.md",
     "study/언어/js/var.md",
@@ -270,9 +257,7 @@
     "study/언어/js/[JS] 상위호환성, 트랜스파일러 babel.md",
     "study/FrameWork&Library/React/Basic/3. JSX.md",
     "study/Compiler",
-    "study/FrameWork&Library/React/DeepDive/createElement().md",
     "createElement.md",
-    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
     "study/FrameWork&Library/React/커스텀 훅.md",
     "study/FrameWork&Library/React/INDEX.md",
     "study/FrameWork&Library/Tanstack-Query/react query.md",
