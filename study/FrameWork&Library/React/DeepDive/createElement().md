@@ -165,9 +165,56 @@ if (type && type.defaultProps) {
 
 예)
 ```js
-MyComponent.defaultProps = { color: 'red' };
+// MyButton.js
+import React from 'react';
 
-createElement(MyComponent, { });
--> props.color = 'red'
+function MyButton(props) {
+  // props.text와 props.color를 사용
+  // 만약 color prop이 전달되지 않았다면 'blue'가 사용됩니다.
+  return (
+    <button style={{ backgroundColor: props.color, color: 'white', padding: '10px' }}>
+      {props.text}
+    </button>
+  );
+}
+
+// defaultProps 설정
+MyButton.defaultProps = {
+  color: 'blue' // color prop의 기본값은 'blue'
+};
+
+export default MyButton;
+```
+
+```js
+// App.js
+import React from 'react';
+import MyButton from './MyButton';
+
+function App() {
+  return (
+    <div>
+      <MyButton text="Click Me" /> {/* color prop을 명시적으로 전달 안 함 */}
+    </div>
+  );
+}
+
+export default App;
+```
+
+```js
+// App.js
+import React from 'react';
+import MyButton from './MyButton';
+
+function App() {
+  return (
+    <div>
+      <MyButton text="Submit" color="red" /> {/* color prop을 'red'로 전달 */}
+    </div>
+  );
+}
+
+export default App;
 ```
 
