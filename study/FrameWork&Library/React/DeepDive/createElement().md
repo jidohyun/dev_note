@@ -202,6 +202,14 @@ function App() {
 export default App;
 ```
 
+**이때 코드(`if (type && type.defaultProps) { ... }`)의 동작:**
+1. `type`은 `MyButton`이고, `MyButton.defaultProps`가 존재합니다.
+2. `defaultProps = { color: 'blue' }`가 됩니다.
+3. `for` 루프가 `defaultProps`를 순회합니다. `propName`은 `'color'`가 됩니다.
+4. `if (props['color'] === undefined)`를 확인합니다. `MyButton text="Click Me"`에서는 `color` prop이 전달되지 않았으므로 `props['color']`는 `undefined`입니다. 이 조건은 `true`가 됩니다.
+5. 따라서 `props['color'] = defaultProps['color'];` 즉, `props.color = 'blue';`가 실행됩니다.
+6. 결과적으로 `MyButton` 컴포넌트 내에서는 `props.color`가 `'blue'`로 인식되어 **파란색 버튼**이 렌더링됩니다.
+
 ```js
 // App.js
 import React from 'react';
