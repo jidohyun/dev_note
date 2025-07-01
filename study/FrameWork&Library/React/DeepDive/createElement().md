@@ -146,3 +146,28 @@ if (childrenLength === 1) {
 - 1개면 그대로 props.children에 넣음
 - 2개 이상이면 배열로 만들어 prop.children에 넣음
 - 개발 모드에선 Object.freeze로 children 배열을 얼려서 불변성 체크
+
+### 5. defaultProps 처리
+
+```js
+if (type && type.defaultProps) {
+  const defaultProps = type.defaultProps;
+  for (propName in defaultProps) {
+    if (props[propName] === undefined) {
+      props[propName] = defaultProps[propName];
+    }
+  }
+}
+```
+
+- 컴포넌트에 defaultProps가 있으면
+- props에 값이 없는 것만 채워 넣음
+
+예)
+```js
+MyComponent.defaultProps = { color: 'red' };
+
+createElement(MyComponent, { });
+-> props.color = 'red'
+```
+
