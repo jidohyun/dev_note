@@ -120,4 +120,38 @@ if (!disableDefaultPropsExceptForClasses) {
 - 컴포넌트가 `defaultProps`를 갖고 있다면
 - props에 값이 없는 부분은 default 값으로 채워줌
 - `disableDefaultPropsExceptForClasses`가 false일 때만 동작
-	- 함수형 컴포넌트에 deau
+	- 함수형 컴포넌트에 defaultProps 쓰는 건 점점 deprecated로 가고 있음
+
+### 6. ReactElement 생성
+
+```js
+return ReactElement(
+  type,
+  key,
+  undefined,
+  undefined,
+  getOwner(),
+  props,
+  undefined,
+  undefined,
+);
+```
+
+- 최종적으로 ReactElement 생성
+- 호출 인자들:
+	- `type` → 컴포넌트 혹은 태그명 (ex. `'div'`, `MyComponent`)
+	- `key` → 위에서 만든 key
+	- `self` → undefined
+	- `source` → undefined
+	- `owner` → 현재 컴포넌트를 렌더링 중인 컴포넌트 (React 내부 트래킹용)
+	- `props` → 최종 props 객체
+	- `debugStack`, `debugTask` → 개발 환경 디버깅용
+
+이렇게 만들어진 객체가 최종적으로 React의 가상 DOM 트리에 들어가 렌더링에 쓰이게 된다.
+
+### 요약
+
+- **jsxProd**는 prod 모드용 JSX transform 함수    
+- key 추출 → props 복사 → defaultProps 병합 → ReactElement 생성
+- 개발/프로덕션 환경 차이에 맞춰 디버그용 로직 분기
+- 결국 JSX가 호출되면 이 함수가 엘리먼트 객체를 생성해 React로 전달
