@@ -83,3 +83,41 @@ if (!('key' in config)) {
 
 - `config` 자체가 props가 되는 경우
 - JSX transform은 항상 새 객체를 넘겨주므로, 그대로 써도 안전하다고 판단
+
+### Case 2) key가 있으면 새 객체 만들어야 함
+
+```js
+else {
+  props = {};
+  for (const propName in config) {
+    if (propName !== 'key') {
+      props[propName] = config[propName];
+    }
+  }
+}
+```
+
+- key는 예약어(reserved prop) 이라 props에서 빼야 함
+- 새 객체를 생성하고, key를 제외한 나머지 속성만 복사
+- `delete`를 쓰지 않는 이유
+	- V8 엔진 최적화 개질 수 있기 때문 (딕셔너리 모드로 전환됨)
+
+### 5. defaultProps 병합
+
+```js
+if (!disableDefaultPropsExceptForClasses) {
+  if (type && type.defaultProps) {
+    const defaultProps = type.defaultProps;
+    for (const propName in defaultProps) {
+      if (props[propName] === undefined) {
+        props[propName] = defaultProps[propName];
+      }
+    }
+  }
+}
+```
+
+- 컴포넌트가 `defaultProps`를 갖고 있다면
+- props에 값이 없는 부분은 default 값으로 채워줌
+- `disableDefaultPropsExceptForClasses`가 false일 때만 동작
+	- 함수형 컴포넌트에 deau
