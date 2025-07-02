@@ -33,3 +33,4 @@ function Message({ value }) {
 ```
 
 이러한 코드를 Props Drilling 이라고 부른다. 컴포넌트를 한 두개정도 거쳐서 Props를 전달하는거라면 괜찮지만 이렇게 4개정도를 거쳐서 전달하게 된다면, 불편할 것이다.
+
