@@ -29,3 +29,4 @@ React Element의 실제 구조는 `ReactJSXElement.js:176-254`의 [[ReactElement
 - `key`: 리스트 렌더링에서 사용되는 고유 식별자
 - `props`: 컴포넌트에 전달되는 속성들
 - `_owner`: 개발 모드에서 디버깅을 위한 소유자 정보
+
