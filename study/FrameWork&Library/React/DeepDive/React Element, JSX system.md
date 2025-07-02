@@ -30,3 +30,10 @@ React Element의 실제 구조는 `ReactJSXElement.js:176-254`의 [[ReactElement
 - `props`: 컴포넌트에 전달되는 속성들
 - `_owner`: 개발 모드에서 디버깅을 위한 소유자 정보
 
+### JSX 변환 시스템
+
+프로덕션 JSX 변환은 `ReactJSXElement.js:306-376` 의 [[jsxProd()]] 함수에서 처리된다.
+
+[ReactJSXElement.js:306-376](https://vscode.dev/github/facebook/react/blob/v19.1.0/packages/react/src/jsx/ReactJSXElement.js#L306-L376)
+
+개발 모드 JSX 변환은 `ReactJSXElement.js:460-557` 의 `jsxDEV` 함수에서 추가적인 검증과 디버깅 정보를 포함한다.
