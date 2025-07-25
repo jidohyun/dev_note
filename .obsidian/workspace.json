@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "모주 qa.md",
+                "file": "모주 계획.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "모주 qa"
+              "title": "모주 계획"
             }
           }
         ],
@@ -249,7 +249,7 @@
   "active": "9934b2466ff84aef",
   "lastOpenFiles": [
     "study/FrameWork&Library/React/DeepDive/jsxProd().md",
-    "모주 qa.md",
+    "모주 계획.md",
     "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
     "study/FrameWork&Library/React/Basic/Context API.md",
