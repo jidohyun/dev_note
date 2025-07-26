@@ -232,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,8 +247,8 @@
   },
   "active": "9934b2466ff84aef",
   "lastOpenFiles": [
-    "study/FrameWork&Library/React/DeepDive/jsxProd().md",
     "모주 계획.md",
+    "study/FrameWork&Library/React/DeepDive/jsxProd().md",
     "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
     "study/FrameWork&Library/React/Basic/Context API.md",
