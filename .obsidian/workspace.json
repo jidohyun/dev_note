@@ -69,30 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/jsxProd().md",
+                "file": "study/html/시멘틱 HTML이 여전히 중요한 이유.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jsxProd()"
-            }
-          },
-          {
-            "id": "9934b2466ff84aef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "모주 계획.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "모주 계획"
+              "title": "시멘틱 HTML이 여전히 중요한 이유"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -232,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,38 +232,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9934b2466ff84aef",
+  "active": "5c6d8f7454815fa3",
   "lastOpenFiles": [
-    "모주 계획.md",
-    "study/FrameWork&Library/React/DeepDive/jsxProd().md",
-    "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
-    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
-    "study/FrameWork&Library/React/Basic/Context API.md",
-    "study/FrameWork&Library/React/Basic/2. React 컴포넌트.md",
-    "study/FrameWork&Library/React/DeepDive/ReactElement().md",
-    "study/FrameWork&Library/React/DeepDive/createElement().md",
-    "study/FrameWork&Library/React/DeepDive/JSX Transform.md",
-    "study/CS/데이터베이스/데이터베이스 기말.md",
-    "study/FrameWork&Library/React/Basic/1. React의 기초.md",
-    "study/FrameWork&Library/React/Basic/6. useState.md",
-    "study/FrameWork&Library/React/Basic/5. 조건부 렌더링.md",
-    "study/FrameWork&Library/React/Basic/4. props.md",
-    "study/FrameWork&Library/React/Basic/3. JSX.md",
+    "study/운영체제/교착상태.md",
+    "study/html/시멘틱 HTML이 여전히 중요한 이유.md",
+    "study/html/html 정리.md",
     "study/html/html.md",
     "study/Compiler/Babel.md",
-    "study/언어/js/var.md",
-    "study/언어/typeScript/타입스크립트.md",
-    "study/언어/js/[JS] 상위호환성, 트랜스파일러 babel.md",
-    "study/Compiler",
-    "createElement.md",
-    "study/FrameWork&Library/React/커스텀 훅.md",
-    "study/FrameWork&Library/React/INDEX.md",
+    "study/AI/인공지능 회귀 분석.md",
+    "study/DevOps/k8s.md",
     "study/FrameWork&Library/Tanstack-Query/react query.md",
+    "study/FrameWork&Library/Zustand/상태관리 라이브러리(zustand).md",
+    "study/FrameWork&Library/React/DeepDive/jsxProd().md",
+    "study/FrameWork&Library/React/DeepDive/createElement().md",
+    "study/FrameWork&Library/React/DeepDive/JSX Transform.md",
+    "study/언어/typeScript/조건부 타입.md",
+    "study/언어/typeScript/유니온.md",
+    "study/언어/typeScript/기본 타입.md",
+    "study/언어/typeScript/Type Script.md",
+    "study/언어/js/[JS] JS할거면 이건 알아야지.md",
+    "study/언어/js/[JS] 상위호환성, 트랜스파일러 babel.md",
+    "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
+    "study/웹/웹.md",
+    "study/웹/웹 브라우저의 역사.md",
+    "study/웹/CORS.md",
+    "study/박정환 선배님 Ｑ＆Ａ.md",
+    "study/선배들과의 만남.md",
+    "모주 계획.md",
+    "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
+    "study/Compiler",
     "study/FrameWork&Library/Tanstack-Query",
     "study/FrameWork&Library/React/Basic",
     "study/FrameWork&Library/Zustand",
-    "study/FrameWork&Library/react/tanstack react-table.md",
-    "study/FrameWork&Library/Zustand/상태관리 라이브러리(zustand).md",
     "무제 1",
     "study/FrameWork&Library/React/DeepDive",
     "study/FrameWork&Library",
