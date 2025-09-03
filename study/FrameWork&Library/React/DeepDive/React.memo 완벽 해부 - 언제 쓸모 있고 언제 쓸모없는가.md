@@ -1,5 +1,6 @@
 
-[# [번역] React.memo 완벽 해부: 언제 쓸모 있고 언제 쓸모없는가](https://imnotadevleoper.tistory.com/368)
+[[번역] React.memo 완벽 해부: 언제 쓸모 있고 언제 쓸모없는가](https://imnotadevleoper.tistory.com/368)
+[React.memo Demystified: When It Helps and When It Hurts ](https://cekrem.github.io/posts/react-memo-when-it-helps-when-it-hurts/)
 
 **1.** **메모이제이션의** **필요성** 
 
@@ -11,7 +12,7 @@
 - 원시값(숫자, 문자열 등)은 값으로 비교, 객체/배열/함수는 참조로 비교.
 - 컴포넌트가 리렌더링되면 지역 객체/함수는 새로운 참조가 되어, 불필요한 리렌더링이나 이펙트 실행이 발생할 수 있음.
 
-**3. useMemo****와** **useCallback****의** **동작** **원리** 
+**3. useMemo****와 **useCallback****의 **동작** **원리** 
 
 - useMemo: 값(객체, 배열 등)을 캐싱, 의존성이 바뀔 때만 재계산.
 - useCallback: 함수 자체를 캐싱, 의존성이 바뀔 때만 새 함수 생성.
@@ -21,19 +22,19 @@
 - useMemo/useCallback으로 프로퍼티를 감싼다고 자식 컴포넌트 리렌더링이 항상 막히는 것은 아님.
 - 자식이 React.memo로 감싸져 있거나, 해당 프로퍼티가 의존성 배열에 쓰일 때만 효과 있음.
 
-**5. React.memo****의** **실제** **동작** 
+**5. React.memo****의 **실제** **동작** 
 
 - React.memo는 컴포넌트의 props를 얕게 비교해서 같으면 리렌더링을 막음.
 - 하지만 매번 새로운 객체/함수(참조)가 props로 전달되면 효과 없음.
 - useMemo/useCallback으로 참조를 고정해야 진짜 효과.
 
-**6. React.memo****의** **함정** 
+**6. React.memo****의 **함정** 
 
 - props 스프레드 연산자 사용 시, 참조가 바뀌어 메모이제이션이 깨질 수 있음.
 - children도 props이므로, 매 렌더마다 새로 생성되면 메모이제이션 무효.
 - 중첩된 Memo 컴포넌트도 자식 엘리먼트가 매번 새로 생성되면 리렌더링 발생.
 
-**7.** **언제** **메모이제이션을** **써야** **할까****?** 
+**7.** **언제** **메모이제이션을** **써야** **할까?**
 
 - React.memo: 동일한 props로 자주 렌더링, 렌더링 비용이 클 때, 프로파일링으로 병목 확인 시.
 - useMemo: 연산 비용이 크거나, 객체/배열 참조를 고정해야 할 때.
