@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/html/시멘틱 HTML이 여전히 중요한 이유.md",
+                "file": "study/웹/검색 파라미터는 상태다.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "시멘틱 HTML이 여전히 중요한 이유"
+              "title": "검색 파라미터는 상태다"
             }
           }
         ],
@@ -234,8 +234,9 @@
   },
   "active": "5c6d8f7454815fa3",
   "lastOpenFiles": [
-    "study/운영체제/교착상태.md",
     "study/html/시멘틱 HTML이 여전히 중요한 이유.md",
+    "study/웹/검색 파라미터는 상태다.md",
+    "study/운영체제/교착상태.md",
     "study/html/html 정리.md",
     "study/html/html.md",
     "study/Compiler/Babel.md",
@@ -259,7 +260,6 @@
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/선배들과의 만남.md",
     "모주 계획.md",
-    "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/Compiler",
     "study/FrameWork&Library/Tanstack-Query",
     "study/FrameWork&Library/React/Basic",
