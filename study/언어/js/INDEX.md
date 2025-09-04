@@ -10,7 +10,6 @@ _template: ""
 _templateName: ""
 sticker: lucide//code-2
 ---
----
 
 > [!info]
 > JavaScript의 동적 기능에는 런타임 객체 구성, 변수 매개변수 목록, 함수 변수, ([`eval`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/eval)을 통한) 동적 스크립트 생성, 객체 검사 그리고 소스 코드 복구(JavaScript 함수는 소스 텍스트를 저장하고 [`toString()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/toString)을 통해 다시 찾을 수 있습니다.)가 있습니다.
@@ -22,3 +21,15 @@ sticker: lucide//code-2
 [[연산자]]
 [[조건문]]
 [[콜백함수]]
+[[JS JS할거면 이건 알아야지]]
+[[JS 상위호환성, 트랜스파일러 babel]]
+[[JS js를 쓴다면 꼭 알아야 할 원시타입과 참조타입]]
+[[JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택]]
+[[이벤트 흐름 제어 (버블링 & 캡처링)]]
+[[var]]
+[[Promise]]
+[[Prototype]]
+[[DOM]]
+[[AJAX]]
+[[async, await]]
+[[Virtual DOM]]
