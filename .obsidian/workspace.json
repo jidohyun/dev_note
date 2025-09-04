@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/React.memo 완벽 해부 - 언제 쓸모 있고 언제 쓸모없는가.md",
+                "file": "study/언어/python/list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React.memo 완벽 해부 - 언제 쓸모 있고 언제 쓸모없는가"
+              "title": "list"
             }
           }
         ],
@@ -234,13 +234,16 @@
   },
   "active": "5c6d8f7454815fa3",
   "lastOpenFiles": [
+    "study/FrameWork&Library/React/DeepDive/React.memo 완벽 해부 - 언제 쓸모 있고 언제 쓸모없는가.md",
+    "study/언어/python/list.md",
+    "study/언어/python",
+    "study/언어/무제.md",
     "study/FrameWork&Library/React/DeepDive/ReactElement().md",
     "study/웹/검색 파라미터는 상태다.md",
-    "study/FrameWork&Library/React/DeepDive/React.memo 완벽 해부 - 언제 쓸모 있고 언제 쓸모없는가.md",
-    "study/html/시멘틱 HTML이 여전히 중요한 이유.md",
+    "study/언어/html/시멘틱 HTML이 여전히 중요한 이유.md",
     "study/운영체제/교착상태.md",
-    "study/html/html 정리.md",
-    "study/html/html.md",
+    "study/언어/html/html 정리.md",
+    "study/언어/html/html.md",
     "study/Compiler/Babel.md",
     "study/AI/인공지능 회귀 분석.md",
     "study/DevOps/k8s.md",
@@ -258,8 +261,6 @@
     "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택 #1.md",
     "study/웹/웹.md",
     "study/웹/웹 브라우저의 역사.md",
-    "study/웹/CORS.md",
-    "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/Compiler",
     "study/FrameWork&Library/Tanstack-Query",
     "study/FrameWork&Library/React/Basic",
@@ -269,7 +270,6 @@
     "study/FrameWork&Library",
     "study/AI",
     "study/언어",
-    "study/운영체제/컴퓨터 구조",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
     "무제 파일.canvas",
