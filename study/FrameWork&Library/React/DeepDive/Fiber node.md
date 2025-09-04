@@ -7,7 +7,7 @@ React의 Fiber 노드는 React 컴포넌트 트리의 각 노드를 나타내는
 
 ### 1. 기본 식별 정보
 
-Fiber 노드는 컴포넌트를 식별하기 위한 기본 정보를 포함합니다 ReactInternalTypes.js:99-113 :
+Fiber 노드는 컴포넌트를 식별하기 위한 기본 정보를 포함합니다 [ReactInternalTypes.js:99-113](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactInternalTypes.js#L99C1-L113C18) :
 
 - `tag`: 컴포넌트 타입을 나타내는 WorkTag (FunctionComponent, ClassComponent 등)
 - `key`: React 엘리먼트의 고유 식별자
@@ -17,7 +17,7 @@ Fiber 노드는 컴포넌트를 식별하기 위한 기본 정보를 포함합�
 
 ### 2. 트리 구조 관리
 
-Fiber는 단일 연결 리스트 트리 구조로 구성됩니다 ReactInternalTypes.js:121-130 :
+Fiber는 단일 연결 리스트 트리 구조로 구성됩니다 [ReactInternalTypes.js:121-130](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactInternalTypes.js#L121C3-L130C17) :
 
 - `return`: 부모 Fiber (스택 프레임의 반환 주소와 유사)
 - `child`: 첫 번째 자식 Fiber
@@ -26,7 +26,7 @@ Fiber는 단일 연결 리스트 트리 구조로 구성됩니다 ReactInternal
 
 ### 3. Props와 State 관리
 
-컴포넌트의 데이터를 관리하는 필드들입니다 ReactInternalTypes.js:141-152 :
+컴포넌트의 데이터를 관리하는 필드들입니다 [ReactInternalTypes.js:141-152](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactInternalTypes.js#L141C3-L152C37) :
 
 - `pendingProps`: 새로 들어오는 props
 - `memoizedProps`: 이전 렌더링에서 사용된 props
@@ -36,7 +36,7 @@ Fiber는 단일 연결 리스트 트리 구조로 구성됩니다 ReactInternal
 
 ### 4. 스케줄링과 우선순위
 
-React의 동시성 기능을 위한 스케줄링 정보입니다 ReactInternalTypes.js:167-168 :
+React의 동시성 기능을 위한 스케줄링 정보입니다 [ReactInternalTypes.js:167-168](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactInternalTypes.js#L141C3-L152C37) :
 
 - `lanes`: 현재 Fiber의 우선순위 레인
 - `childLanes`: 자식들의 우선순위 레인
@@ -51,7 +51,7 @@ Fiber 노드는 `FiberNode` 생성자를 통해 생성됩니다 ReactFiber.js
 
 실제로는 `createFiber` 함수가 사용되며, 이는 feature flag에 따라 클래스 기반 또는 객체 리터럴 기반 구현을 선택합니다 ReactFiber.js:301-303 :
 
-```
+```jsx
 const createFiber = enableObjectFiber  
   ? createFiberImplObject  
   : createFiberImplClass;

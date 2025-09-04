@@ -25,3 +25,4 @@
 [[ReactElement()]]
 [[react 깊게 이해하기]]
 [[React Element, JSX system]]
+[[Fiber node]]

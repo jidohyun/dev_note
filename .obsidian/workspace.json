@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/React/DeepDive/Fiber sh.md",
+                "file": "study/FrameWork&Library/React/DeepDive/Fiber node.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fiber sh"
+              "title": "Fiber node"
             }
           }
         ],
@@ -262,11 +262,11 @@
   },
   "active": "194f2e0017f9dbd1",
   "lastOpenFiles": [
+    "study/FrameWork&Library/React/INDEX.md",
+    "study/FrameWork&Library/React/DeepDive/Fiber node.md",
     "study/FrameWork&Library/React/DeepDive/ReactElement().md",
-    "study/FrameWork&Library/React/DeepDive/Fiber sh.md",
     "study/FrameWork&Library/React/DeepDive/React.memo 완벽 해부 - 언제 쓸모 있고 언제 쓸모없는가.md",
     "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
-    "study/FrameWork&Library/React/INDEX.md",
     "study/FrameWork&Library/React/DeepDive/jsxProd().md",
     "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
     "study/FrameWork&Library/React/Basic/커스텀 훅.md",
