@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/클로저.md",
+                "file": "study/FrameWork&Library/React/DeepDive/ReactElement().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "클로저"
+              "title": "ReactElement()"
             }
           }
         ],
@@ -248,8 +248,13 @@
   },
   "active": "86d9f38440987a81",
   "lastOpenFiles": [
-    "study/언어/js/var.md",
+    "study/FrameWork&Library/React/DeepDive/jsxProd().md",
+    "study/FrameWork&Library/React/DeepDive/React Element, JSX system.md",
+    "study/FrameWork&Library/React/DeepDive/react 깊게 이해하기.md",
+    "study/FrameWork&Library/React/INDEX.md",
+    "study/FrameWork&Library/React/Basic/커스텀 훅.md",
     "study/언어/js/클로저.md",
+    "study/언어/js/var.md",
     "study/언어/typeScript/INDEX.md",
     "study/언어/typeScript/타입스크립트.md",
     "study/언어/typeScript/무제.md",
@@ -269,11 +274,6 @@
     "study/언어/js/AJAX.md",
     "study/언어/js/DOM.md",
     "study/언어/js/배열 내장함수.md",
-    "study/언어/js/Virtual DOM.md",
-    "제네릭 타입.md",
-    "study/FrameWork&Library/React/INDEX.md",
-    "study/언어/js/변수.md",
-    "study/언어/js/상수.md",
     "study/언어/python",
     "study/Compiler",
     "study/FrameWork&Library/Tanstack-Query",
