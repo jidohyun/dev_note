@@ -45,13 +45,13 @@ React의 동시성 기능을 위한 스케줄링 정보입니다 [ReactInternal
 
 ### FiberNode 생성자
 
-Fiber 노드는 `FiberNode` 생성자를 통해 생성됩니다 ReactFiber.js:136-209 . 이 생성자는 모든 필드를 초기화하고, 개발 모드에서는 디버깅 정보도 추가합니다.
+Fiber 노드는 `FiberNode` 생성자를 통해 생성됩니다 [ReactFiber.js:136-209](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactFiber.js#L136C1-L209C2) . 이 생성자는 모든 필드를 초기화하고, 개발 모드에서는 디버깅 정보도 추가합니다.
 
 ### createFiber 함수
 
-실제로는 `createFiber` 함수가 사용되며, 이는 feature flag에 따라 클래스 기반 또는 객체 리터럴 기반 구현을 선택합니다 ReactFiber.js:301-303 :
+실제로는 `createFiber` 함수가 사용되며, 이는 feature flag에 따라 클래스 기반 또는 객체 리터럴 기반 구현을 선택합니다 [ReactFiber.js:301-303](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactFiber.js#L301C1-L303C26) :
 
-```jsx
+```js
 const createFiber = enableObjectFiber  
   ? createFiberImplObject  
   : createFiberImplClass;
@@ -59,7 +59,7 @@ const createFiber = enableObjectFiber
 
 ### Double Buffering 시스템
 
-React는 `createWorkInProgress` 함수를 통해 이중 버퍼링을 구현합니다 ReactFiber.js:325-354 . 이는 현재 트리와 작업 중인 트리를 분리하여 효율적인 업데이트를 가능하게 합니다:
+React는 `createWorkInProgress` 함수를 통해 이중 버퍼링을 구현합니다 [ReactFiber.js:325-354](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactFiber.js#L310C1-L354C11) . 이는 현재 트리와 작업 중인 트리를 분리하여 효율적인 업데이트를 가능하게 합니다:
 
 - `current.alternate`이 null이면 새로운 workInProgress Fiber 생성
 - 이미 존재하면 기존 alternate 재사용하여 성능 최적화
@@ -68,7 +68,7 @@ React는 `createWorkInProgress` 함수를 통해 이중 버퍼링을 구현합
 
 ### createFiberFromTypeAndProps
 
-다양한 컴포넌트 타입에 따라 적절한 WorkTag를 결정합니다 ReactFiber.js:546-586 :
+다양한 컴포넌트 타입에 따라 적절한 WorkTag를 결정합니다 [ReactFiber.js:546-586](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactFiber.js#L546C1-L586C11) :
 
 - 함수형 컴포넌트: `FunctionComponent` 또는 `ClassComponent`
 - 문자열 타입: `HostComponent`, `HostHoistable`, `HostSingleton`
@@ -76,7 +76,7 @@ React는 `createWorkInProgress` 함수를 통해 이중 버퍼링을 구현합
 
 ### 특수 컴포넌트 생성 함수들
 
-각 특수 컴포넌트 타입마다 전용 생성 함수가 있습니다 ReactFiber.js:746-755 :
+각 특수 컴포넌트 타입마다 전용 생성 함수가 있습니다 [ReactFiber.js:746-755](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactFiber.js#L746C1-L755C2) :
 
 - `createFiberFromFragment`: Fragment 컴포넌트
 - `createFiberFromText`: 텍스트 노드
@@ -86,7 +86,7 @@ React는 `createWorkInProgress` 함수를 통해 이중 버퍼링을 구현합
 
 ### 자식 재조정에서의 활용
 
-`ReactChildFiber.js`에서 Fiber 노드가 어떻게 생성되고 재사용되는지 볼 수 있습니다 ReactChildFiber.js:664-676 . 새로운 엘리먼트가 들어오면 `createFiberFromElement`를 호출하여 새 Fiber를 생성하고, 부모-자식 관계를 설정합니다.
+`ReactChildFiber.js`에서 Fiber 노드가 어떻게 생성되고 재사용되는지 볼 수 있습니다 [ReactChildFiber.js:664-676](https://github.com/facebook/react/blob/26e87b5f15d80fd4aaf9909f90de0857e54c1129/packages/react-reconciler/src/ReactChildFiber.js#L664C11-L676C26) . 새로운 엘리먼트가 들어오면 `createFiberFromElement`를 호출하여 새 Fiber를 생성하고, 부모-자식 관계를 설정합니다.
 
 ## Notes
 
