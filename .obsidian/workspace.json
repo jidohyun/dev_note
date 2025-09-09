@@ -134,7 +134,7 @@
             }
           },
           {
-            "id": "51137119ca659684",
+            "id": "60d86c66d75fbaf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -302,9 +302,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "60d86c66d75fbaf5",
   "lastOpenFiles": [
     "study/FE 단골질문.md",
+    "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/FE-core/DOM.md",
     "study/선배들과의 만남.md",
     "study/언어/js/클로저.md",
@@ -330,7 +331,6 @@
     "study/언어/js/var.md",
     "study/언어/typeScript/INDEX.md",
     "study/언어/typeScript/타입스크립트.md",
-    "study/언어/typeScript/무제.md",
     "study/언어/python",
     "study/Compiler",
     "study/FrameWork&Library/Tanstack-Query",
