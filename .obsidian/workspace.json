@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FE 단골질문.md",
+                "file": "study/CS/알고리즘/LeetCode/3. Longest Substring Without Repeating Characters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FE 단골질문"
+              "title": "3. Longest Substring Without Repeating Characters"
             }
           }
         ],
@@ -304,6 +304,8 @@
   },
   "active": "60d86c66d75fbaf5",
   "lastOpenFiles": [
+    "study/FE 단골질문.md",
+    "study/CS/알고리즘/LeetCode/3. Longest Substring Without Repeating Characters.md",
     "study/언어/js/자바스크립트의 컴파일 과정.md",
     "study/언어/js/JS js를 쓴다면 꼭 알아야 할 원시타입과 참조타입.md",
     "study/언어/js/JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
@@ -316,7 +318,6 @@
     "study/언어/python/list.md",
     "study/언어/python/딕셔너리 고수처럼 쓰기 (defaultdict).md",
     "study/FE-core/DOM.md",
-    "study/FE 단골질문.md",
     "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/선배들과의 만남.md",
     "study/언어/js/클로저.md",
@@ -329,7 +330,6 @@
     "study/FrameWork&Library/React/DeepDive/createElement().md",
     "study/언어/python/os.path.md",
     "study/운영체제/교착상태.md",
-    "study/언어/python/n진법 변환 문제.md",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
     "study/Compiler",
