@@ -33,3 +33,6 @@ sticker: lucide//code-2
 [[AJAX]]
 [[async, await]]
 [[Virtual DOM]]
+[[Promise와 async-await]]
+[[자바스크립트 모듈 로드 문법은 왜 두 개로 나눠졌는가? (require, import)]]
+[[클로저]]
