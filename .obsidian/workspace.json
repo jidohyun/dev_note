@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/빅데이터분석/웹 크롤링.md",
+                "file": "study/FE-core/웹 브라우저의 역사.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "웹 크롤링"
+              "title": "웹 브라우저의 역사"
             }
           }
         ],
@@ -332,8 +332,9 @@
   },
   "active": "8021062326bc6816",
   "lastOpenFiles": [
-    "study/CS/빅데이터분석/빅데이터 분석.md",
+    "study/FE-core/프론트엔드 아키텍쳐.md",
     "study/CS/빅데이터분석/웹 크롤링.md",
+    "study/CS/빅데이터분석/빅데이터 분석.md",
     "study/CS/네트워크/OSI 7 Layer, DoD.md",
     "study/뇌과학/🌅 앤드류 후버만 - 성공하는 아침 루틴 핵심 정리.md",
     "study/뇌과학/🧠 하버드 출신 뇌과학자가 말하는 ‘뇌 업그레이드 방법’.md",
@@ -358,7 +359,6 @@
     "study/FE 단골질문.md",
     "study/언어/js/INDEX.md",
     "study/FrameWork&Library/React/INDEX.md",
-    "study/언어/js/async, await.md",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
     "study/Compiler",
