@@ -1,7 +1,9 @@
 
 ---
 
-vitest 4.x 버전에선 3.x 버전까지 지원하던 기존의 파일명을 `vitest.workspace`로 바꾸거나, `defineWorkspace`를 사용하여 모노레포의 패키지를 구분하는 기능이 없어져있었다
+vitest 4.0.0 버전부턴 3.x 버전까지 지원하던 기존의 파일명을 `vitest.workspace`로 바꾸거나, `defineWorkspace`를 사용하여 모노레포의 패키지를 구분하는 기능을 지원 중단했다
+
+참고: [vitest 4.0.0 릴리즈 노트](https://github.com/vitest-dev/vitest/releases/tag/v4.0.0)
 
 4.x 버전부턴 `test.project` 라는 키를 사용해서 배열로 구분한다.
 
