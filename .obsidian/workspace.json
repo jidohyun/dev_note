@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
+                "file": "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Colons 구축기 (mozu 유틸리티 라이브러리)"
+              "title": "Chunk 함수 구현"
             }
           },
           {
@@ -316,10 +316,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ee800c71dec9c6f",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
-    "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
     "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
+    "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
+    "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/FE-core/검색 파라미터는 상태다.md",
     "study/뇌과학/🧠 읽은 모든 것을 기억하는 단 2단계 공식.md",
@@ -345,7 +346,6 @@
     "study/CS/알고리즘/LeetCode/1. Two Sum.md",
     "study/CS/알고리즘/LeetCode/128. Longest Consecutive Sequence.md",
     "study/FrameWork&Library/React/Basic/React에서 key의 역할과 배열 index 사용 금지 이유.md",
-    "study/언어/무제.md",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
     "study/Compiler",
