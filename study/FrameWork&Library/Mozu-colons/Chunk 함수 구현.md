@@ -22,4 +22,15 @@ export function chunk<T>(arr: readonly T[], size: number): T[][] {
 
 함수의 인자로 `arr`와 `size`를 받고 같이 받은 제네릭 타입 T의 2차원 배열을 리턴합니다
 
-### 
+### 예외 처리
+
+함수의 1라인에서 size가 정수가 아니거나 1 미만일때 Error를 리턴합니다
+
+`!Number.isInterger(size)`는 `size`가 정수가 아닐때 true를 리턴합니다
+```ts
+Number.isInteger(10)      // true
+Number.isInteger(10.5)    // false
+Number.isInteger("10")    // false
+Number.isInteger(NaN)     // false
+```
+
