@@ -1,7 +1,7 @@
 
 ### 개요
 
-Chunk 함수는 인자로 배열과 size를 받아서 배열을 조각으로 나눈 후 return 하는 함수이다
+Chunk 함수는 인자로 배열과 `size`를 받아서 배열 `size`만큼의 조각으로 나눈 후 새로운 배열을 return 하는 함수이다
 
 ### 코드
 
@@ -24,7 +24,8 @@ export function chunk<T>(arr: readonly T[], size: number): T[][] {
 
 ### 예외 처리
 
-함수의 1라인에서 size가 정수가 아니거나 1 미만일때 Error를 리턴합니다
+함수의 라인1 에서 `size`가 정수가 아니거나 1 미만일때 Error를 리턴하여
+`size`가 정수가 아니거나 문자열일때를 방지합니다.
 
 `!Number.isInterger(size)`는 `size`가 정수가 아닐때 true를 리턴합니다
 ```ts
@@ -34,3 +35,14 @@ Number.isInteger("10")    // false
 Number.isInteger(NaN)     // false
 ```
 
+### 구현체
+
+```ts
+const result: T[][] = [];
+
+for (let i = 0; i < arr.length; i += size) {
+	result.push(arr.slice(i, i + size));
+}
+```
+
+일단 구현체는 result라는 cu
