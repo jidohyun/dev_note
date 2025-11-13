@@ -59,9 +59,13 @@ const result: T[][] = [];
 for (let i = 0; i < arr.length; i += size) {
 	result.push(arr.slice(i, i + size));
 }
+
+return result;
 ```
 
 `const result: T[][] = [];`는 chunk함수가 실행되고 인자로 받은 `arr`가 쪼개진 후 chunk함수가 적용될 배열인 result를 선언한다.
 
-또한 `for`반복문에서 인자로 받은 배열`arr`의 길이만큼 반복하며 `arr`를 `slice`해서 새로운 배열의 `i` 번째 값과 `i + size`를 배열로 묶어 선언한 `result`배열에 `push`한다.
+또한 `for`반복문에서 인자로 받은 배열`arr`의 길이가 `i`보다 클때 반복하며 `i`엔 `size(2차원 배열로 들어갈 조각의 수)`를 `arr`를 `slice`해서 새로운 배열의 `i` 번째 값부터 `i + size`사이의 수들을 배열로 묶어 선언한 `result`배열에 `push`한다.
+이런식으로 반복하며 `result`에 `push`했을때 남는 수는 남는 수들끼리 배열로 묶여서 `push`된다.
+
 
