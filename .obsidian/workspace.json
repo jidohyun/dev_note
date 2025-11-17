@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
+                "file": "study/FE 단골질문.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chunk 함수 구현"
+              "title": "FE 단골질문"
             }
           },
           {
@@ -318,8 +318,11 @@
   },
   "active": "8ee800c71dec9c6f",
   "lastOpenFiles": [
-    "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
+    "이벤트 루프와 콜백.md",
+    "study/FE 단골질문.md",
+    "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
+    "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
     "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/FE-core/검색 파라미터는 상태다.md",
@@ -329,8 +332,6 @@
     "study/뇌과학/디자인 씽킹 예시와 실제로 하는 법.md",
     "study/CS/알고리즘/LeetCode/3. Longest Substring Without Repeating Characters.md",
     "study/뇌과학/🌅 앤드류 후버만 - 성공하는 아침 루틴 핵심 정리.md",
-    "study/FE 단골질문.md",
-    "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/선배들과의 만남.md",
     "제네릭 타입.md",
     "모주 계획.md",
@@ -345,7 +346,6 @@
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode/1. Two Sum.md",
     "study/CS/알고리즘/LeetCode/128. Longest Consecutive Sequence.md",
-    "study/FrameWork&Library/React/Basic/React에서 key의 역할과 배열 index 사용 금지 이유.md",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
     "study/Compiler",
