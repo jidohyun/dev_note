@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/이벤트 루프와 콜백.md",
+                "file": "study/언어/js/Promise와 async-await.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이벤트 루프와 콜백"
+              "title": "Promise와 async-await"
             }
           },
           {
@@ -304,8 +304,10 @@
   },
   "active": "16d772012a0772d0",
   "lastOpenFiles": [
-    "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+    "study/언어/js/Promise.md",
+    "study/언어/js/Promise와 async-await.md",
     "study/언어/js/이벤트 루프와 콜백.md",
+    "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
     "study/FrameWork&Library/React/Basic/React에서 key의 역할과 배열 index 사용 금지 이유.md",
     "study/FE 단골질문.md",
@@ -329,8 +331,6 @@
     "[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md 16-17-27-104.md",
     "study/FE-core/프론트엔드 아키텍쳐.md",
     "study/CS/빅데이터분석/웹 크롤링.md",
-    "study/CS/빅데이터분석/빅데이터 분석.md",
-    "study/CS/네트워크/OSI 7 Layer, DoD.md",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
