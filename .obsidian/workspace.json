@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/Virtual DOM.md",
+                "file": "호이스팅.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtual DOM"
+              "title": "호이스팅"
             }
           }
         ],
@@ -319,6 +319,8 @@
   "active": "e3b9fb379a057da6",
   "lastOpenFiles": [
     "study/FE 단골질문.md",
+    "호이스팅.md",
+    "study/언어/js/Virtual DOM.md",
     "study/FE-core/CORS.md",
     "study/DB/INDEX.md",
     "study/DB/개념/데이터베이스 정의.md",
@@ -343,8 +345,6 @@
     "study/CS/알고리즘/LeetCode/3. Longest Substring Without Repeating Characters.md",
     "study/뇌과학/🌅 앤드류 후버만 - 성공하는 아침 루틴 핵심 정리.md",
     "study/선배들과의 만남.md",
-    "제네릭 타입.md",
-    "모주 계획.md",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
