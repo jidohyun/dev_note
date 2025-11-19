@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/렉시컬 스코프.md",
+                "file": "study/FE-core/브라우저 렌더링 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "렉시컬 스코프"
+              "title": "브라우저 렌더링 과정"
             }
           }
         ],
@@ -316,13 +316,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b9fb379a057da6",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
+    "study/FE 단골질문.md",
+    "study/FE-core/브라우저 렌더링 과정.md",
+    "study/박정환 선배님 Ｑ＆Ａ.md",
+    "study/언어/js/렉시컬 스코프.md",
     "study/언어/js/클로저.md",
     "study/언어/js/JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
-    "study/언어/js/렉시컬 스코프.md",
-    "study/FE 단골질문.md",
     "study/언어/js/화살표 함수와 function 키워드의 차이점.md",
     "study/언어/js/호이스팅.md",
     "study/언어/js/Virtual DOM.md",
@@ -338,13 +340,11 @@
     "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
     "study/FrameWork&Library/React/Basic/React에서 key의 역할과 배열 index 사용 금지 이유.md",
-    "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
     "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/FE-core/검색 파라미터는 상태다.md",
     "study/뇌과학/🧠 읽은 모든 것을 기억하는 단 2단계 공식.md",
-    "study/뇌과학/🧠 하버드 출신 뇌과학자가 말하는 ‘뇌 업그레이드 방법’.md",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
