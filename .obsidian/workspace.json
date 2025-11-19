@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/호이스팅.md",
+                "file": "study/언어/js/화살표 함수와 function 키워드의 차이점.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "호이스팅"
+              "title": "화살표 함수와 function 키워드의 차이점"
             }
           }
         ],
@@ -319,6 +319,7 @@
   "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
     "study/FE 단골질문.md",
+    "study/언어/js/화살표 함수와 function 키워드의 차이점.md",
     "study/언어/js/호이스팅.md",
     "study/언어/js/Virtual DOM.md",
     "study/FE-core/CORS.md",
@@ -344,7 +345,6 @@
     "study/뇌과학/디자인 씽킹 예시와 실제로 하는 법.md",
     "study/CS/알고리즘/LeetCode/3. Longest Substring Without Repeating Characters.md",
     "study/뇌과학/🌅 앤드류 후버만 - 성공하는 아침 루틴 핵심 정리.md",
-    "study/선배들과의 만남.md",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
