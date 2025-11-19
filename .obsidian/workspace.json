@@ -153,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "호이스팅.md",
+                "file": "study/언어/js/호이스팅.md",
                 "mode": "source",
                 "source": false
               },
@@ -316,10 +316,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b9fb379a057da6",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
     "study/FE 단골질문.md",
-    "호이스팅.md",
+    "study/언어/js/호이스팅.md",
     "study/언어/js/Virtual DOM.md",
     "study/FE-core/CORS.md",
     "study/DB/INDEX.md",
