@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FE-core/쿠키.md",
+                "file": "study/FE 단골질문.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "쿠키"
+              "title": "FE 단골질문"
             }
           }
         ],
@@ -316,10 +316,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "e3b9fb379a057da6",
   "lastOpenFiles": [
-    "study/FE 단골질문.md",
     "study/FE-core/쿠키.md",
+    "study/FE 단골질문.md",
     "study/언어/js/클로저.md",
     "study/FE-core/CORS와 Preflight.md",
     "study/운영체제/CPU.md",
