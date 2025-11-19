@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/클로저.md",
+                "file": "study/FE-core/쿠키.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "클로저"
+              "title": "쿠키"
             }
           }
         ],
@@ -194,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "babel",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -316,15 +316,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b9fb379a057da6",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
     "study/FE 단골질문.md",
+    "study/FE-core/쿠키.md",
+    "study/언어/js/클로저.md",
     "study/FE-core/CORS와 Preflight.md",
     "study/운영체제/CPU.md",
     "study/FE-core/브라우저 렌더링 과정.md",
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/언어/js/렉시컬 스코프.md",
-    "study/언어/js/클로저.md",
     "study/언어/js/JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/언어/js/화살표 함수와 function 키워드의 차이점.md",
@@ -344,7 +345,6 @@
     "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
     "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
     "study/FrameWork&Library/Mozu-colons",
-    "study/FE-core/검색 파라미터는 상태다.md",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
