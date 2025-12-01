@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DB/개념/DBMS.md",
+                "file": "study/FrameWork&Library/Mozu-colons/Vitepress 정적 서빙 구축.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBMS"
+              "title": "Vitepress 정적 서빙 구축"
             }
           }
         ],
@@ -316,8 +316,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "e3b9fb379a057da6",
   "lastOpenFiles": [
+    "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
+    "study/FrameWork&Library/Mozu-colons/Vitepress 정적 서빙 구축.md",
+    "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
+    "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
+    "study/AI/인공지능 회귀 분석.md",
+    "study/DB/개념/DBMS.md",
     "study/DB/SQL/고급/집계함수.md",
     "study/DevOps/k8s.md",
     "study/박정환 선배님 Ｑ＆Ａ.md",
@@ -338,12 +344,6 @@
     "study/언어/js/Virtual DOM.md",
     "study/DB/INDEX.md",
     "study/DB/개념/데이터베이스 정의.md",
-    "study/DB/개념/RDB.md",
-    "study/DB/개념/DBMS.md",
-    "study/FE-core/리플로우와 리페인트.md",
-    "study/언어/js/Promise.md",
-    "study/언어/js/이벤트 루프와 콜백.md",
-    "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
