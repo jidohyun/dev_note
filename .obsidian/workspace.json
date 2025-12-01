@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/언어/js/Promise와 async-await.md",
+                "file": "study/DB/개념/DBMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise와 async-await"
+              "title": "DBMS"
             }
           }
         ],
@@ -316,10 +316,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b9fb379a057da6",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
-    "study/FE-core/쿠키.md",
+    "study/DB/SQL/고급/집계함수.md",
+    "study/DevOps/k8s.md",
+    "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/언어/js/Promise와 async-await.md",
+    "study/FE-core/쿠키.md",
     "study/FE-core/프론트엔드 아키텍쳐.md",
     "study/언어/js/var.md",
     "study/FE 단골질문.md",
@@ -327,7 +330,6 @@
     "study/FE-core/CORS와 Preflight.md",
     "study/운영체제/CPU.md",
     "study/FE-core/브라우저 렌더링 과정.md",
-    "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/언어/js/렉시컬 스코프.md",
     "study/언어/js/JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
@@ -342,8 +344,6 @@
     "study/언어/js/Promise.md",
     "study/언어/js/이벤트 루프와 콜백.md",
     "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
-    "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
-    "study/FrameWork&Library/React/Basic/React에서 key의 역할과 배열 index 사용 금지 이유.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
