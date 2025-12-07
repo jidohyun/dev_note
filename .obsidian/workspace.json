@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/DevOps/k8s.md",
+                "file": "study/FrameWork&Library/React/DeepDive/Fiber node.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k8s"
+              "title": "Fiber node"
             }
           }
         ],
@@ -318,14 +318,14 @@
   },
   "active": "e3b9fb379a057da6",
   "lastOpenFiles": [
+    "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
     "study/FrameWork&Library/Mozu-colons/Vitepress 정적 서빙 구축.md",
     "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
-    "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
     "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
+    "study/DevOps/k8s.md",
     "study/AI/인공지능 회귀 분석.md",
     "study/DB/개념/DBMS.md",
     "study/DB/SQL/고급/집계함수.md",
-    "study/DevOps/k8s.md",
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/언어/js/Promise와 async-await.md",
     "study/FE-core/쿠키.md",
