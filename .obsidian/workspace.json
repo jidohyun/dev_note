@@ -151,14 +151,10 @@
             "id": "e3b9fb379a057da6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/FE-core/웹 브라우저의 역사.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "웹 브라우저의 역사"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ],
@@ -302,8 +298,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,10 +311,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b9fb379a057da6",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
-    "study/FE-core/웹.md",
+    "2025-12-29.md",
+    "무제.canvas",
     "study/FE-core/웹 브라우저의 역사.md",
+    "study/FE-core/웹.md",
     "study/FrameWork&Library/React/DeepDive/Fiber node.md",
     "study/FrameWork&Library/Mozu-colons/Colons 구축기 (mozu 유틸리티 라이브러리).md",
     "study/FrameWork&Library/Mozu-colons/Vitepress 정적 서빙 구축.md",
@@ -342,8 +339,6 @@
     "study/언어/js/렉시컬 스코프.md",
     "study/언어/js/JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
-    "study/언어/js/화살표 함수와 function 키워드의 차이점.md",
-    "study/언어/js/호이스팅.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
