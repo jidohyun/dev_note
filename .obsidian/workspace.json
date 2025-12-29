@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Research Result/test.md",
+                "file": "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "software-개발에서-꼭-알아야하는-인프라-메트릭"
             }
           }
         ],
@@ -301,10 +301,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "16d772012a0772d0",
   "lastOpenFiles": [
-    "study/FE 단골질문.md",
     "study/Research Result/test.md",
+    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
+    "study/FE 단골질문.md",
     "무제.canvas",
     "study/Research Result",
     "2025-12-29.md",
