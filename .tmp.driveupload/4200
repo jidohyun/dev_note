@@ -1,0 +1,290 @@
+
+---
+### 들어가며
+
+리엑트에서 배열을 렌더링 할 수 있다.
+
+이런 배열이 있다고 했을 때,
+
+```jsx
+const users = [
+  {
+    id: 1,
+    username: 'velopert',
+    email: 'public.velopert@gmail.com'
+  },
+  {
+    id: 2,
+    username: 'tester',
+    email: 'tester@example.com'
+  },
+  {
+    id: 3,
+    username: 'liz',
+    email: 'liz@example.com'
+  }
+];
+```
+
+만약 이 내용을 컴포넌트로 렌더링 한다면 어떻게 함?
+
+#### UserList.js
+
+```jsx
+import React from 'react';
+
+function UserList() {
+  const users = [
+    {
+      id: 1,
+      username: 'velopert',
+      email: 'public.velopert@gmail.com'
+    },
+    {
+      id: 2,
+      username: 'tester',
+      email: 'tester@example.com'
+    },
+    {
+      id: 3,
+      username: 'liz',
+      email: 'liz@example.com'
+    }
+  ];
+  return (
+    <div>
+      <div>
+        <b>{users[0].username}</b> <span>({users[0].email})</span>
+      </div>
+      <div>
+        <b>{users[1].username}</b> <span>({users[1].email})</span>
+      </div>
+      <div>
+        <b>{users[2].username}</b> <span>({users[1].email})</span>
+      </div>
+    </div>
+  );
+}
+
+export default UserList;
+```
+
+뭐 이렇게 짤 수도 있지만 겁나 비효율적임 BAD code
+
+이 코드를 조금 수정하면 재사용되는 코드를 일일히 넣는게 별로 좋지 않으니까 컴포넌트를 재사용 할 수 있도록 새로 만들어주자.
+
+***한 파일에 여러개의 컴포넌트 선언해도 상관없음***
+
+#### UserList.js
+
+```jsx
+import React from 'react';
+
+function User({ user }) {
+  return (
+    <div>
+      <b>{user.username}</b> <span>({user.email})</span>
+    </div>
+  );
+}
+
+function UserList() {
+  const users = [
+    {
+      id: 1,
+      username: 'velopert',
+      email: 'public.velopert@gmail.com'
+    },
+    {
+      id: 2,
+      username: 'tester',
+      email: 'tester@example.com'
+    },
+    {
+      id: 3,
+      username: 'liz',
+      email: 'liz@example.com'
+    }
+  ];
+
+  return (
+    <div>
+      <User user={users[0]} />
+      <User user={users[1]} />
+      <User user={users[2]} />
+    </div>
+  );
+}
+
+export default UserList;
+```
+
+이런 코드를 렌더링 해보면
+
+***유저네임 (이메일)***
+***유저네임 (이메일)***
+***유저네임 (이메일)***
+
+뭐 이런 식으로 나오겠음 근데 배열이 고정적이면 상관 없겠지만 배열의 인덱스를 하나하나 조회해가면서 렌더링 하는 방법은 동적인 배열을 렌더링 할 수 없음.
+
+그래서 동적인 배열을 렌더링 해야 할 때 JS의 [[배열 내장함수]] 중 `map()`을 사용함.
+
+#### UserList.js
+
+```jsx
+import React from 'react';
+
+function User({ user }) {
+  return (
+    <div>
+      <b>{user.username}</b> <span>({user.email})</span>
+    </div>
+  );
+}
+
+function UserList() {
+  const users = [
+    {
+      id: 1,
+      username: 'velopert',
+      email: 'public.velopert@gmail.com'
+    },
+    {
+      id: 2,
+      username: 'tester',
+      email: 'tester@example.com'
+    },
+    {
+      id: 3,
+      username: 'liz',
+      email: 'liz@example.com'
+    }
+  ];
+
+  return (
+    <div>
+      {users.map(user => (
+        <User user={user} />
+      ))}
+    </div>
+  );
+}
+
+export default UserList;
+```
+
+뭐 이렇게 간단하게 해주면 배열의 모든 원소가 렌더링 됨. 하지만, 여기서 끝이 아님.
+
+브라우저에서 콘솔을 열어보면 에러가 뜸.
+
+***리액트에서 배열을 렌더링 할 때에는 `key` 라는 props를 설정해야함 `key`값은 각 원소들마다 가지고 있는 고유값으로 설정을 해야함. 지금의 경우엔 `id`가 고유 값임.***
+
+#### UserList.js
+
+```jsx
+import React from 'react';
+
+function User({ user }) {
+  return (
+    <div>
+      <b>{user.username}</b> <span>({user.email})</span>
+    </div>
+  );
+}
+
+function UserList() {
+  const users = [
+    {
+      id: 1,
+      username: 'velopert',
+      email: 'public.velopert@gmail.com'
+    },
+    {
+      id: 2,
+      username: 'tester',
+      email: 'tester@example.com'
+    },
+    {
+      id: 3,
+      username: 'liz',
+      email: 'liz@example.com'
+    }
+  ];
+
+  return (
+    <div>
+      {users.map(user => (
+        <User user={user} key={user.id} />
+      ))}
+    </div>
+  );
+}
+
+export default UserList;
+```
+
+만약에 배열 안의 원소가 가지고 있는 고유한 값이 없다면 `map()` 함수를 사용 할 때 설정하는 콜백함수의 두 번째 파라미터 `index` 를 `key`로 사용하면 됨.
+
+```jsx
+<div>
+  {users.map((user, index) => (
+    <User user={user} key={index} />
+  ))}
+</div>
+```
+
+만약 배열을 렌더링 할 때 `key` 설정을 하지 않게 된다면 기본적으로 배열의 `index` 값을 `key` 로 사용하게 되고, 아까 봤었던 경고 메시지가 뜸. 이렇게 경고 메시지가 뜨는 이유는, 각 고유 원소에 `key`가 있어야만 배열이 업데이트 될 때 효율적으로 렌더링 될 수 있기 때문임.
+
+### key 의 존재유무에 따른 업데이트 방식
+
+예를 들어서 다음과 같은 배열이 있다고 가정해보면.
+
+```js
+const array = ['a', 'b', 'c', 'd'];
+```
+
+이 배열을 다음과 같이 렌더링 한다고 가정함.
+
+```jsx
+array.map(item => <div>{item}</div>);
+```
+
+위 배열의 b와 c사이에 z를 삽입하게 된다면, 리렌더링을 하게 될 때 `<div>b</div>` 와 `<div>c</div>` 사이에 새 `div` 태그를 삽입을 하게 되는 것이 아니라, 기존의 c 가 z 로바뀌고, d 는 c 로 바뀌고, 맨 마지막에 d 가 새로 삽입됨.
+
+그 다음에 a를 제거하게 된다면, 기존의 a가 b로 바뀌고, b는 z로 바뀌고, z는 c로 바뀌고, c는 d로 바뀌고, 맨 마지막에 있는 d가 제거됨.
+
+딱 봐도 너무 비효율적임. 하지만 `key`가 있다면 이 작업은 개선됨
+
+객체에 다음과 같이 `key` 로 사용 할 수 있는 고유 값이 있고
+
+```jsx
+[
+  {
+    id: 0,
+    text: 'a'
+  },
+  {
+    id: 1,
+    text: 'b'
+  },
+  {
+    id: 2,
+    text: 'c'
+  },
+  {
+    id: 3,
+    text: 'd'
+  }
+];
+```
+
+이렇게 렌더링이 된다면 
+
+```jsx
+array.map(item => <div key={item.id}>{item.text}</div>);
+```
+
+배열이 업데이트 될 때 `key`가 없을 때 처럼 비효율적으로 업데이트 하는 것이 아니라, 수정되지 않는 기존의 값은 그대로 두고 원하는 곳에 내용을 삽입하거나 삭제함.
+
+이 때문에, 배열을 렌더링 할 때에는 고유한 `key`값이 있는 것이 중요하며, 만약 배열안에 중복되는 `key`가 있을 때에는 렌더링 시에 오류 메시지가 콘솔에 나타나게 되며, 업데이트가 제대로 이루어지지 않음.
+

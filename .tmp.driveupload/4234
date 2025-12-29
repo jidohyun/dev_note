@@ -1,0 +1,40 @@
+### 까마귀 발 표기법 (Crow's Foot Notation)
+
+#### **명칭**
+
+- 데이터베이스의 관계를 표현하는 E-R 다이어그램 표기법 중 하나
+- 관계를 선으로 연결하고, 관계의 카디널리티(1:1, 1:M, M:N 등)를 까마귀 발 모양으로 표현
+
+#### **예시 (E-R 다이어그램)**
+
+- 관계 표현 방법:
+    - **1:1 관계**: 수직선 하나(—|)
+    - **1:M 관계**: 까마귀 발 모양(—<)
+    - **M:N 관계**: 양쪽에 까마귀 발 모양(>—<)
+
+
+![SQLD](https://blog.kakaocdn.net/dn/bnBZVr/btqycOAjF9v/QFobCyef68dGKpOQ4fbbp0/img.png)
+
+### IE 표기법 (Information Engineering Notation)
+
+#### **명칭**
+
+- 정보 공학(Information Engineering)에서 사용하는 E-R 다이어그램 표기법
+- 보다 직관적인 방식으로 관계를 표현
+
+#### **표현 방법**
+
+|요소|표현 방식|
+|---|---|
+|**개체(Entity)**|직사각형으로 표현|
+|**속성(Attribute)**|개체 내부에 속성 기재|
+|**관계(Relationship)**|직선으로 연결하고 관계 기호(1, ∞) 사용|
+
+#### **카디널리티 표현**
+
+- **1:1 관계** → `|———|`
+- **1:M 관계** → `|———∞`
+- **M:N 관계** → `∞———∞`
+
+![IE 표기법 바커 표기법 비교 : 네이버 블로그](https://mblogthumb-phinf.pstatic.net/MjAyMTAyMTBfMTA3/MDAxNjEyOTM2NDU2MzE3.t-e7yCUwwVq7XKg3c_IjcWh6Uk56sYrBlpwoW9ZzskMg.McCITfPjCXEqChfEJOo-9vaEwU0ompv1zjXqxaGHZqwg.PNG.cms711/image.png?type=w800)
+

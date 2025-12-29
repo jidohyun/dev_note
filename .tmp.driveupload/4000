@@ -1,0 +1,108 @@
+
+## if문
+
+가장 기본적인 조건문인 if문.
+
+if문은 "~하다면 ~해라" 이런 동작을 한다.
+
+예를 들어,
+
+```
+const a = 1;
+if (a + 1 === 2) {
+  console.log('a + 1 이 2 입니다.');
+}
+```
+
+if의 조건대로 1 + 1 === 2 가 참이기 때문에 아래의 코드가 실행된다.
+
+![[Pasted image 20240412191458.png]]
+
+또한 이런 코드가 있다.
+
+```
+const a = 1;
+if (true) {
+  const a = 2;
+  console.log('if문 안의 a 값은 ' + a);
+}
+console.log('if문 밖의 a 값은 ' + a);
+```
+
+위 코드에서는 if문에 조건을 true 로 설정했기 때문에 코드 블록 내부의 코드가 무조건 실행이 된다.
+
+![[Pasted image 20240412192134.png]]
+
+## if-else 문
+
+else 는 "~한다고 하면 ~하고 아니면 ~해라" 이다.
+
+```
+const a = 10;
+if (a > 15) {
+  console.log('a 가 15 큽니다.');
+} else {
+  console.log('a 가 15보다 크지 않습니다.');
+}
+```
+
+![[Pasted image 20240412192450.png]]
+
+특정 조건이 만족할 때와 만족하지 않을 때 다른 코드를 실행한다면, if else 를 이용할 수 있다.
+
+## if-else if 문
+
+else if 문은 여러 조건일 때 다른 작업을 해야 할 때 사용한다.
+
+```
+const a = 10;
+if (a === 5) {
+  console.log('5입니다!');
+} else if (a === 10) {
+  console.log('10입니다!');
+} else {
+  console.log('5도 아니고 10도 아닙니다.');
+}
+```
+
+![[Pasted image 20240412192755.png]]
+
+여기서,  a를 5로 바꾸고, 7로도 바꿔보면,
+
+![[Pasted image 20240412192939.png]]
+
+이런 식으로 코드가 동작한다.
+
+## switch/case 문
+
+switch case문은 특정 값이 무엇이냐에 따라 다른 작업을 하고 싶을 때 사용한다.
+
+```
+const device = 'iphone';
+
+switch (device) {
+  case 'iphone':
+    console.log('아이폰!');
+    break;
+  case 'ipad':
+    console.log('아이패드!');
+    break;
+  case 'galaxy note':
+    console.log('갤럭시 노트!');
+    break;
+  default:
+    console.log('모르겠네요..');
+}
+```
+
+device 값을 'iphone', 'ipad', 'galaxy note', 'macbook' 으로 순서대로 바꿔가면서 코드를 실행해보고 결과를 보면,
+
+device 값에 따라서 다른 결과가 출력된다.
+
+![[Pasted image 20240412193449.png]]
+
+switch/case 문은 이와 같이 특정 값이 무엇이냐에 따라 다른 작업을 수행 할 수 있게 해준다.
+
+switch/case 문에서는 각 case 에서 실행할 코드를 작성하고 맨 마지막에 `break;` 를 해줘야 한다. break 를 하지 않으면 그 다음 case 의 코드까지 실행해버린다.
+
+그리고, 맨 아래의 `default:` 는 device 값이 우리가 case 로 준비하지 않은 값일 경우를 의미한다.

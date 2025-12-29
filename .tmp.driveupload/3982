@@ -1,0 +1,156 @@
+
+---
+
+### 고급타입
+
+조건부 타입은 입력된 [[제네릭 타입]]에 따라 타입을 결정하는 기능을 뜻한다.\
+
+```ts
+T extends U ? X : Y;
+```
+
+위와 같이 조건부 타입은 [[인터페이스]]에서 썻던 `extends` 키워드와 `?`를 사용하는데 딱 보니 삼항 연산자가 생각났을 것이다. 
+
+자바스크립트의 삼항은 변수의 값을 조건에 따라 결정하는 것이라면, 타입스크립트의 조건부 타입은 값 대신 타입을 조건에 따라 결정하는 것이라고 보면 된다.
+
+위의 조건부 코드의 의미는 T를 U에 할당할 수 있다면 타입은 X가 되고 그렇지 않다면 Y가 된다. 
+라는 의미이다.
+
+착각하지 말아야 할 점은 조건부 타입도 [[유니온]] 처럼 하나의 타입이다.
+
+`extends`가 들어가서 제네릭 꺾쇠 괄호 `<>` 안에 써야 하는줄 아는데, 그냥 별개의 타입문법으로 취급된다.
+
+> [!INFO]
+> 제네릭 extends 와 조건부 타입 extends는 역할만 같은 서로 다른 사용처 연산자라고 치부하는게 이해하기 좋다.
+
+### 예제 코드
+
+```ts
+// T extends U ? X : Y
+
+// 제네릭이 string이면 문자열배열, 아니면 넘버배열
+type IsStringType<T> = T extends string ? string[] : number[];
+
+type T1 = IsStringType<string>; // type T1 = string[]
+type T2 = IsStringType<number>; // type T2 = number[]
+
+const a: T1 = ['홍길동', '임꺾정', '박혁거세'];
+const b: T2 = [1000, 2000, 3000];
+```
+
+```ts
+// 제네릭 `T`는 `boolean` 타입으로 제한.
+// 제네릭 T에 true가 들어오면 string 타입으로, false가 들어오면 number 타입으로 data 속성을 타입 지정
+interface isDataString<T extends boolean> {
+   data: T extends true ? string : number;
+   isString: T;
+}
+
+const str: isDataString<true> = {
+   data: '홍길동', // String
+   isString: true,
+};
+
+const num: isDataString<false> = {
+   data: 9999, // Number
+   isString: false,
+};
+```
+
+단, 조건부 타입을 중첩해서 쓰면 다음과 같이 가독성이 매우 안좋아지니 감안해야 한다.
+
+변수를 조건문을 통해 유기적으로 다룰수 있는 것처럼, 타입스크립트에서 타입도 유기적으로 다루기 위해 if문을 쓸수는 없으니 이런식으로 삼항을 연속해서 써야하는 한계가 있다.
+
+```ts
+type TypeName<T> =
+    T extends string ? "string" :
+    T extends number ? "number" :
+    T extends boolean ? "boolean" :
+    T extends undefined ? "undefined" :
+    T extends Function ? "function" :
+    "object";
+
+type T0 = TypeName<string>;  // "string"
+type T1 = TypeName<"a">;  // "string"
+type T2 = TypeName<true>;  // "boolean"
+type T3 = TypeName<() => void>;  // "function"
+type T4 = TypeName<string[]>;  // "object"
+```
+
+
+### 분산 조건부 타입
+
+!!! 어려움 주의 !!!
+
+다음 조건부 타입을 보자, 이번에는 유니온 타입을 제네릭에 할당했다.
+
+```ts
+type IsStringType<T> = T extends string ? 'yes' : 'no';
+
+type T1 = IsStringType<string | number>;
+```
+
+`string | number` 는 `string 또는 number` 이니 당연히 `string`에 포함되니 삼항 연산자의 결과는 ~~'yes'~~가 되어 `type T1`의 타입은 `'yes'`가 됨을 유추 할 수 있다.
+
+그러나 놀랍게도 타입은 `'yes' | 'no'` 로 추론 된다.
+
+![[스크린샷 2024-09-13 오후 7.29.12.png]]
+
+이것이 **분산 조건부 타입**이다
+
+분산 조건부 타입은 타입을 인스턴스화 중에 자동으로 유니언 타입으로 분산되는데, 
+
+예를들어, `T`에 대한 타입 인수 `A | B | C` 를 사용하여 `T extends U ? X : Y` 를 인스턴스화하면 `(A extends U ? X : Y) | (B extends U ? X : Y) | (C extends U ? X : Y)` 로 결정되게 된다.
+
+한마디로 **유니온으로 묶인 타입 하나하나 마다 조건부 타입 검사**을 하고 그 값들을 다시 묶어 유니온으로 반환하는 것이다.
+
+따라서 위의 타입 결과를 풀이해보자면 다음과 같이 된다.
+
+1. `(string | number) extends string ? 'yes' : 'no'`
+2. `(string extends string ? 'yes' : 'no')` | `(number extends string ? 'yes' : 'no')`
+3. `'yes' | 'no'`
+
+한가지 더 충격적인 것이 있다.
+
+다음 두 코드의 결과 타입을 추론해보자.
+
+```ts
+type T3 = string | number extends string ? 'yes' : 'no';
+
+type T4 = Array<string | number>;
+```
+
+![[스크린샷 2024-09-13 오후 7.41.24.png]]
+![[스크린샷 2024-09-13 오후 7.41.39.png]]
+?? 이게 무슨,,
+머리가 깨질 것 같다
+
+이번엔 대체 무슨 원리에 의해 저렇게 반대로 되는 것일까?
+
+`type T3`같은 경우는 그냥 제네릭만 안썼을 뿐이지 처음 예제와 똑같은 코드이다. 제네릭을 빼고 `T`자리에 유니온 타입을 직접 넣었을 뿐인데 왜 결과가 딴판이 된 것일까..
+
+이것도 역시 분산 조건부 타입의 특징이다.
+
+조건부 타입에서 **(naked) type parameter** 가 사용된 경우에만 분산 방식으로 동작하게 된다.
+
+> [!INFO]
+> (naked) type parameter는 제네릭 T 와 같이 의미가 없는 타입 파라미터를 말하는 것이며,  
+만일 직접 리터럴 타입을 명시하거나 혹은 제네릭 T[] 와 같이 변횐된 타입 파라미터이면, naked 가 아니게 된다.
+
+따라서 분산 조건부 타입 예제는 제네릭 T를 써서 그대로 분산이 되어 유니온 타입으로 타입 결과가 반환 됬지만, 유니온 타입을 제네릭이 아니라 직접 리터럴로 넣게 되면, 분산이 일어나지 않았기 때문에 위의 결과가 나온 것이다.
+
+이 특징을 총정리한 코드이다.
+
+```ts
+type T1 = (1 | 3 | 5 | 7) extends number ? 'yes' : 'no'; // naked 타입이 아니라서 분산이 되지 않는다.
+type T2<T> = T extends number ? T[] : 'no'; // 제네릭 T는 naked 타입이라 분산이 된다.
+type T3<T> = T[] extends number ? 'yes' : T[]; // 제네릭이지만 T[] 와 같이 변형된 타입 파라미터는 naked 타입이 아니라서 분산이 일어나지 않는다.
+
+type T4 = T1; // "yes"
+type T5 = T2<(1 | 3 | 5 | 7)>; // 1[] | 3[] | 5[] | 7[]
+type T6 = T2<(1 | 3 | 5 | 7)>; // (1 | 3 | 5 | 7)[]
+```
+
+그리고 두번째의 경우 `type T4 = Array<string | number>` 
+인터페이스 `Array<T>`는 타입스크립트에서 기본적으로 지원되는 제네릭 인터페이스로써 당연히 여기엔 조건부 타입이 사용되지 않아 당연히 반환 값은 유니온 배열 `(string | number)[]` 이 된다.
+
