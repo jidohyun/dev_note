@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
+                "file": "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "software-개발에서-꼭-알아야하는-인프라-메트릭"
+              "title": "구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기"
             }
           }
         ],
@@ -303,8 +303,9 @@
   },
   "active": "16d772012a0772d0",
   "lastOpenFiles": [
-    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭 (1).md",
     "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
+    "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
+    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭 (1).md",
     "study/Research Result/test.md",
     "study/FE 단골질문.md",
     "무제.canvas",
@@ -330,7 +331,6 @@
     "study/FE-core/CORS와 Preflight.md",
     "study/운영체제/CPU.md",
     "study/FE-core/브라우저 렌더링 과정.md",
-    "study/언어/js/렉시컬 스코프.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
