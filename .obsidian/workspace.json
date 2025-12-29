@@ -253,28 +253,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/react/9. useRef 로 특정 DOM 선택하기.md"
+                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "9. useRef 로 특정 DOM 선택하기 개요"
-            }
-          },
-          {
-            "id": "f665073cc8b2bb8e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "버블정렬 알고리즘 의 개요"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,12 +276,12 @@
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "53ae10d97f95e448",
   "lastOpenFiles": [
+    "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/CS/알고리즘/알고리즘.md",
     "study/언어/js/INDEX.md",
     "study/뇌과학/🧠 읽은 모든 것을 기억하는 단 2단계 공식.md",
@@ -316,7 +309,6 @@
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/언어/js/Promise와 async-await.md",
     "study/FE-core/쿠키.md",
-    "study/FE-core/프론트엔드 아키텍쳐.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
