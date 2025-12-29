@@ -151,10 +151,14 @@
             "id": "e3b9fb379a057da6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "study/Research Result/test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "test"
             }
           }
         ],
@@ -311,11 +315,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "e3b9fb379a057da6",
   "lastOpenFiles": [
-    "study/Research insight",
-    "2025-12-29.md",
     "무제.canvas",
+    "study/Research Result/test.md",
+    "study/Research Result",
+    "2025-12-29.md",
     "study/FE-core/웹 브라우저의 역사.md",
     "study/FE-core/웹.md",
     "study/FrameWork&Library/React/DeepDive/Fiber node.md",
@@ -339,7 +344,6 @@
     "study/FE-core/브라우저 렌더링 과정.md",
     "study/언어/js/렉시컬 스코프.md",
     "study/언어/js/JS 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
-    "study/언어/js/[JS] 많은 사람들이 모르는 javascript의 엔진, 런타임, 호출스택.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
@@ -349,7 +353,6 @@
     "study/FrameWork&Library/React/Basic",
     "study/FrameWork&Library/Zustand",
     "무제 1",
-    "study/FrameWork&Library/React/DeepDive",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
     "무제 파일.canvas",
