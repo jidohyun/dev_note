@@ -132,9 +132,21 @@
               "icon": "lucide-file",
               "title": "버블정렬 알고리즘"
             }
+          },
+          {
+            "id": "d379dc03fddc7478",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.6"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -253,13 +265,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/알고리즘/버블정렬 알고리즘.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "버블정렬 알고리즘 의 개요"
+              "title": "개요"
             }
           }
         ],
@@ -271,6 +282,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
@@ -280,7 +292,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "53ae10d97f95e448",
+  "active": "d379dc03fddc7478",
   "lastOpenFiles": [
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/CS/알고리즘/알고리즘.md",
