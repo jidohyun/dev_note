@@ -1,0 +1,151 @@
+
+### 소프트웨어적인 해결 (프로세스가 2개라는 전제)
+
+1. **알고리즘 1**
+
+```
+proceduer Pi
+begin
+	repeat    or turn != i
+		while turn = j do skip; // 진입영역(enterCS)
+			critical section (임계영역)
+		turn = j; // 출구영역(exitCS)
+			remainder section (잔류영역)
+	until false;
+end
+begin
+	turn = i; // Pi으로 우선순위 초기화(i or j)
+	parbegin  // 두 개의 프로세스 Pi와 Pj 동시실행
+		Pi;
+		Pj;
+	parend
+end;
+```
+
+- 두 프로세스 (Pi, Pj) 병행 수행
+- 공유변수 turn을 통해 두 개의 프로세스(Pi, Pj)에 대한 **상호배제 보장**
+- turn = i 이면 프로세스 Pi 가 임계구역에 들어갈 수 있다.
+- 진입영역에서 상대방 프로세스가 진입했는지 확인, 출구영역에서 turn을 상대방에게 넘겨준다.
+
+<문제점>
+- 반드시 번갈아 가면서 실행되어야 한다. --> Pi가 연속 두 번 실행할 수 없음
+-  Pi가 나오면서 turn을 j로 하면 Pi가 임계구역에 진입못했을 시 아무도 임계구역 없으므로 --> `진행` 문제 발생
+
+ 2. 알고리즘 2
+
+```
+var flag: array[0..1] of boolean;
+proceduer Pi
+begin
+	repeat
+		while flag[j] do skip // 상대방 flag = true이면 기다려
+		flag[i] := true // 자신의 flag = true 설정
+			critical section (임계영역)
+		flag[i] := false // 자신의 flag = false 설정
+			remainder section (잔류영역)
+	until false;
+```
+
+- 알고리즘1에서의 문제는 어떤 프로세스가 임계구역에 들어갈 수 있는지만 고려하고 상태를 기억하지 않아 문제 발생 -> turn을 배열로 대체하고 배열 값을 false 로 초기화 -> **진행 문제 해결**
+
+<문제점>
+t0: Pi가 `flag[j] = false` 임을 확인한다.
+t1: Pj가 `flag[i] = false` 임을 확인한다.
+t2: Pi가 `flag[i] = true` 로 한다.
+t3: Pj가 `flag[j] = true` 로 한다.
+위반 조건: 상호배제 위반.
+
+3. 알고리즘 3
+
+```
+var flag : array[0..1] of boolean;
+proceduer Pi
+begin
+	repeat
+		flag[i] := true;
+		while flag[j] do skip;
+			critical section (임계영역)
+		flag[i] := false;
+			remainder section (잔류영역)
+	until false;
+```
+
+- 알고리즘2에서 상호배제 문제점을 해결하기 위해 자신의 flag를 먼저 true 시킨 후 진입 -> 상호배제 문제 해결
+
+<문제점>
+t0: Pi가 `flag[i] = true` 한다
+t1: Pj가 `flag[j] = true` 한다
+위반 조건: 진행 위반
+
+4. 데커 알고리즘 
+
+```
+var flag : array[0..1] of boolean;
+proceduer Pi
+begin
+	repeat
+		flag[i] := true;
+		while ( flag[j] ) do
+		begin
+			if ( true = j ) then
+			begin
+				flag[i] = false;
+				while ( turn = j ) do skip;
+				flag[i] = true;
+			end;
+		end
+			critical section (임계영역)
+		turn = j;
+		flag[i] := false;
+			remainder section (잔류영역)
+	until false;
+```
+
+- 두 개의 프로세스를 위한 **최초의 소프트웨어 해결책**
+- `boolean flag[i]`와 int turn의 2개의 공유변수를 가진다.
+- 초기값은 `flag[i] = flag[j] = false; turn = i (또는 j)`를 갖는다.
+
+5. 피터슨 알고리즘 (소프트웨어 해결책)
+
+```
+var flag : array[0..1] of boolean;
+proceduer Pi
+begin
+	repeat
+		flag[i] := true; // 자신의 flag를 true
+		turn := j // turn을 상대방 값으로
+		while ( flag[j] and turn = j ) do skip
+			critical section (임계영역)
+		flag[i] := false;
+			remainder section (잔류영역)
+	until false;
+```
+
+- 데커 알고리즘보다 간단하게 구현된 알고리즘 but 상대방에게 진입 기회를 양보
+
+### N개 프로세스를 위한 상호배제 알고리즘
+
+1. 램포트 빵집 알고리즘
+
+```
+procedure Pi
+var option : array[0..n-1] of boolean; // 번호표를 뽑는다는 신호
+	number : array[0..n-1] of integer; // 부여받는 번호
+
+repeat
+	option[i] := true; // 번호표 뽑기
+	number[i] := max(number[0], number[1] ..., number[n-1]) + 1; // 동일번호 가능
+	option[i] := false; (가)
+	for j := 0 to n-1
+		begin
+			while option[j] do skip; (나) // 누군가가 번호표를 뽑고있으면 기다려
+			while (number[j] != 0) and (number[j], j) < (number[i], i)
+				do skip
+		end
+		임계영역(critical section)
+	number[i] := 0;
+	....
+		잔류영역(remainder section)
+until false;
+```
+

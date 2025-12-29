@@ -1,0 +1,198 @@
+### jsx 알아보기
+
+js는 리액트에서 생김새를 정의할 때, 사용하는 문법이다. 얼핏보면 HTML같이 생겼지만 실제로는 js 이다 
+
+```
+return <div>안녕하세요</div>;
+```
+
+리액트 파일에서 XML 형태로 코드를 짜면 [[JS 상위호환성, 트랜스파일러 babel]] 이 JSX 를 JS로 변환해준다.
+
+JSX가 JS로 제대로 변환이 되려면 지켜주어야 하는 몇가지 규칙이 있다. 다음 문법들을 준수해야 한다.
+
+### 꼭 닫혀야 하는 태그
+
+----
+
+태그는 꼭 닫혀있어야 한다.
+다음과 같은 코드는 오류가 발생한다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <div>
+      <Hello />
+      <Hello />
+      <Hello />
+      <div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+![[Pasted image 20240514214138.png]]
+
+![[Pasted image 20240514214144.png]]
+
+태그를 열었으면 꼭 `<div></div>` 이렇게 닫아주어야 한다.
+
+HTML 에서는 `input` 또는 `br` 태그를 사용 할 때 닫지 않고 사용하기도 한다 하지만 리액트에서는 그렇게 하면 안된다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <div>
+      <Hello />
+      <Hello />
+      <Hello />
+      <input>
+      <br>
+    </div>
+  );
+}
+
+export default App;
+```
+
+태그와 태그 사이에 내용이 들어가지 않을 때에는, self Closing 태그 라는 것을 사용해야 합니다. 현재 Hello 컴포넌트를 사용 할 때에도 Self Closing 태그를 사용해주었는데, 열리고, 바로 닫히는 태그를 의미한다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <div>
+      <Hello />
+      <Hello />
+      <Hello />
+      <input />
+      <br />
+    </div>
+  );
+}
+
+export default App;
+```
+
+### 꼭 감싸져야 하는 태그
+
+----
+두 개 이상의 태그는 무조건 하나의 태그로 감싸져야 한다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <Hello />
+    <div>안녕히계세요.</div>
+  );
+}
+
+export default App;
+```
+
+이러면 오류가 난다.
+
+![[Pasted image 20240514215047.png]]
+
+그 대신에 하나의 태그로 감싸주어야 한다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <div>
+      <Hello />
+      <div>안녕히계세요</div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+하지만 구지 이렇게 불필요한 div를 쓰기 싫으면 `<></>` 이걸로 감싸도 된다
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <>
+      <Hello />
+      <div>안녕히계세요</div>
+    </>
+  );
+}
+
+export default App;
+```
+
+태그를 작성 할 때 이름 없이 작성을 하게 되면 Fragment 가 만들어지는데, Fragment 는 브라우저 상에서 따로 별도의 엘리먼트로 나타나지 않는다.
+
+### JSX 안에 자바스크립트 값 사용하기 
+----
+JSX 내부에 자바스크립트 변수를 보여줘야 할 때는 `{}` 으로 감싸서 보여준다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  const name = 'react';
+  return (
+    <>
+      <Hello />
+      <div>{name}</div>
+    </>
+  );
+}
+
+export default App;
+```
+
+### style과 className
+----
+JSX 에서 태그에 `style`과 CSS class 를 설정하는 방법은 HTML에서 설정하는 방법과 다르다.
+
+우선, 인라인 스타일은 객체 형태로 작성을 해야 하며, `background-color` 처럼 `-` 로 구분되어 있는 이름들은 `backgroundColor` 처럼 camelCase 형태로 네이밍 해야한다.
+
+```
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  const name = 'react';
+  const style = {
+    backgroundColor: 'black',
+    color: 'aqua',
+    fontSize: 24, // 기본 단위 px
+    padding: '1rem' // 다른 단위 사용 시 문자열로 설정
+  }
+
+  return (
+    <>
+      <Hello />
+      <div style={style}>{name}</div>
+    </>
+  );
+}
+
+export default App;
+```
+
+또한, CSS class 를 선정 할 때에는 `class=` 가 아닌 `className=` 으로 설정을 해 주어야 한다.

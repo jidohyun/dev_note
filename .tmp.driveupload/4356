@@ -1,0 +1,120 @@
+
+### 바쁜 대기를 해결하기 위한 세마포어 연산
+
+```
+P(S) : begin
+	s.count := s.count - 1;
+	if s.count < 0 then
+	Begin
+		[호출한 프로세스를 s.queue에 넣는다]; // s.queue는 대기큐
+		block;
+	end;
+end;
+
+V(S) : begin
+	s.count := s.count + 1;
+	if s.count <= 0 then
+	begin
+		[s.queue에서 프로세스를 꺼낸다];
+		wakeup;
+	end;
+end;
+```
+
+- 최초에는 세마포어는 음수를 가질 수 없었으나, 위와 같이 구현하면 **음수가 될 수 있다.**
+- 세마포아가 음수라는 의미는 **대기하고 있는 프로세스의 수**를 의미한다.
+- 두 프로세스가 **동시에** P(S), V(S)연산을 실행할 수 없도록 **반드시 보장**해야 한다.
+- 다중처리 환경에서 모든 프로세서에서의 **인터럽트를 금지**해야 한다.
+- 위와 같은 block-wait 방식을 sleep lock이라고도 한다.
+
+<문제점>
+- 데드락 또는 기아 발생
+- 우선순위 역전 현상
+
+### 세마포어를 이용한 동기화 문제
+
+1. 생산자-소비자 문제
+
+```
+program producer_consumer;
+var mutex : semaphore;
+var produced : semaphore;
+var consumed : semaphore;
+procedure producer;            // 생산자 프로세스
+begin
+	while true do
+	begin
+		[정보생산];
+		p(consumed);
+		p(mutex);
+		[생산한 정보를 유한 버퍼에 넣는다];
+		v(mutex);
+		v(produced);
+	end
+end
+
+procedure consumer;            // 소비자 프로세스
+begin
+	while true do
+	begin
+		p(produced);
+		p(mutex);
+		[유한 버퍼에서 정보 하나를 가져온다];
+		v(mutex);
+		v(consumed);
+		[정보소비];
+	end
+end
+```
+
+<문제점>
+
+```
+p(mutex);
+p(consumed);
+```
+
+```
+생산한 물건이 가득 차 있을 때 (완재품)
+1. 생산자
+	p(mutex);
+	p(consumed);
+		[생산];
+	v(mutex);
+	v(produced);
+```
+
+```
+2. 소비자
+	p(produced);
+	p(mutex);
+		[소비];
+	v(mutex);
+	v(consumed);
+```
+
+```
+p(mutex);
+p(produced);
+```
+
+```
+생산할 물건이 가득 차 있을 때 (원재료)
+1. 소비자
+	p(mutex);
+	p(produced);
+		[소비];
+	v(mutex);
+	v(consumed);
+```
+
+```
+2. 생산자
+	p(consumed);
+	p(mutex);
+		[생산];
+	v(mutex);
+	v(produced);
+```
+
+=> 교착상태 발생

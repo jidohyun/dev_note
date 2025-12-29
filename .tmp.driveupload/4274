@@ -1,0 +1,29 @@
+---
+_filters: []
+_contexts: []
+_links: []
+_sort:
+  field: rank
+  asc: false
+  group: false
+_template: ""
+_templateName: ""
+sticker: emoji//1f4c2
+---
+
+---
+
+### 개발자가 꼭 공부해야 할 자료구조 7선
+
+[[배열(array)]]
+[[스택(stack)]]
+[[큐(queue)]]
+[[단일 연결 리스트 (Single linked list)]]
+[[해시 테이블]]
+[[그래프 (graph)]]
+[[트리(tree)]]
+[[시간복잡도]]
+
+
+
+
