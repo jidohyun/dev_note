@@ -282,6 +282,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
