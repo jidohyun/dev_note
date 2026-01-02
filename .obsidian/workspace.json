@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/오픈소스 운영에 대한 토론.md",
+                "file": "study/회고/2026년/1월 회고.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오픈소스 운영에 대한 토론"
+              "title": "1월 회고"
             }
           }
         ],
@@ -253,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/오픈소스 운영에 대한 토론.md",
+                "file": "study/회고/2026년/1월 회고.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "오픈소스 운영에 대한 토론 의 개요"
+              "title": "1월 회고 의 개요"
             }
           }
         ],
@@ -284,10 +284,10 @@
   },
   "active": "53ae10d97f95e448",
   "lastOpenFiles": [
+    "study/오픈소스 운영에 대한 토론.md",
     "study/FE 단골질문.md",
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/선배들과의 만남.md",
-    "study/오픈소스 운영에 대한 토론.md",
     "study/회고/2026년/1월 회고.md",
     "study/회고/1월/무제",
     "study/회고/2026년",
