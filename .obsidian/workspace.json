@@ -123,13 +123,14 @@
             "id": "53ae10d97f95e448",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "무제.base",
-                "viewName": "표"
+                "file": "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "무제"
+              "icon": "lucide-file",
+              "title": "ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유"
             }
           }
         ],
@@ -252,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.base",
+                "file": "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유 의 개요"
             }
           }
         ],
@@ -281,15 +282,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "53ae10d97f95e448",
+  "active": "b32ef46c1fdac20b",
   "lastOpenFiles": [
-    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
-    "무제.base",
-    "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
     "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
+    "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
+    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
+    "무제 1.base",
     "study/회고/2026년/1월 회고.md",
-    "study/오픈소스 운영에 대한 토론.md",
     "study/FE 단골질문.md",
+    "study/오픈소스 운영에 대한 토론.md",
+    "무제.base",
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/선배들과의 만남.md",
     "study/회고/1월/무제",
@@ -318,7 +320,6 @@
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
-    "study/Compiler",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
     "무제 파일.canvas",
