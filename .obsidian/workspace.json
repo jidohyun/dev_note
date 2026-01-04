@@ -123,14 +123,13 @@
             "id": "53ae10d97f95e448",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "study/회고/2026년/1월 회고.md",
-                "mode": "source",
-                "source": false
+                "file": "무제.base",
+                "viewName": "표"
               },
-              "icon": "lucide-file",
-              "title": "1월 회고"
+              "icon": "lucide-table",
+              "title": "무제"
             }
           }
         ],
@@ -253,13 +252,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/회고/2026년/1월 회고.md",
+                "file": "무제.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1월 회고 의 개요"
+              "title": "무제 의 개요"
             }
           }
         ],
@@ -284,16 +283,17 @@
   },
   "active": "53ae10d97f95e448",
   "lastOpenFiles": [
+    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
+    "무제.base",
+    "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
+    "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
+    "study/회고/2026년/1월 회고.md",
     "study/오픈소스 운영에 대한 토론.md",
     "study/FE 단골질문.md",
     "study/박정환 선배님 Ｑ＆Ａ.md",
     "study/선배들과의 만남.md",
-    "study/회고/2026년/1월 회고.md",
     "study/회고/1월/무제",
     "study/회고/2026년",
-    "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
-    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
-    "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
     "study/회고",
     "study/CS/알고리즘/버블정렬 알고리즘.md",
     "study/CS/알고리즘/알고리즘.md",
@@ -314,13 +314,11 @@
     "study/FrameWork&Library/Mozu-colons/Vitest 4.0.0 모노레포 설정.md",
     "study/FrameWork&Library/Mozu-colons/Chunk 함수 구현.md",
     "study/DevOps/k8s.md",
-    "study/AI/인공지능 회귀 분석.md",
     "study/FrameWork&Library/Mozu-colons",
     "study/뇌과학",
     "study/CS/알고리즘/LeetCode",
     "study/언어/python",
     "study/Compiler",
-    "study/FrameWork&Library/Tanstack-Query",
     "img/스크린샷 2024-08-08 오후 6.37.28.png",
     "img/스크린샷 2025-03-11 오후 10.01.14.png",
     "무제 파일.canvas",
