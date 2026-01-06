@@ -1,9 +1,11 @@
 ---
-title: "Next.js로 우아하게 Error 핸들링하기 | Frontend Lab Blog"
-source: "https://blog.sangwook.dev/posts/nextjs-error/"
+title: Next.js로 우아하게 Error 핸들링하기 | Frontend Lab Blog
+source: https://blog.sangwook.dev/posts/nextjs-error/
 created: 2026-01-06T19:09:36.395+09:00
 type: article
-tags: [reading, summary]
+tags:
+  - reading
+  - summary
 ---
 
 # 핵심 요약
