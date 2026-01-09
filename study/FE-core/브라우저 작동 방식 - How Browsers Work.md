@@ -64,4 +64,13 @@ DOM 트리는 CSS와 레이아웃과 페인트가 픽셀을 그리는데 사용
 
 ### DOM 중요성에 대하여 - On the importance of the DOM
 
-`DOM`은 브라우저 메모리에 저장된 문서 모델이다. HTML 파서, CSS 선택 엔진, Javascript 런타임 간의 공유 계약 역할을 하므로 DOM
+`DOM`은 브라우저 메모리에 저장된 문서 모델이다. HTML 파서, CSS 선택 엔진, Javascript 런타임 간의 공유 계약 역할을 하므로 DOM을 변경하면 레이아웃, 스타일, 사용자가 상호 작용할 수 있는 요소에 즉시 영향을 미침.
+
+DOM은 쿼리 선택부터 스타일링 이벤트 처리까지 모든 것을 지원한다.
+
+![](https://i.imgur.com/TRK0T1F.png)
+
+### 레이아웃, 페인트 및 합성 - Layout, Paint, and Composite
+
+DOM과 CSS가 준비되면 브라우저는 렌더링 파이프라인을 실행한다. `Layout`(reflow) 단계에서는 크기와 위치를 계산하고, `Paint` 단계에선 픽셀을 채운 다음, `Composite` 단계에선 GPU에서 레이어를 결합한다.
+
