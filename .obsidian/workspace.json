@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
+                "file": "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "브라우저 작동 방식 - How Browsers Work"
+              "title": "2026년-웹-개발의-기본값이-되는-변화들-geeknews"
             }
           }
         ],
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
+                "file": "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "브라우저 작동 방식 - How Browsers Work 의 개요"
+              "title": "2026년-웹-개발의-기본값이-되는-변화들-geeknews 의 개요"
             }
           }
         ],
@@ -312,6 +312,12 @@
   },
   "active": "d7709a7d0e870e71",
   "lastOpenFiles": [
+    "study/Research Result/2026년-코딩테스트-준비-딱-정해드립니다.md",
+    "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
+    "study/Research Result/벌거벗은-황제-200줄의-코드로-클로드-코드를-작성하는-방법-미하일-에릭-the-emperor-has-no-clothes-how-to-code-.md",
+    "study/Research Result/오픈소스 운영에 대한 토론.md",
+    "study/Research Result/클로드-코드와-옵시디언을-결합한-자동화-시스템-구축.md",
+    "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
     "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
     "study/FE-core/웹.md",
     "study/FE-core/리플로우와 리페인트.md",
@@ -319,27 +325,21 @@
     "study/CS/네트워크/인터넷.md",
     "study/CS/네트워크/OSI 7 Layer, DoD.md",
     "study/CS/네트워크/DNS 프로토콜 TCP.md",
-    "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
     "three-way handshake.md",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
     "study/Research Result/모든-해커들에게-고함-돈은-어떻게-움직이는가-geeknews.md",
     "study/Research Result/everything-as-code-how-we-manage-our-company-in-one-monorepo-kasava.md",
     "study/Research Result/오픈소스-기여로-커리어-레벨-올리기.md",
-    "study/Research Result/클로드-코드와-옵시디언을-결합한-자동화-시스템-구축.md",
     "study/Research Result/oms에서-claude-ai를-활용하여-변화된-업무-방식-컬리-기술-블로그.md",
-    "study/Research Result/2026년-코딩테스트-준비-딱-정해드립니다.md",
     "study/Research Result/2025년-창업-2년-차-회고-changhoi-kim.md",
     "study/Research Result/skill로-보는-앤트로픽-설계-철학-가르치지-말고-갖춰줘라.md",
     "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
     "study/Research Result/next-js로-우아하게-error-핸들링하기-frontend-lab-blog.md",
-    "study/Research Result/오픈소스 운영에 대한 토론.md",
     "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
     "study/Research Result/kotlin에서-race-condition-을-해결하는-방법들.md",
-    "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
     "무제.md",
     "무제.base",
     "study/회고/2026년/1월 회고.md",
-    "study/Research Result/next-js로-우아하게-error-핸들링하기-frontend-lab-blog (1).md",
     "무제 1.base",
     "study/회고/1월/무제",
     "study/회고/2026년",
