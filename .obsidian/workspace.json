@@ -146,9 +146,23 @@
               "icon": "lucide-file",
               "title": "브라우저 작동 방식 - How Browsers Work"
             }
+          },
+          {
+            "id": "d7709a7d0e870e71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "브라우저 작동 방식 - How Browsers Work"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -296,11 +310,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4370ab31dbbe8629",
+  "active": "d7709a7d0e870e71",
   "lastOpenFiles": [
+    "study/FE-core/웹.md",
+    "study/FE-core/리플로우와 리페인트.md",
+    "study/CS/네트워크/임대 회선.md",
+    "study/CS/네트워크/인터넷.md",
+    "study/CS/네트워크/OSI 7 Layer, DoD.md",
+    "study/CS/네트워크/DNS 프로토콜 TCP.md",
+    "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
+    "three-way handshake.md",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
     "study/Research Result/모든-해커들에게-고함-돈은-어떻게-움직이는가-geeknews.md",
-    "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
     "study/Research Result/everything-as-code-how-we-manage-our-company-in-one-monorepo-kasava.md",
     "study/Research Result/오픈소스-기여로-커리어-레벨-올리기.md",
     "study/Research Result/클로드-코드와-옵시디언을-결합한-자동화-시스템-구축.md",
@@ -320,15 +341,9 @@
     "study/Research Result/next-js로-우아하게-error-핸들링하기-frontend-lab-blog (1).md",
     "study/무제.md",
     "무제 1.base",
-    "study/FE 단골질문.md",
-    "study/박정환 선배님 Ｑ＆Ａ.md",
-    "study/선배들과의 만남.md",
     "study/회고/1월/무제",
     "study/회고/2026년",
     "study/회고",
-    "study/CS/알고리즘/버블정렬 알고리즘.md",
-    "study/CS/알고리즘/알고리즘.md",
-    "study/언어/js/INDEX.md",
     "무제.canvas",
     "study/Research Result",
     "study/FrameWork&Library/Mozu-colons",
@@ -345,7 +360,6 @@
     "img/스크린샷 2024-09-13 오후 7.41.24.png",
     "img/스크린샷 2024-08-09 오전 7.23.23.png",
     "img/스크린샷 2024-08-09 오후 6.14.27 복사본.png",
-    "Pasted image 20240920132156.png",
-    "Pasted image 20240920131939.png"
+    "Pasted image 20240920132156.png"
   ]
 }
