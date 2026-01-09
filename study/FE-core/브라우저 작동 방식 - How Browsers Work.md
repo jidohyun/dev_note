@@ -25,4 +25,16 @@ Host: naver.com
 Accept: text/html
 ```
 
-헤더중 하나는 호스트 
+헤더중 하나는 호스트 헤더다. 이는 요청이 전송되는 서버에 (예: `naver.com`)을 식별하는 데 사용된다.
+
+### 서버 주소 확인중 - Resolving the server address
+
+브라우저는 `example.com`과 같은 이름으로 요청을 보낼 수 없다.
+
+컴퓨터는 IP 주소를 통해 통신하므로 브라우저는 서버에 연결하고 HTTP 요청을 보내기 전에 먼저 DNS 시스템에 도메인 이름을 IP 주소로 변환해 달라고 요청한다.
+
+![](https://i.imgur.com/aV6sw8k.png)
+
+### TCP 연결 설정 - Establishing the TCP connection
+
+DNS가 브라우저에 IP 주소를 할당한 후에도 브라우저는 서버와의 안정적ㅇ니
