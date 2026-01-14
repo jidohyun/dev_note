@@ -16,3 +16,5 @@ source: https://frontend-fundamentals.com/bundling/overview.html
 
 ### 번들링의 목적
 
+1. 요청 수 감소: 수백개의 파일을 하나로 묶어 브라우저가 요청해야 할 파일의 수를 줄여서 로딩 속도를 향상시킨다.
+2. 캐싱 최적화: 
