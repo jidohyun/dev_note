@@ -51,8 +51,8 @@ source: https://frontend-fundamentals.com/bundling/overview.html
 
 #### 5. 번들러의 추가 최적화 작업
 
-- 사용되지 않는 코드는 제거. ([[트리 세이킹]])
-- 필요한 경우, 여러 개의 작은 번들로 나눔. ([[코드 스플리팅]])
+- 사용되지 않는 코드는 제거. ([[Tree shaking]])
+- 필요한 경우, 여러 개의 작은 번들로 나눔. ([[Code splitting]])
 - 코드에서 공백, 주석을 없애서 크기를 줄임.
 
 #### 6. 최종 결과물을 배포
