@@ -86,4 +86,8 @@ Set 'mode' option to 'development' or 'production' to enable defaults for each e
 You can also set it to 'none' to disable any default behavior.
 ```
 
-이 경고는 웹팩 설정 파일에 `mode`를 추가하지 않아서, 웹팩이 기본값인 프로덕션(`production`) 모드로 빌드했
+이 경고는 웹팩 설정 파일에 `mode`를 추가하지 않아서, 웹팩이 기본값인 프로덕션(`production`) 모드로 빌드했다는 뜻임.
+
+웹팩은 크게 세 가지 모드를 지원함. `mode`를 명시하면 개발(`develop`)과 배포(`production`) 환경에 맞는 기본 설정이 자동으로 적용돼서, 경고도 사라지고 환경에 맞는 최적화도 더 잘 이뤄짐.
+
+- `development`: 
