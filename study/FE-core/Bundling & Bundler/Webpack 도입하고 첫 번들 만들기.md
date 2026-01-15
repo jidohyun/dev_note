@@ -90,4 +90,21 @@ You can also set it to 'none' to disable any default behavior.
 
 웹팩은 크게 세 가지 모드를 지원함. `mode`를 명시하면 개발(`develop`)과 배포(`production`) 환경에 맞는 기본 설정이 자동으로 적용돼서, 경고도 사라지고 환경에 맞는 최적화도 더 잘 이뤄짐.
 
-- `development`: 
+- `development`: 디버깅이 쉬운 환경을 제공함. 소스맵이 기본으로 포함되고, 최소한의 압축(공백 제거, 변수명 단순화 등)만 적용됌.
+- `production`: 파일 크기를 줄이는 데 집중함. 코드 압축, 사용하지 않는 코드 제거([[Tree shaking]]) 같은 고급 최적화가 자동으로 적용됌.
+- `none`: 아무 최적화도 적용하지 않음. 설정을 전부 직접 커스터마이징하고 싶을 때 사용.
+
+현재 개발환경에서만 작업하고 있으니, 개발 모드로 설정.
+
+```js
+// webpack.config.js
+module.exports = {
+  mode: "development"
+  // 기존과 동일
+};
+```
+
+다시 빌드를 해보면 경고 문장이 사라지는 걸 볼 수 있음.
+
+---
+
