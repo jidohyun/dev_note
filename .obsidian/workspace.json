@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FE-core/Bundling & Bundler/Bundling?.md",
+                "file": "study/FE-core/Bundling & Bundler/Bundler?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bundling?"
+              "title": "Bundler?"
             }
           }
         ],
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/FE-core/Bundling & Bundler/Bundling?.md",
+                "file": "study/FE-core/Bundling & Bundler/Bundler?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Bundling? 의 개요"
+              "title": "Bundler? 의 개요"
             }
           },
           {
@@ -322,8 +322,9 @@
   },
   "active": "d7709a7d0e870e71",
   "lastOpenFiles": [
-    "study/FE-core/Bundling & Bundler/트리 세이킹.md",
     "study/FE-core/Bundling & Bundler/Bundling?.md",
+    "study/FE-core/Bundling & Bundler/Bundler?.md",
+    "study/FE-core/Bundling & Bundler/트리 세이킹.md",
     "study/FE-core/Bundling & Bundler/코드 스플리팅.md",
     "무제.base",
     "무제.md",
@@ -349,7 +350,6 @@
     "study/CS/네트워크/임대 회선.md",
     "study/CS/네트워크/인터넷.md",
     "study/CS/네트워크/OSI 7 Layer, DoD.md",
-    "study/CS/네트워크/DNS 프로토콜 TCP.md",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
     "무제 1.base",
     "study/회고/1월/무제",
