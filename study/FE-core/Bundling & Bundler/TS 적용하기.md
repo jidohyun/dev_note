@@ -82,4 +82,48 @@ module.exports = {
 ---
 ### JS 파일을 TS로 변환하기
 
-기존 JS파일들을 
+기존 JS파일들을 `.ts`로 바꾸고, 타입 정보를 조금씩 넣음
+
+#### `emoji.ts`로 바꾸기
+
+```ts
+export interface Emoji {
+  icon: string;
+  name: string;
+}
+
+export const emojis: Emoji[] = [
+  { icon: '😊', name: 'Smiling Face' },
+  { icon: '🚀', name: 'Rocket' },
+  { icon: '🍕', name: 'Pizza' },
+  { icon: '🐱', name: 'Cat' },
+  { icon: '🌈', name: 'Rainbow' },
+  { icon: '🎸', name: 'Guitar' }
+];
+```
+
+`interface Emoji`를 선언해서 이모지 데이터 구조를 명확하게 만듦.
+이렇게 해두면 실수로 잘못된 형태의 데이터를 넣는 걸 막을 수 있음.
+#### `main.ts`로 바꾸기
+
+```ts
+import { emojis } from './emoji'; // webpack.config.js의 resolve설정 덕에 확장자 없이 import할 수 있어요.
+import { format } from 'date-fns';
+
+document.addEventListener('DOMContentLoaded', function() {
+  const today = new Date();
+  const formattedDate = format(today, 'MMMM d, yyyy');
+  document.getElementById('dateDisplay')!.textContent = formattedDate; // 타입 문제를 임시로 해결해요
+
+  showRandomEmoji();
+});
+
+function showRandomEmoji() {
+  const randomIndex = Math.floor(Math.random() * emojis.length);
+  const selectedEmoji = emojis[randomIndex];
+
+  document.getElementById('emojiDisplay')!.textContent = selectedEmoji.icon; // 타입 문제를 임시로 해결해요
+  document.getElementById('emojiName')!.textContent = selectedEmoji.name; // 타입 문제를 임시로 해결해요
+}
+```
+
