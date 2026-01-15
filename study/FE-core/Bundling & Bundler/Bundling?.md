@@ -35,4 +35,17 @@ source: https://frontend-fundamentals.com/bundling/overview.html
 
 #### 2. 파일들이 서로 의존
 
-`index.js`가 `auth.js`
+`index.js`가 `auth.js`와 `dashboard.js`를 불러오고, `auth.js`는 `utils.js`를 사용하고 있을 수 있음. 즉, 파일 간에 의존성 관계가 생김.
+
+#### 3. 번들러가 파일 관계를 분석
+
+번들러는 프로젝트 안의 파일들을 스캔하며 누가 누구를 쓰는지 분석함. 시작 지점(예: `index.js`)부터 출발해서 모든 필요한 파일을 찾고, 의존성 그래프를 그림.
+
+#### 4. 하나의 파일로 묶음 (Bundling)
+
+필요한 파일들을 의존성 순서에 맞춰 하나의 파일로 합침.
+
+```
+└── bundle.js
+```
+
