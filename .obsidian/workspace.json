@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/FE-core/Bundling & Bundler/Lazy loading.md",
+                "file": "study/FE-core/Bundling & Bundler/Bundler?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lazy loading"
+              "title": "Bundler?"
             }
           }
         ],
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/FE-core/Bundling & Bundler/Lazy loading.md",
+                "file": "study/FE-core/Bundling & Bundler/Bundler?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lazy loading 의 개요"
+              "title": "Bundler? 의 개요"
             }
           },
           {
@@ -320,13 +320,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b32ef46c1fdac20b",
+  "active": "d7709a7d0e870e71",
   "lastOpenFiles": [
+    "study/FE-core/Bundling & Bundler/Bundling?.md",
+    "study/FE-core/Bundling & Bundler/Code splitting.md",
     "study/FE-core/Bundling & Bundler/Bundler?.md",
     "study/FE-core/Bundling & Bundler/Lazy loading.md",
-    "study/FE-core/Bundling & Bundler/Bundling?.md",
     "study/FE-core/Bundling & Bundler/Minification.md",
-    "study/FE-core/Bundling & Bundler/Code splitting.md",
     "study/FE-core/Bundling & Bundler/Tree shaking.md",
     "study/FE-core/Bundling & Bundler/트리 세이킹.md",
     "study/FE-core/Bundling & Bundler/코드 스플리팅.md",
