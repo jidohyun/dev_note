@@ -75,4 +75,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ---
 
-### 
+### 웹팩 모드 설정
+
+웹팩 빌드 명령어를 실행한 터미널 창을 살펴보면 다음과 같은 경고가 있음.
+
+```text
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior.
+```
+
+이 경고는 웹팩 설정 파일에 `mode`를 추가하지 않아서, 웹팩이 기본값인 프로덕션(`production`) 모드로 빌드했
