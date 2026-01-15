@@ -55,4 +55,24 @@ npx webpack
 빌드가 완료되면 `dist` 폴더 안에 `bundle.js` 파일이 생성됌.
 
 > TIP
-> `npx`는 Node.js와 함께 설치된 독
+> `npx`는 Node.js와 함께 설치된 도구로, 로컬에 설치된 패키지를 실행할 수 있게 해줌.
+
+`/dist/bundle.js`를 열어보면 `main.js`에 적었던 코드가 한 줄로 압축되고, 변수명이 `t`, `e`같은 짧은 이름으로 바뀐걸 알 수 있음. 이렇게 웹팩은 추가 설정을 하지 않아도 기본적으로 코드를 최적화 해줌.
+
+```js
+document.addEventListener("DOMContentLoaded", function () {
+  const t = new Date(),
+    e = dateFns.format(t, "MMMM d, yyyy");
+  ((document.getElementById("dateDisplay").textContent = e),
+    (function () {
+      const t = Math.floor(Math.random() * emojis.length),
+        e = emojis[t];
+      ((document.getElementById("emojiDisplay").textContent = e.icon),
+        (document.getElementById("emojiName").textContent = e.name));
+    })());
+});
+```
+
+---
+
+### 
