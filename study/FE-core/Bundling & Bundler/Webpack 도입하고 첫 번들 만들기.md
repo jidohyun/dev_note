@@ -12,10 +12,47 @@ source: https://frontend-fundamentals.com/bundling/webpack-tutorial/make-first-b
 
 ---
 ### 웹팩 설치하기
+
 웹팩과 웹팩 CLI 개발 의존성 설치
 
 ```bash
 npm install --save-dev webpack webpack-cli
 ```
 
-- 
+- `webpack`: 실제 번들링을 수행하는 도구임.
+- `webpack-cli`: 터미널에서 webpack 명령어를 쓸 수 있게 해주는 CLI.
+
+웹팩은 번들링 도구로, 실제 배포되는 코드에서는 필요 없기 때문에 `--save-dev` 옵션을 통해 개발 의존성으로 설치함.
+
+---
+### 웹팩 설정 파일 만들기
+
+`main.js` 파일을 번들링해서 `bundle.js`로 만든다.
+
+먼저 프로젝트 루트에 `webpack.config.js`이름의 파일을 생성하고 다음과 같이 작성함. 이 설정 파일을 보고 웹팩은 `main.js`파일을 번들링해서 `bundle.js` 파일로 만듬.
+
+```js
+const path = require("path");
+
+module.exports = {
+  entry: "./main.js", // 어떤 파일을 진입점으로 번들링할지
+  output: {
+    filename: "bundle.js", // 번들로 만들어질 파일 이름
+    path: path.resolve(__dirname, "dist") // 번들 파일이 어디에 저장될지
+  }
+};
+```
+
+---
+### 첫 번들 만들기
+
+웹팩으로 번들을 만든다. 아래 명령어 실행시 빌드 시작됌.
+
+```bash
+npx webpack
+```
+
+빌드가 완료되면 `dist` 폴더 안에 `bundle.js` 파일이 생성됌.
+
+> TIP
+> `npx`는 Node.js와 함께 설치된 독
