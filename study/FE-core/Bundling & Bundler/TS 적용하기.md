@@ -22,4 +22,64 @@ npm install --save-dev typescript ts-loader
 ```
 
 - `typescript`: TS 언어 자체와 컴파일러 포함.
-- `ts-loader`: 웹팩이 `.ts`파일을 읽을 수 있도록 도와주는 
+- `ts-loader`: 웹팩이 `.ts`파일을 읽을 수 있도록 도와주는 로더임.
+
+---
+### TS 설정 파일 만들기
+웹팩 설정 파일로 `webpack.config.js`가 있듯이, TS도 컴파일러에게 코드를 어떻게 처리할지 알려주는 설정 파일이 있음.
+
+루트 폴더에 다음과 같이 `tsconfig.json`파일을 만듬.
+
+```json
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
+```
+
+> tsconfig 옵션 뜻
+> ![](https://i.imgur.com/0gItJFJ.png)
+
+---
+### 웹팩에 로더 설정 추가하기
+
+이제 웹팩에게 `.ts` 파일을 어떻게 처리할지를 알려줌. `ts-loader`는 TS 파일을 JS로 변환할 때 아까 만들었던 `tsconfig.json`의 설정을 참고.
+
+`webpack.config.js`를 다음과 같이 수정.
+
+```js
+const path = require('path');
+
+module.exports = {
+  mode: 'development',
+  entry: './main.ts', // 웹팩이 읽기 시작할 파일을 .ts로 변경했어요.
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.ts$/, // .ts 파일들은
+        use: 'ts-loader', // ts-loader를 거쳐 처리돼요.
+        exclude: /node_modules/ // 외부 모듈은 제외해요.
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['.ts', '.js'] // 파일을 import할 때 확장자를 생략할 수 있어요. TypeScript와 JavaScript를 혼용하는 프로젝트에서 설정해두면 좋아요.
+  }
+};
+```
+
+---
+### JS 파일을 TS로 변환하기
+
+기존 JS파일들을 
