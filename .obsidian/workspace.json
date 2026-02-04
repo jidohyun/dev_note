@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/회고/2026년/1월 회고.md",
+                "file": "study/Research Result/2025년-창업-2년-차-회고-changhoi-kim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1월 회고"
+              "title": "2025년-창업-2년-차-회고-changhoi-kim"
             }
           }
         ],
@@ -322,12 +322,19 @@
   },
   "active": "d7709a7d0e870e71",
   "lastOpenFiles": [
-    "study/Research Result/벌거벗은-황제-200줄의-코드로-클로드-코드를-작성하는-방법-미하일-에릭-the-emperor-has-no-clothes-how-to-code-.md",
+    "study/Research Result/2026년-코딩테스트-준비-딱-정해드립니다.md",
     "study/Research Result/모든-해커들에게-고함-돈은-어떻게-움직이는가-geeknews.md",
+    "study/Research Result/오픈소스 운영에 대한 토론.md",
+    "study/Research Result/ai-소프트웨어-가치-중심의-환경-구축.md",
+    "study/Research Result/next-js로-우아하게-error-핸들링하기-frontend-lab-blog.md",
+    "study/Research Result/skill로-보는-앤트로픽-설계-철학-가르치지-말고-갖춰줘라.md",
+    "study/Research Result/streaming-hallucination-detection-in-cot-환각을-상태-로-정의하기.md",
+    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
+    "study/회고/2026년/1월 회고.md",
+    "study/Research Result/벌거벗은-황제-200줄의-코드로-클로드-코드를-작성하는-방법-미하일-에릭-the-emperor-has-no-clothes-how-to-code-.md",
     "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
     "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
     "study/Research Result/2025년-창업-2년-차-회고-changhoi-kim.md",
-    "study/회고/2026년/1월 회고.md",
     "study/FE-core/Bundling & Bundler/7.  플러그인으로 빌드 확장하기.md",
     "study/FE-core/Bundling & Bundler/6. 이미지 등 정적 자원 다루기.md",
     "study/FE-core/Bundling & Bundler/5. 스타일 관리하기.md",
@@ -341,14 +348,7 @@
     "study/FE-core/Bundling & Bundler/Code splitting.md",
     "study/FE-core/Bundling & Bundler/Lazy loading.md",
     "study/FE-core/Bundling & Bundler/Minification.md",
-    "study/FE-core/Bundling & Bundler/트리 세이킹.md",
-    "study/FE-core/Bundling & Bundler/코드 스플리팅.md",
     "무제.base",
-    "무제.md",
-    "study/무제.md",
-    "three-way handshake.md",
-    "study/뇌과학/🧠 읽은 모든 것을 기억하는 단 2단계 공식.md",
-    "study/FE-core/리플로우와 리페인트.md",
     "study/FE-core/Bundling & Bundler",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
     "무제 1.base",
