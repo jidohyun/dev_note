@@ -139,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
+                "file": "study/CS/네트워크/HTTP.md",
                 "mode": "source",
                 "source": false
               },
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP.md",
+                "file": "study/CS/네트워크/HTTP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -309,8 +309,9 @@
   },
   "active": "4370ab31dbbe8629",
   "lastOpenFiles": [
+    "study/CS/네트워크/네트워크.md",
+    "study/CS/네트워크/HTTP.md",
     "study/FE 면접.md",
-    "HTTP.md",
     "study/FE-core/브라우저 작동 방식 - How Browsers Work.md",
     "study/언어/js/Virtual DOM.md",
     "study/회고/2026년/2월 회고.md",
@@ -335,7 +336,6 @@
     "study/FE-core/Bundling & Bundler/3. TS 적용하기.md",
     "study/FE-core/Bundling & Bundler/2. 모듈로 코드 구조화하기.md",
     "study/FE-core/Bundling & Bundler/1. Webpack 도입하고 첫 번들 만들기.md",
-    "study/FE-core/Bundling & Bundler/Tree shaking.md",
     "무제.base",
     "study/FE-core/Bundling & Bundler",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
