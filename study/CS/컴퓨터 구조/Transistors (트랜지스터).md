@@ -1,5 +1,7 @@
 
 트랜지스터는 아래 3가지로 이루어져 있다.
-- Collector
-- Emitter
-- Base
+- Collector (전류 수집)
+- Emitter (전류 방출)
+- Base (제어)
+
+논리게이트는 트랜지스터로 이루어져있다.
