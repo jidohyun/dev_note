@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/CS/컴퓨터 구조/Transistors (트랜지스터).md",
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transistors (트랜지스터)"
+              "title": "\b헤드리스 컴포넌트"
             }
           }
         ],
@@ -267,13 +267,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/CS/컴퓨터 구조/Transistors (트랜지스터).md",
+                "file": "study/CS/Deep/\b헤드리스 컴포넌트.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Transistors (트랜지스터) 의 개요"
+              "title": "\b헤드리스 컴포넌트 의 개요"
             }
           },
           {
@@ -309,8 +309,9 @@
   },
   "active": "4370ab31dbbe8629",
   "lastOpenFiles": [
-    "study/CS/네트워크/HTTP.md",
+    "study/CS/Deep/무제.md",
     "study/CS/컴퓨터 구조/Transistors (트랜지스터).md",
+    "study/CS/네트워크/HTTP.md",
     "study/CS/컴퓨터 구조",
     "study/CS/네트워크/네트워크.md",
     "study/FE 면접.md",
@@ -336,7 +337,6 @@
     "study/FE-core/Bundling & Bundler/5. 스타일 관리하기.md",
     "study/FE-core/Bundling & Bundler/4. React 적용하기.md",
     "study/FE-core/Bundling & Bundler/3. TS 적용하기.md",
-    "study/FE-core/Bundling & Bundler/2. 모듈로 코드 구조화하기.md",
     "무제.base",
     "study/FE-core/Bundling & Bundler",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
