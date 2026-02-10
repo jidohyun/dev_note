@@ -137,14 +137,10 @@
             "id": "4370ab31dbbe8629",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026년-웹-개발의-기본값이-되는-변화들-geeknews"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ],
@@ -267,13 +263,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026년-웹-개발의-기본값이-되는-변화들-geeknews 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -309,6 +304,7 @@
   },
   "active": "4370ab31dbbe8629",
   "lastOpenFiles": [
+    "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
     "study/Research Result/2025년-창업-2년-차-회고-changhoi-kim.md",
     "study/CS/Deep/직접 문자에서 숫자 변환해서 연산하기.md",
     "study/CS/Deep/문자를 다루는 인코딩.md",
@@ -333,7 +329,6 @@
     "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
     "study/Research Result/벌거벗은-황제-200줄의-코드로-클로드-코드를-작성하는-방법-미하일-에릭-the-emperor-has-no-clothes-how-to-code-.md",
     "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
-    "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
     "study/FE-core/Bundling & Bundler/7.  플러그인으로 빌드 확장하기.md",
     "study/FE-core/Bundling & Bundler/6. 이미지 등 정적 자원 다루기.md",
     "study/FE-core/Bundling & Bundler/5. 스타일 관리하기.md",
