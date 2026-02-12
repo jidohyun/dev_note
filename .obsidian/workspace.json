@@ -142,19 +142,9 @@
               "icon": "lucide-git-fork",
               "title": "그래프 뷰"
             }
-          },
-          {
-            "id": "05dec4ce0c9b2d18",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -312,8 +302,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "05dec4ce0c9b2d18",
+  "active": "4370ab31dbbe8629",
   "lastOpenFiles": [
+    "study/FrameWork&Library/React/Basic/7. input 상태 관리하기.md",
     "study/Software Engineering/index.md",
     "study/Research Result/2026년-웹-개발의-기본값이-되는-변화들-geeknews.md",
     "study/Research Result/2025년-창업-2년-차-회고-changhoi-kim.md",
@@ -341,7 +332,6 @@
     "study/Research Result/벌거벗은-황제-200줄의-코드로-클로드-코드를-작성하는-방법-미하일-에릭-the-emperor-has-no-clothes-how-to-code-.md",
     "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
     "study/FE-core/Bundling & Bundler/7.  플러그인으로 빌드 확장하기.md",
-    "study/FE-core/Bundling & Bundler/6. 이미지 등 정적 자원 다루기.md",
     "무제.base",
     "study/FE-core/Bundling & Bundler",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
