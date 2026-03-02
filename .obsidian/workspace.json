@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/회고/2026년/2월 회고.md",
+                "file": "study/회고/2026년/1월 회고.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2월 회고"
+              "title": "1월 회고"
             }
           }
         ],
@@ -308,8 +308,8 @@
   },
   "active": "4370ab31dbbe8629",
   "lastOpenFiles": [
-    "study/회고/2026년/1월 회고.md",
     "study/회고/2026년/2월 회고.md",
+    "study/회고/2026년/1월 회고.md",
     "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
     "study/FrameWork&Library/React/Basic/7. input 상태 관리하기.md",
     "study/Software Engineering/index.md",
