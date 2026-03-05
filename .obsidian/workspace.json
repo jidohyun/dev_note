@@ -146,9 +146,21 @@
               "icon": "lucide-file",
               "title": "1월 회고"
             }
+          },
+          {
+            "id": "212a39146ba9bc6f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.12.4"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -306,7 +318,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4370ab31dbbe8629",
+  "active": "212a39146ba9bc6f",
   "lastOpenFiles": [
     "study/회고/2026년/2월 회고.md",
     "study/회고/2026년/1월 회고.md",
