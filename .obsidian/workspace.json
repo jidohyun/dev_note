@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/독서/독서.md",
+                "file": "study/언어/js/Promise와 async-await.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "독서"
+              "title": "Promise와 async-await"
             }
           }
         ],
@@ -308,6 +308,11 @@
   },
   "active": "4370ab31dbbe8629",
   "lastOpenFiles": [
+    "study/언어/js/이벤트 루프와 콜백.md",
+    "study/언어/js/이벤트 흐름 제어 (버블링 & 캡처링).md",
+    "study/언어/js/Promise와 async-await.md",
+    "study/언어/js/async, await.md",
+    "study/독서/독서.md",
     "study/회고/2026년/2월 회고.md",
     "study/회고/2026년/1월 회고.md",
     "study/Research Result/ai시대-기획서-prd-는-죽었다-실리콘밸리가-지금-evals에-목숨-건-이유.md",
@@ -331,11 +336,6 @@
     "study/Research Result/오픈소스 운영에 대한 토론.md",
     "study/Research Result/ai-소프트웨어-가치-중심의-환경-구축.md",
     "study/Research Result/next-js로-우아하게-error-핸들링하기-frontend-lab-blog.md",
-    "study/Research Result/skill로-보는-앤트로픽-설계-철학-가르치지-말고-갖춰줘라.md",
-    "study/Research Result/streaming-hallucination-detection-in-cot-환각을-상태-로-정의하기.md",
-    "study/Research Result/software-개발에서-꼭-알아야하는-인프라-메트릭.md",
-    "study/Research Result/벌거벗은-황제-200줄의-코드로-클로드-코드를-작성하는-방법-미하일-에릭-the-emperor-has-no-clothes-how-to-code-.md",
-    "study/Research Result/구현보다-설계가-먼저다-tla-로-복잡한-시스템-설계하기.md",
     "무제.base",
     "study/FE-core/Bundling & Bundler",
     "Screenshot 2026-01-09 at 10.00.25 AM.png",
